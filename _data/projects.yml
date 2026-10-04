@@ -1,0 +1,131 @@
+# Research projects, newest first.
+#   status: current | past
+#   groups: optional working-group ids (testing, cybersecurity, choreographies)
+#   role:   optional, the lab's role in the project
+#   summary: one or two sentences, shown on the project card
+
+- acronym: TRUTHSTER POC
+  name: Implementation of the TRUTHSTER platform for certifying digital media via blockchain
+  funding: PR FESR FVG 2021–2027 · Proof of Concept
+  period: 5/2025 – 7/2026
+  status: current
+  groups: [cybersecurity]
+  summary: >-
+    Brings the TRUTHSTER platform to a market-ready service: a mobile app connected to a
+    blockchain that certifies authorship, consent and authenticity of digital media.
+  url: https://www.uniud.it/it/ricerca/progetti-e-iniziative/progetti-finanziati/pr-fesr/truthster-poc-implementazione-della-piattaforma-truthster-per-certificazione-di-media-digitali-mediante-blockchain
+
+- acronym: STENDHAL
+  name: Spatio-Temporal Enhancement of Neural Nets for Deeply Hierarchical Automatised Logic
+  funding: MUR PRIN 2022
+  period: 10/2023 – 2/2026
+  role: Site leader, work package leader
+  status: past
+  summary: >-
+    Spatio-temporal model checking of image sequences, integrated with neural networks,
+    with case studies in healthcare and cyber-physical systems. Led by the University of Pisa with CNR.
+  url: https://www.uniud.it/it/ricerca/progetti-e-iniziative/progetti-finanziati/prin-2022/dmif/stendhal-spatio-temporal-enhancement-of-neural-nets-for-deeply-hierarchical-automatised-logic
+
+- acronym: PSA AI
+  name: Inter-departmental Strategic Project on Artificial Intelligence
+  funding: University of Udine
+  period: 2023 – 2025
+  role: Leader of the work package "AI and cybersecurity"
+  status: past
+  groups: [cybersecurity]
+  summary: >-
+    University-wide project connecting research, institutions and industry in Friuli-Venezia Giulia
+    on AI. Our work package builds collaborations with local companies on AI for cybersecurity.
+
+- acronym: SERICS
+  name: SEcurity and Rights In the CyberSpace
+  funding: NRRP (PNRR) Extended Partnership
+  period: 1/2023 – 12/2025
+  status: past
+  groups: [cybersecurity]
+  summary: >-
+    National research foundation on cybersecurity (11 universities, 7 research centres, 6 companies).
+    We take part in the spoke "Software and Platform Security" and in the project Securing Containers (SecCo).
+  url: https://serics.eu
+
+- acronym: EuroProofNet
+  name: European Research Network on Formal Proofs
+  funding: EU COST Action CA20111
+  period: 11/2021 – 10/2025
+  status: past
+  groups: [choreographies]
+  summary: >-
+    Network of the developers and users of proof systems in Europe, aiming at the
+    interoperability and usability of proof assistants. Continuation of the TYPES projects.
+  url: https://europroofnet.github.io
+
+- acronym: GRAMAR
+  name: Rural development of the Magredi, Risorgive and Pordenone plain area
+  funding: RAFVG PSR 16.7 2014–2020
+  period: 6/2022 – 11/2024
+  status: past
+  summary: >-
+    EU-funded rural development programme. We applied Distributed Ledger Technologies
+    to trace the meat of the Pezzata Rossa Italiana cattle breed.
+  url: https://magredierisorgivefvg.eu
+
+- acronym: IT MATTERS
+  name: Methods and Tools for Trustworthy Smart Systems
+  funding: MIUR PRIN 2017
+  period: 9/2019 – 8/2023
+  role: Site leader, work package leader
+  status: past
+  groups: [cybersecurity, choreographies]
+  summary: >-
+    Formal methods for the specification, implementation and runtime monitoring of trustworthy
+    smart systems. One of its results is the AbU calculus and language.
+  url: http://itmatters.imtlucca.it
+
+- acronym: TRUTHSTER
+  name: Certification of media content on distributed ledgers
+  funding: NGI TruBlo · H2020-ICT-2018-2020 957228
+  period: 2022
+  status: past
+  groups: [cybersecurity]
+  summary: >-
+    A tool for media professionals to certify content created with users (e.g. interviews)
+    and generate legal disclaimers, using the Alastria DLT as a trusted platform.
+  url: https://www.trublo.eu/truthster/
+
+- acronym: EUTYPES
+  name: The European research network on types for programming and verification
+  funding: EU COST Action CA15123
+  period: 4/2016 – 3/2020
+  role: Italy's representative in the Management Committee
+  status: past
+  groups: [choreographies]
+  url: https://eutypes.cs.ru.nl
+
+- acronym: CINA
+  name: Compositionality, Interaction, Negotiation, Autonomicity for the future ICT society
+  funding: MIUR PRIN 2010
+  period: 2/2013 – 2/2016
+  role: Work package leader
+  status: past
+  groups: [choreographies]
+
+- acronym: SISTER
+  name: "Reduction Systems: synthesis, refinement and verification of behavioural models"
+  funding: MIUR PRIN 2008
+  period: 6/2010 – 5/2012
+  role: Site leader
+  status: past
+
+- acronym: ART
+  name: Analysing Reduction systems using Transition systems
+  funding: MIUR PRIN 2005
+  period: 2/2006 – 1/2008
+  role: Work package leader
+  status: past
+
+- acronym: TYPES
+  name: Types for Proofs and Programs
+  funding: EU FP6 IST-CA-510996
+  period: 9/2004 – 8/2007
+  status: past
+  url: https://cordis.europa.eu/project/id/510996

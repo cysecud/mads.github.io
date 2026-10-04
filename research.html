@@ -1,0 +1,86 @@
+---
+title: Research
+eyebrow: Research
+lead: >-
+  We develop rigorous methods, from formal models to testing and security analysis,
+  to build autonomous systems that people can depend on.
+permalink: /research/
+layout: default
+---
+{%- assign groups = site.groups | sort: "order" -%}
+{% include page-hero.html %}
+
+<section class="section">
+  <div class="container split split-top">
+    <div class="prose">
+      <h2>Why <span class="grad-text">autonomous</span> and <span class="grad-text">dependable</span>?</h2>
+      <p>Modern systems are increasingly decentralised and autonomous, and therefore
+        increasingly difficult and error-prone to build. Drones, robots, vehicles,
+        industrial plants and microservice platforms must provide continuous service,
+        tolerate faults, adapt to change and resist attacks, and they must do all this
+        while protecting the data and privacy of their users. In embedded and
+        cyber-physical systems, a software misbehaviour can have disruptive effects
+        on the surrounding physical world.</p>
+      <p><em>Dependability</em> is the umbrella term for these qualities: availability,
+        reliability, safety, integrity, confidentiality and maintainability.
+        MADS works on the main ways to achieve them: preventing faults through
+        <strong>correct-by-construction design</strong>, removing them through
+        <strong>testing and verification</strong>, and protecting systems against
+        <strong>malicious attacks</strong>.</p>
+    </div>
+    <div class="dependability-card" aria-label="Attributes of dependability">
+      <p class="eyebrow">Attributes of dependability</p>
+      <ul>
+        <li><span>Availability</span><small>readiness for correct service</small></li>
+        <li><span>Reliability</span><small>continuity of correct service</small></li>
+        <li><span>Safety</span><small>no catastrophic consequences</small></li>
+        <li><span>Integrity</span><small>no improper alterations</small></li>
+        <li><span>Confidentiality</span><small>no unauthorised disclosure</small></li>
+        <li><span>Maintainability</span><small>ability to evolve and be repaired</small></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Working groups</p>
+      <h2>How we are organised</h2>
+    </div>
+    <div class="wg-list">
+      {%- for g in groups %}
+      <article class="wg-row accent-{{ g.accent }}">
+        <span class="group-icon group-icon-lg">{% include icon.html name=g.icon %}</span>
+        <div>
+          <h3><a href="{{ g.url | relative_url }}">{{ g.title }}</a></h3>
+          <p>{{ g.summary }}</p>
+          <ul class="chips chips-soft">
+            {%- for t in g.topics %}<li><span class="chip">{{ t }}</span></li>{% endfor -%}
+          </ul>
+        </div>
+        <a class="btn btn-outline btn-sm" href="{{ g.url | relative_url }}">Visit {% include icon.html name="arrow-right" %}</a>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Foundations</p>
+      <h2>Built on solid ground</h2>
+      <p class="section-lead">Over almost twenty years the lab has contributed to the theory of
+        distributed and concurrent systems. This background is shared by all the working groups.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="feature"><h3>Formal models of concurrency</h3><p>Process calculi, bigraphical reactive systems, coalgebraic semantics and behavioural equivalences.</p></div>
+      <div class="feature"><h3>Types and logics</h3><p>Type theory, categorical semantics and proof assistants for certified reasoning about programs.</p></div>
+      <div class="feature"><h3>Coordination</h3><p>Languages and strategies for coordinating distributed, autonomous components, including transactions and choreographies.</p></div>
+      <div class="feature"><h3>Security protocols</h3><p>Verification of security properties of authentication and communication protocols.</p></div>
+      <div class="feature"><h3>Embedded &amp; IoT</h3><p>Engineering techniques to implement trustworthy systems on constrained and embedded devices.</p></div>
+      <div class="feature"><h3>Industrial collaboration</h3><p>Joint projects with companies on testing, vulnerability assessment and secure system design.</p></div>
+    </div>
+  </div>
+</section>

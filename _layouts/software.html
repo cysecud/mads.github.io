@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{%- capture meta -%}
+<ul class="meta-list">
+  {%- if page.language %}<li>{% include icon.html name="code" %}{{ page.language }}</li>{% endif %}
+  {%- if page.authors %}<li>{% include icon.html name="users" %}{{ page.authors }}</li>{% endif %}
+</ul>
+{%- if page.repo %}<a class="btn btn-primary btn-sm" href="{{ page.repo }}">{% include icon.html name="github" %} Source code</a>{% endif %}
+{%- endcapture -%}
+{% include page-hero.html eyebrow='<a href="/software/">Software</a>' lead=page.summary meta=meta %}
+<div class="container section">
+  <article class="prose">
+    {{ content }}
+  </article>
+</div>

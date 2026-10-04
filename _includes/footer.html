@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        {% include logo.html %}
+        <span class="brand-text">
+          <span class="brand-name">MADS<span class="brand-lab">lab</span></span>
+          <span class="brand-sub">{{ site.expansion }}</span>
+        </span>
+      </a>
+      <p class="muted">{{ site.address[0] }}<br>{{ site.address[1] }}</p>
+    </div>
+    <div>
+      <h2 class="footer-title">Explore</h2>
+      <ul class="footer-links">
+        {%- for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {%- endfor %}
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Working groups</h2>
+      <ul class="footer-links">
+        {%- assign groups = site.groups | sort: "order" %}
+        {%- for g in groups %}
+        <li><a href="{{ g.url | relative_url }}">{{ g.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Get in touch</h2>
+      <ul class="footer-contact">
+        <li>{% include icon.html name="mail" %}<a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li>{% include icon.html name="phone" %}<a href="tel:{{ site.phone | remove: ' ' }}">{{ site.phone }}</a></li>
+        <li>{% include icon.html name="pin" %}<span>{{ site.address[2] }}<br>{{ site.address[3] }}</span></li>
+        <li>{% include icon.html name="rss" %}<a href="{{ '/news/feed.xml' | relative_url }}">News feed</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© {{ site.time | date: "%Y" }} MADS Lab · <a href="{{ site.department_url }}">DMIF</a>, <a href="{{ site.university_url }}">University of Udine</a></span>
+    <span class="muted">This site uses no cookies and no trackers.</span>
+  </div>
+</footer>

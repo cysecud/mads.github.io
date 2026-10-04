@@ -1,0 +1,36 @@
+---
+title: News & events
+eyebrow: News
+lead: Papers, prizes, new members, open positions and events from the lab.
+permalink: /news/
+layout: default
+---
+{%- capture meta -%}<a class="text-link" href="{{ '/news/feed.xml' | relative_url }}">{% include icon.html name="rss" %} Subscribe via RSS</a>{%- endcapture -%}
+{% include page-hero.html meta=meta %}
+<div class="container section">
+  {%- assign latest = site.posts | slice: 0, 3 %}
+  <div class="news-grid">
+    {%- for post in latest %}
+    {% include news-card.html post=post %}
+    {%- endfor %}
+  </div>
+
+  <h2 class="section-title">Archive</h2>
+  {%- assign by_year = site.posts | slice: 3, 1000 | group_by_exp: "p", "p.date | date: '%Y'" %}
+  <div class="archive">
+    {%- for y in by_year %}
+    <section class="archive-year">
+      <h3 class="year-label"><span>{{ y.name }}</span></h3>
+      <ul class="archive-list">
+        {%- for post in y.items %}
+        <li>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b" }}</time>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {%- if post.tags.size > 0 %}<ul class="tags">{% for t in post.tags limit: 2 %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+    </section>
+    {%- endfor %}
+  </div>
+</div>

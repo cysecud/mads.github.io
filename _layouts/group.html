@@ -1,0 +1,94 @@
+---
+layout: default
+---
+{%- assign gid = page.slug -%}
+{%- assign members = site.data.people | where_exp: "p", "p.role != 'alumni'" | where_exp: "p", "p.groups contains gid" -%}
+{%- assign tagged = site.data.publications | where_exp: "p", "p.groups contains gid" -%}
+{%- assign projects = site.data.projects | where_exp: "p", "p.groups contains gid" -%}
+{%- assign software = site.software | where_exp: "s", "s.groups contains gid" -%}
+<section class="page-hero group-hero accent-{{ page.accent }}">
+  <div class="page-hero-bg" aria-hidden="true"></div>
+  <div class="container">
+    <p class="eyebrow"><a href="{{ '/research/' | relative_url }}">Working group</a></p>
+    <div class="group-hero-title">
+      <span class="group-icon group-icon-lg">{% include icon.html name=page.icon %}</span>
+      <h1>{{ page.title }}</h1>
+    </div>
+    <p class="lead">{{ page.summary }}</p>
+  </div>
+</section>
+
+<div class="container section group-layout accent-{{ page.accent }}">
+  <div class="prose">
+    {{ content }}
+
+    {%- if tagged.size > 0 %}
+    <h2>Publications</h2>
+    <ol class="pub-list">
+      {%- for p in tagged limit: 10 %}
+      {% include pub-item.html pub=p %}
+      {%- endfor %}
+    </ol>
+    <p><a class="btn btn-outline" href="{{ '/publications/' | relative_url }}?group={{ gid }}">All publications of the group {% include icon.html name="arrow-right" %}</a></p>
+    {%- endif %}
+  </div>
+
+  <aside class="group-aside">
+    <div class="aside-card">
+      <h2>Research topics</h2>
+      <ul class="check-list">
+        {%- for t in page.topics %}<li>{{ t }}</li>{% endfor %}
+      </ul>
+    </div>
+    {%- if projects.size > 0 %}
+    <div class="aside-card">
+      <h2>Projects</h2>
+      <ul class="plain-list">
+        {%- for pr in projects %}<li><strong>{{ pr.acronym }}</strong> · {{ pr.name }}</li>{% endfor %}
+      </ul>
+    </div>
+    {%- endif %}
+    {%- if software.size > 0 %}
+    <div class="aside-card">
+      <h2>Software</h2>
+      <ul class="plain-list">
+        {%- for s in software %}<li><a href="{{ s.url | relative_url }}">{{ s.title }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    {%- endif %}
+    <div class="aside-card aside-cta">
+      <h2>Interested?</h2>
+      <p>We have thesis topics and internships on these subjects.</p>
+      <a class="btn btn-primary btn-sm" href="{{ '/join/' | relative_url }}">Join us {% include icon.html name="arrow-right" %}</a>
+    </div>
+  </aside>
+</div>
+
+{%- if members.size > 0 %}
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">People</h2>
+    <div class="people-grid">
+      {%- for p in members %}
+      {% include person-card.html person=p show_groups=false %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Other working groups</h2>
+    <div class="group-grid group-grid-2">
+      {%- assign groups = site.groups | sort: "order" %}
+      {%- for g in groups %}{% if g.slug != gid %}
+      <a class="group-card group-card-sm accent-{{ g.accent }}" href="{{ g.url | relative_url }}">
+        <span class="group-icon">{% include icon.html name=g.icon %}</span>
+        <h3>{{ g.title }}</h3>
+        <p>{{ g.summary }}</p>
+      </a>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>

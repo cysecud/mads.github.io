@@ -1,0 +1,17 @@
+{%- assign pr = include.project -%}
+<article class="project-card">
+  <p class="project-funding">{{ pr.funding }}</p>
+  <h3>{{ pr.acronym }}</h3>
+  <p class="project-name">{{ pr.name }}</p>
+  {%- if pr.summary %}<p class="project-summary">{{ pr.summary }}</p>{% endif %}
+  <ul class="project-meta">
+    {%- if pr.period %}<li>{% include icon.html name="calendar" %}{{ pr.period }}</li>{% endif %}
+    {%- if pr.role %}<li>{% include icon.html name="users" %}{{ pr.role }}</li>{% endif %}
+  </ul>
+  <div class="project-foot">
+    <span class="chips">
+      {%- for gid in pr.groups %}{% assign g = site.groups | where: "slug", gid | first %}{% if g %}<a class="chip accent-{{ g.accent }}" href="{{ g.url | relative_url }}">{{ g.short }}</a>{% endif %}{% endfor -%}
+    </span>
+    {%- if pr.url %}<a class="text-link" href="{{ pr.url }}">Website {% include icon.html name="external" %}</a>{% endif %}
+  </div>
+</article>

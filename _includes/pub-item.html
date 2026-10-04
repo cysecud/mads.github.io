@@ -1,0 +1,39 @@
+{%- assign p = include.pub -%}
+{%- assign member_names = site.data.people | map: "name" -%}
+{%- assign member_aliases = site.data.people | map: "aliases" | compact | join: "|" | split: "|" -%}
+{%- assign member_names = member_names | concat: member_aliases -%}
+<li class="pub" data-year="{{ p.year }}" data-type="{{ p.type }}" data-groups="{{ p.groups | join: ' ' }}">
+  <div class="pub-main">
+    <h3 class="pub-title">
+      {%- assign link = p.url -%}{%- if p.doi != "" -%}{%- assign link = "https://doi.org/" | append: p.doi -%}{%- endif -%}
+      {%- if link != "" %}<a href="{{ link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif -%}
+    </h3>
+    <p class="pub-authors">
+      {%- assign people = p.authors -%}{%- if people.size == 0 -%}{%- assign people = p.editors -%}{%- endif -%}
+      {%- for a in people -%}
+        {%- if member_names contains a %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif -%}
+        {%- unless forloop.last %}, {% endunless -%}
+      {%- endfor -%}
+      {%- if p.authors.size == 0 and p.editors.size > 0 %} (eds.){% endif -%}
+    </p>
+    <p class="pub-venue">
+      {%- if p.venue != "" %}<em>{{ p.venue }}</em>{% if p.pages != "" %}, pp. {{ p.pages }}{% endif %}{% if p.publisher != "" and p.type != "article" %} · {{ p.publisher }}{% endif %} · {% endif %}{{ p.year }}
+    </p>
+    <div class="pub-actions">
+      <span class="pub-type">{{ p.type_label }}</span>
+      {%- if p.note != "" %}{% assign award = false %}{% if p.note contains 'ward' or p.note contains 'place' %}{% assign award = true %}{% endif %}<span class="pub-note{% if award %} is-award{% endif %}">{% if award %}{% include icon.html name="spark" %}{% endif %}{{ p.note }}</span>{% endif %}
+      {%- for gid in p.groups %}
+      {%- assign g = site.groups | where: "slug", gid | first -%}
+      {%- if g %}<a class="chip accent-{{ g.accent }}" href="{{ g.url | relative_url }}">{{ g.short }}</a>{% endif -%}
+      {%- endfor %}
+      {%- if p.doi != "" %}<a class="pub-link" href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
+      {%- if p.pdf != "" %}<a class="pub-link" href="{{ p.pdf }}">{% include icon.html name="pdf" %}PDF</a>{% endif %}
+      {%- if p.code != "" %}<a class="pub-link" href="{{ p.code }}">{% include icon.html name="code" %}Code</a>{% endif %}
+      {%- if p.url != "" and p.doi != "" %}<a class="pub-link" href="{{ p.url }}">{% include icon.html name="link" %}Link</a>{% endif %}
+      <details class="pub-bib">
+        <summary>BibTeX</summary>
+        <div class="bib-box"><button type="button" class="copy-btn" data-copy>Copy</button><pre><code>{{ p.bibtex | xml_escape }}</code></pre></div>
+      </details>
+    </div>
+  </div>
+</li>

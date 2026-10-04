@@ -1,0 +1,49 @@
+---
+title: People
+eyebrow: Team
+lead: Faculty, researchers and students who make MADS a lively place to do research.
+permalink: /people/
+layout: default
+redirect_from:
+  - /members/
+---
+{% include page-hero.html %}
+{%- assign sections = "faculty:Faculty|postdoc:Research fellows &amp; postdocs|phd:PhD students|student:Students" | split: "|" -%}
+<div class="container section">
+  {%- for s in sections %}
+  {%- assign kv = s | split: ":" -%}
+  {%- assign list = site.data.people | where: "role", kv[0] -%}
+  {%- if list.size > 0 %}
+  <section class="people-section">
+    <h2 class="section-title">{{ kv[1] }} <span class="count">{{ list.size }}</span></h2>
+    <div class="people-grid">
+      {%- for p in list %}
+      {% include person-card.html person=p %}
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+  {%- endfor %}
+
+  <section class="people-section">
+    <div class="cta-inline">
+      <span class="group-icon">{% include icon.html name="spark" %}</span>
+      <div>
+        <h2>Want to see your name here?</h2>
+        <p>We are always looking for motivated students and researchers.</p>
+      </div>
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join us {% include icon.html name="arrow-right" %}</a>
+    </div>
+  </section>
+
+  {%- assign alumni = site.data.people | where: "role", "alumni" %}
+  <section class="people-section">
+    <h2 class="section-title">Alumni <span class="count">{{ alumni.size }}</span></h2>
+    <p class="muted">Former members of the lab, now in academia and industry around the world.</p>
+    <ul class="alumni-list">
+      {%- for p in alumni %}
+      <li>{% if p.links.homepage %}<a href="{{ p.links.homepage }}">{{ p.name }}</a>{% else %}<span>{{ p.name }}</span>{% endif %}{% if p.title %}<small>{{ p.title }}</small>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </section>
+</div>

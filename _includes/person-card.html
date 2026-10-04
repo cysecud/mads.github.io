@@ -1,0 +1,37 @@
+{%- assign p = include.person -%}
+{%- assign g0 = p.groups | first -%}
+{%- assign parts = p.name | split: " " -%}
+{%- assign initials = parts.first | slice: 0 -%}{%- assign last = parts.last | slice: 0 -%}
+<article class="person-card{% if g0 %} accent-{{ site.groups | where: 'slug', g0 | map: 'accent' | first }}{% endif %}">
+  <div class="avatar">
+    {%- if p.photo %}
+    <img src="{{ '/assets/images/people/' | append: p.photo | relative_url }}" alt="" loading="lazy" width="96" height="96">
+    {%- else %}
+    <span aria-hidden="true">{{ initials }}{{ last }}</span>
+    {%- endif %}
+  </div>
+  <div class="person-body">
+    <h3 class="person-name">
+      {%- if p.links.homepage %}<a href="{{ p.links.homepage }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif -%}
+    </h3>
+    {%- if p.title %}<p class="person-title">{{ p.title }}</p>{% endif %}
+    {%- if p.interests %}<p class="person-interests">{{ p.interests }}</p>{% endif %}
+    {%- if p.groups and include.show_groups != false %}
+    <ul class="chips">
+      {%- for gid in p.groups %}
+      {%- assign g = site.groups | where: "slug", gid | first -%}
+      {%- if g %}<li><a class="chip accent-{{ g.accent }}" href="{{ g.url | relative_url }}">{{ g.short }}</a></li>{% endif -%}
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    {%- if p.links %}
+    <ul class="person-links">
+      {%- if p.links.email %}<li><a href="mailto:{{ p.links.email }}" aria-label="Email {{ p.name }}">{% include icon.html name="mail" %}</a></li>{% endif %}
+      {%- if p.links.github %}<li><a href="https://github.com/{{ p.links.github }}" aria-label="GitHub">{% include icon.html name="github" %}</a></li>{% endif %}
+      {%- if p.links.orcid %}<li><a href="https://orcid.org/{{ p.links.orcid }}" class="text-link">ORCID</a></li>{% endif %}
+      {%- if p.links.scholar %}<li><a href="{{ p.links.scholar }}" class="text-link">Scholar</a></li>{% endif %}
+      {%- if p.links.dblp %}<li><a href="{{ p.links.dblp }}" class="text-link">dblp</a></li>{% endif %}
+    </ul>
+    {%- endif %}
+  </div>
+</article>

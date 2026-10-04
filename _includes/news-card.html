@@ -1,0 +1,12 @@
+{%- assign post = include.post -%}
+<article class="news-card">
+  <a class="news-card-link" href="{{ post.url | relative_url }}">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+    {%- if post.tags.size > 0 %}
+    <ul class="tags">{% for t in post.tags limit: 3 %}<li>{{ t }}</li>{% endfor %}</ul>
+    {%- endif %}
+    <span class="read-more">Read more {% include icon.html name="arrow-right" %}</span>
+  </a>
+</article>

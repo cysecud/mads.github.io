@@ -1,0 +1,15 @@
+- title: Research
+  url: /research/
+- title: People
+  url: /people/
+- title: Projects
+  url: /projects/
+- title: Publications
+  url: /publications/
+- title: Software
+  url: /software/
+- title: News
+  url: /news/
+- title: Join us
+  url: /join/
+  highlight: true

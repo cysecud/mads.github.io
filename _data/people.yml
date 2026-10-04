@@ -1,0 +1,124 @@
+# Lab members. To add someone, copy a block and fill it in.
+#   role:   faculty | postdoc | phd | student | alumni
+#   groups: ids of working groups (see _groups/): testing, cybersecurity, choreographies
+#   photo:  optional, file in assets/images/people/ (square, ≥ 400px); initials are shown otherwise
+#   links:  optional; any of homepage, email, orcid, scholar, dblp, github, linkedin
+#   aliases: optional; other spellings of the name used in papers (for bold highlighting)
+
+# ---- Faculty ------------------------------------------------------------
+- name: Marino Miculan
+  role: faculty
+  title: Full Professor · Head & founder
+  groups: [cybersecurity, choreographies]
+  interests: Security of protocols and industrial systems, formal models of concurrency, bigraphs
+  links:
+    homepage: https://marino.miculan.org/
+    email: marino.miculan@uniud.it
+
+- name: Marco Comini
+  role: faculty
+  title: Associate Professor
+  groups: [choreographies]
+  links:
+    homepage: https://users.dimi.uniud.it/~marco.comini/
+
+- name: Pietro Di Gianantonio
+  role: faculty
+  title: Associate Professor
+  groups: [choreographies]
+  interests: Semantics of programming languages, type theory, probabilistic computation
+  links:
+    homepage: https://users.dimi.uniud.it/~pietro.digianantonio/
+
+- name: Vincenzo Riccio
+  role: faculty
+  title: Associate Professor
+  groups: [testing]
+  interests: Software testing, testing of deep-learning systems, self-adaptive systems
+  links:
+    homepage: https://p1ndsvin.github.io/
+
+- name: Ivan Scagnetto
+  role: faculty
+  title: Associate Professor
+  groups: [cybersecurity]
+  interests: Formal methods, proof assistants, autonomous vehicles
+  links:
+    homepage: https://users.dimi.uniud.it/~ivan.scagnetto/
+
+# ---- Research fellows & postdocs ---------------------------------------
+- name: Matteo Paier
+  role: postdoc
+  title: Research fellow · PhD (cycle XXXVIII)
+  groups: [cybersecurity]
+  interests: Network discovery, authentication protocols
+  links:
+    homepage: https://www.imtlucca.it/matteo.paier
+
+# ---- PhD students -------------------------------------------------------
+- name: Michele Lizzit
+  role: phd
+  title: PhD student, Informatics and AI (cycle XXXIX)
+  groups: [cybersecurity]
+  links:
+    homepage: https://lizzit.it/
+
+- name: Massimiliano Baldo
+  role: phd
+  title: PhD student, National PhD in Cybersecurity (cycle XLI)
+  groups: [cybersecurity]
+  links:
+    homepage: https://baldomassimiliano.com/
+
+- name: Luca Gemolotto
+  role: phd
+  title: PhD student, Informatics and AI (cycle XLI)
+  groups: [choreographies]
+  links:
+    homepage: https://lucagemolotto.github.io/
+
+- name: Gabriele Tam
+  role: phd
+  title: PhD student, Informatics and AI (cycle XLI)
+  links:
+    github: h0r0x
+
+# ---- Students -----------------------------------------------------------
+- name: Roberto Van Eeden
+  aliases: ["Roberto L. G. Van Eeden"]
+  role: student
+  title: MSc student, AI & Cybersecurity
+  groups: [cybersecurity]
+
+- name: Xhulia Palaj
+  role: student
+  title: MSc student, AI & Cybersecurity
+  groups: [cybersecurity]
+
+# ---- Alumni -------------------------------------------------------------
+- { name: Matteo Spadetto, role: alumni, title: "Postdoc (2024–2025)", links: { homepage: "https://spadetto.github.io/" } }
+- { name: Davide Castelnovo, role: alumni, title: "PhD (cycle XXXV, 2019–2023)", links: { homepage: "https://davidecaste.github.io/" } }
+- { name: Claude Stolze, role: alumni, title: "Postdoc (2020–2022)", links: { homepage: "https://www.uni-bamberg.de/gdi/team/luke-burke-1/" } }
+- { name: Michele Pasqua, role: alumni, title: "Postdoc (2020–2021)", links: { homepage: "https://michelepasqua.github.io/" } }
+- { name: Marco Peressotti, role: alumni, title: "PhD (cycle XXVIII, 2013–2016)", links: { homepage: "https://marcoperessotti.com" } }
+- { name: Giorgio Bacci, role: alumni, title: "PhD (cycle XXIV, 2009–2012)", links: { homepage: "https://people.cs.aau.dk/~grbacci/" } }
+- { name: Carlo Maiero, role: alumni, title: "Research fellow (2010–2011)" }
+- { name: Luca Campa, role: alumni, title: MSc }
+- { name: Davide Grohmann, role: alumni, title: "PhD (cycle XXIII, 2007–2009)" }
+- { name: Alessio Mansutti, role: alumni, title: MSc }
+- { name: Emanuele D’Osualdo, role: alumni, title: MSc, links: { homepage: "https://www.emanueledosualdo.com/" } }
+- { name: Caterina Urban, role: alumni, title: MSc, links: { homepage: "https://caterinaurban.github.io/" } }
+- { name: Marco Paviotti, role: alumni, title: MSc }
+- { name: Matteo Cicuttin, role: alumni, title: MSc, links: { homepage: "http://www.matteocicuttin.it" } }
+- { name: Daniel Tosone, role: alumni, title: MSc }
+- { name: Alessio Chiapperini, role: alumni, title: MSc }
+- { name: Marco Florian, role: alumni, title: MSc }
+- { name: Marco Cossutta, role: alumni, title: MSc }
+- { name: Fabio Burco, role: alumni, title: MSc }
+- { name: Luca Geatti, role: alumni, title: MSc }
+- { name: Federico Igne, role: alumni, title: MSc }
+- { name: Alessandro Saleri, role: alumni, title: MSc }
+- { name: Hristina Stevanovska, role: alumni, title: BSc }
+- { name: Andrea Toneguzzo, role: alumni }
+- { name: Marco Romanelli, role: alumni }
+- { name: Ilaria Sambarino, role: alumni }

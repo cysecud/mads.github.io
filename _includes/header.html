@@ -1,0 +1,33 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header{% if page.layout == 'home' %} is-overlay{% endif %}" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}: home">
+      {% include logo.html %}
+      <span class="brand-text">
+        <span class="brand-name">MADS<span class="brand-lab">lab</span></span>
+        <span class="brand-sub">University of Udine</span>
+      </span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        {%- for item in site.data.navigation %}
+        {%- assign active = false -%}
+        {%- if page.url == item.url or page.url contains item.url -%}{%- assign active = true -%}{%- endif -%}
+        {%- if item.url == '/research/' and page.collection == 'groups' -%}{%- assign active = true -%}{%- endif -%}
+        {%- if item.url == '/news/' and page.collection == 'posts' -%}{%- assign active = true -%}{%- endif -%}
+        <li><a href="{{ item.url | relative_url }}" class="{% if item.highlight %}nav-cta{% endif %}{% if active %} is-active{% endif %}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle dark mode">
+        <span class="when-light">{% include icon.html name="moon" %}</span>
+        <span class="when-dark">{% include icon.html name="sun" %}</span>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+        <span class="when-closed">{% include icon.html name="menu" %}</span>
+        <span class="when-open">{% include icon.html name="close" %}</span>
+      </button>
+    </div>
+  </div>
+</header>

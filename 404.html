@@ -1,0 +1,20 @@
+---
+title: Page not found
+permalink: /404.html
+layout: default
+sitemap: false
+---
+<section class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true"></div>
+  <div class="container">
+    <p class="eyebrow">Error 404</p>
+    <h1>This node is unreachable</h1>
+    <p class="lead">The page you are looking for has moved or never existed.
+      Our website has recently changed. Try one of these:</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ '/' | relative_url }}">{% include icon.html name="home" %} Home</a>
+      <a class="btn btn-outline" href="{{ '/research/' | relative_url }}">Research</a>
+      <a class="btn btn-outline" href="{{ '/publications/' | relative_url }}">Publications</a>
+    </div>
+  </div>
+</section>

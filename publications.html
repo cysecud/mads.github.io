@@ -1,0 +1,51 @@
+---
+title: Publications
+eyebrow: Output
+lead: Papers, articles and books by members of the lab. Lab members are shown in bold.
+permalink: /publications/
+layout: default
+---
+{% include page-hero.html %}
+{%- assign groups = site.groups | sort: "order" -%}
+{%- assign by_year = site.data.publications | group_by: "year" -%}
+<div class="container section">
+  <div class="pub-toolbar" data-pub-filter>
+    <label class="search-field">
+      {% include icon.html name="search" %}
+      <span class="visually-hidden">Search publications</span>
+      <input type="search" placeholder="Search by title, author, venue…" data-pub-search>
+    </label>
+    <div class="filter-chips" role="group" aria-label="Filter by working group">
+      <button type="button" class="chip is-active" data-pub-group="">All</button>
+      {%- for g in groups %}
+      <button type="button" class="chip accent-{{ g.accent }}" data-pub-group="{{ g.slug }}">{{ g.short }}</button>
+      {%- endfor %}
+    </div>
+    <label class="select-field">
+      <span class="visually-hidden">Type</span>
+      <select data-pub-type>
+        <option value="">All types</option>
+        <option value="article">Journal articles</option>
+        <option value="inproceedings">Conference papers</option>
+        <option value="incollection">Book chapters</option>
+        <option value="book proceedings">Books &amp; volumes</option>
+        <option value="techreport misc">Other</option>
+      </select>
+    </label>
+    <p class="pub-count muted" data-pub-count aria-live="polite">{{ site.data.publications.size }} publications</p>
+  </div>
+
+  <div class="pub-years">
+    {%- for y in by_year %}
+    <section class="pub-year" data-pub-year>
+      <h2 class="year-label"><span>{{ y.name }}</span></h2>
+      <ol class="pub-list">
+        {%- for p in y.items %}
+        {% include pub-item.html pub=p %}
+        {%- endfor %}
+      </ol>
+    </section>
+    {%- endfor %}
+  </div>
+  <p class="empty-state" data-pub-empty hidden>No publications match your search.</p>
+</div>

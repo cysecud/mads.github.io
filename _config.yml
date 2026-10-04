@@ -1,0 +1,74 @@
+title: MADS Lab
+acronym: MADS
+expansion: Methods for Autonomous and Dependable Systems
+tagline: >-
+  We design, verify, test and secure the autonomous systems
+  the world is starting to rely on.
+description: >-
+  MADS — Methods for Autonomous and Dependable Systems — is a research laboratory
+  of the Department of Mathematics, Computer Science and Physics at the University of Udine,
+  working on software and system testing, cybersecurity and choreographic autonomous systems.
+url: "https://mads.uniud.it"
+baseurl: ""
+lang: en
+
+email: mads@uniud.it
+phone: "+39 0432 558486"
+address:
+  - Department of Mathematics, Computer Science and Physics
+  - University of Udine
+  - Via delle Scienze 206
+  - 33100 Udine, Italy
+department_url: https://www.dmif.uniud.it
+university_url: https://www.uniud.it
+github: ""
+linkedin: ""
+
+timezone: Europe/Rome
+permalink: /:year/:month/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+collections:
+  groups:
+    output: true
+    permalink: /groups/:name/
+  software:
+    output: true
+    permalink: /software/:name/
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "", type: groups }
+    values: { layout: group }
+  - scope: { path: "", type: software }
+    values: { layout: software }
+
+# Only plugins supported by GitHub Pages: the site builds anywhere.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+feed:
+  path: news/feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - _bibliography/
+  - vendor/
+  - .github/
+
+# Default social sharing image (Open Graph / Twitter cards)
+image: /assets/images/og-card.png

@@ -1,0 +1,40 @@
+---
+title: Projects
+eyebrow: Funding
+lead: Regional, national and European research projects the lab takes part in.
+permalink: /projects/
+layout: default
+---
+{% include page-hero.html %}
+{%- assign current = site.data.projects | where: "status", "current" -%}
+{%- assign past = site.data.projects | where: "status", "past" -%}
+{%- assign recent = past | where_exp: "p", "p.summary" -%}
+{%- assign older = past | where_exp: "p", "p.summary == nil" -%}
+<div class="container section">
+  {%- if current.size > 0 %}
+  <h2 class="section-title">Ongoing <span class="count">{{ current.size }}</span></h2>
+  <div class="project-grid">
+    {%- for pr in current %}{% include project-card.html project=pr %}{% endfor %}
+  </div>
+  {%- endif %}
+
+  {%- if recent.size > 0 %}
+  <h2 class="section-title">Recently concluded</h2>
+  <div class="project-grid">
+    {%- for pr in recent %}{% include project-card.html project=pr %}{% endfor %}
+  </div>
+  {%- endif %}
+
+  {%- if older.size > 0 %}
+  <h2 class="section-title">Earlier projects</h2>
+  <ul class="past-projects">
+    {%- for pr in older %}
+    <li>
+      <strong>{% if pr.url %}<a href="{{ pr.url }}">{{ pr.acronym }}</a>{% else %}{{ pr.acronym }}{% endif %}</strong>
+      <span>{{ pr.name }}{% if pr.role %}<small class="project-role-inline">{{ pr.role }}</small>{% endif %}</span>
+      <small>{{ pr.funding }}<br>{{ pr.period }}</small>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+</div>

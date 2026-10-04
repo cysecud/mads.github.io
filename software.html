@@ -1,0 +1,25 @@
+---
+title: Software
+eyebrow: Tools
+lead: Open-source tools and libraries developed in the lab.
+permalink: /software/
+layout: default
+redirect_from:
+  - /downloads/
+---
+{% include page-hero.html %}
+<div class="container section">
+  <div class="project-grid">
+    {%- for s in site.software %}
+    <a class="project-card software-card" href="{{ s.url | relative_url }}">
+      <span class="group-icon">{% include icon.html name="code" %}</span>
+      <h3>{{ s.title }}</h3>
+      <p>{{ s.summary }}</p>
+      <div class="project-foot">
+        {%- if s.language %}<span class="chip">{{ s.language }}</span>{% endif %}
+        <span class="read-more">Details {% include icon.html name="arrow-right" %}</span>
+      </div>
+    </a>
+    {%- endfor %}
+  </div>
+</div>

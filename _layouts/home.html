@@ -1,0 +1,124 @@
+---
+layout: default
+---
+{%- assign groups = site.groups | sort: "order" -%}
+{%- assign current = site.data.people | where_exp: "p", "p.role != 'alumni'" -%}
+{%- assign students = site.data.people | where_exp: "p", "p.role == 'phd' or p.role == 'student'" -%}
+{%- assign alumni = site.data.people | where: "role", "alumni" -%}
+<section class="hero">
+  <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="hero-kicker"><span class="pulse" aria-hidden="true"></span> Research lab · University of Udine</p>
+    <h1 class="hero-title">
+      <span class="acro"><b>M</b>ethods for</span>
+      <span class="acro"><b>A</b>utonomous and</span>
+      <span class="acro"><b>D</b>ependable <b>S</b>ystems</span>
+    </h1>
+    <p class="hero-lead">{{ site.tagline }}</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore our research {% include icon.html name="arrow-right" %}</a>
+      <a class="btn btn-ghost" href="{{ '/join/' | relative_url }}">{% include icon.html name="cap" %} Theses &amp; positions</a>
+    </div>
+    <ul class="hero-groups" aria-label="Working groups">
+      {%- for g in groups %}
+      <li><a class="accent-{{ g.accent }}" href="{{ g.url | relative_url }}">{% include icon.html name=g.icon %}{{ g.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="stats-band">
+  <div class="container"><div class="stats">
+    <div class="stat"><span class="stat-num" data-count="{{ groups.size }}">{{ groups.size }}</span><span class="stat-label">working groups</span></div>
+    <div class="stat"><span class="stat-num" data-count="{{ current.size }}">{{ current.size }}</span><span class="stat-label">researchers &amp; students</span></div>
+    <div class="stat"><span class="stat-num" data-count="{{ site.data.publications.size }}">{{ site.data.publications.size }}</span><span class="stat-label">publications</span></div>
+    <div class="stat"><span class="stat-num" data-count="{{ alumni.size }}">{{ alumni.size }}</span><span class="stat-label">alumni around the world</span></div>
+  </div></div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">What we do</p>
+      <h2>Three working groups, one goal: systems you can <span class="grad-text">depend on</span></h2>
+      <p class="section-lead">{{ content | strip_html | strip }}</p>
+    </div>
+    <div class="group-grid">
+      {%- for g in groups %}
+      <a class="group-card accent-{{ g.accent }}" href="{{ g.url | relative_url }}">
+        <span class="group-icon">{% include icon.html name=g.icon %}</span>
+        <h3>{{ g.title }}</h3>
+        <p>{{ g.summary }}</p>
+        <ul class="group-topics">
+          {%- for t in g.topics limit: 3 %}<li>{{ t }}</li>{% endfor -%}
+        </ul>
+        <span class="read-more">Discover the group {% include icon.html name="arrow-right" %}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head section-head-row">
+      <div>
+        <p class="eyebrow">News &amp; events</p>
+        <h2>Latest from the lab</h2>
+      </div>
+      <a class="btn btn-outline" href="{{ '/news/' | relative_url }}">All news {% include icon.html name="arrow-right" %}</a>
+    </div>
+    <div class="news-grid">
+      {%- for post in site.posts limit: 3 %}
+      {% include news-card.html post=post %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Recent publications</p>
+      <h2>Fresh off the press</h2>
+      <p class="muted">Our work appears in top venues in software engineering, security and
+        theoretical computer science.</p>
+      <a class="btn btn-outline" href="{{ '/publications/' | relative_url }}">Browse all {{ site.data.publications.size }} publications {% include icon.html name="arrow-right" %}</a>
+    </div>
+    <ol class="pub-list pub-list-compact">
+      {%- for p in site.data.publications limit: 5 %}
+      {% include pub-item.html pub=p %}
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="join-banner">
+      <div class="join-text">
+        <p class="eyebrow">Students welcome</p>
+        <h2>Looking for a thesis, an internship or a PhD?</h2>
+        <p>Work on real problems with industrial partners: break an industrial device,
+          test a self-driving car in simulation, or program a swarm of drones.
+          Theses can be done in the lab or together with one of our industrial partners.</p>
+      </div>
+      <div class="join-actions">
+        <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">See open topics {% include icon.html name="arrow-right" %}</a>
+        <a class="btn btn-ghost" href="mailto:{{ site.email }}">{% include icon.html name="mail" %} Write to us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container partners">
+    <p class="muted">Our research is funded by and carried out with</p>
+    <ul>
+      {%- for p in site.data.partners %}
+      <li>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
