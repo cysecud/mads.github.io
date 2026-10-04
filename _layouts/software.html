@@ -8,7 +8,8 @@ layout: default
 </ul>
 {%- if page.repo %}<a class="btn btn-primary btn-sm" href="{{ page.repo }}">{% include icon.html name="github" %} Source code</a>{% endif %}
 {%- endcapture -%}
-{% include page-hero.html eyebrow='<a href="/software/">Software</a>' lead=page.summary meta=meta %}
+{%- capture eyebrow -%}<a href="{{ '/software/' | relative_url }}">Software</a>{%- endcapture -%}
+{% include page-hero.html eyebrow=eyebrow lead=page.summary meta=meta %}
 <div class="container section">
   <article class="prose">
     {{ content }}

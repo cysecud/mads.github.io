@@ -5,7 +5,8 @@ layout: default
 <time datetime="{{ page.date | date_to_xmlschema }}">{% include icon.html name="calendar" %}{{ page.date | date: "%-d %B %Y" }}</time>
 {%- if page.tags.size > 0 %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif -%}
 {%- endcapture -%}
-{% include page-hero.html eyebrow='<a href="/news/">News</a>' meta=meta %}
+{%- capture eyebrow -%}<a href="{{ '/news/' | relative_url }}">News</a>{%- endcapture -%}
+{% include page-hero.html eyebrow=eyebrow meta=meta %}
 <div class="container section">
   <article class="prose">
     {{ content }}

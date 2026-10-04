@@ -46,8 +46,8 @@ describes the source layout, testing and log messages.
 ## Screenshots
 
 <div class="gallery">
-  <a href="/assets/images/software/img1.jpg"><img src="/assets/images/software/img1.jpg" alt="Screenshot 1" loading="lazy"></a>
-  <a href="/assets/images/software/img2.jpg"><img src="/assets/images/software/img2.jpg" alt="Screenshot 2" loading="lazy"></a>
-  <a href="/assets/images/software/img3.jpg"><img src="/assets/images/software/img3.jpg" alt="Screenshot 3" loading="lazy"></a>
-  <a href="/assets/images/software/img4.jpg"><img src="/assets/images/software/img4.jpg" alt="Screenshot 4" loading="lazy"></a>
+  <a href="{{ site.baseurl }}/assets/images/software/img1.jpg"><img src="{{ site.baseurl }}/assets/images/software/img1.jpg" alt="Screenshot 1" loading="lazy"></a>
+  <a href="{{ site.baseurl }}/assets/images/software/img2.jpg"><img src="{{ site.baseurl }}/assets/images/software/img2.jpg" alt="Screenshot 2" loading="lazy"></a>
+  <a href="{{ site.baseurl }}/assets/images/software/img3.jpg"><img src="{{ site.baseurl }}/assets/images/software/img3.jpg" alt="Screenshot 3" loading="lazy"></a>
+  <a href="{{ site.baseurl }}/assets/images/software/img4.jpg"><img src="{{ site.baseurl }}/assets/images/software/img4.jpg" alt="Screenshot 4" loading="lazy"></a>
 </div>

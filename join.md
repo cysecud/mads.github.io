@@ -57,14 +57,14 @@ autonomous or dependable systems, [come and talk to us](mailto:{{ site.email }})
 - **Type systems for communication safety**: design and implement type checkers
   that rule out deadlocks and protocol violations.
 - **Bigraphs and graph rewriting**: model and simulate dynamic, spatial systems
-  with [jLibBig](/software/jlibbig/).
+  with [jLibBig]({{ site.baseurl }}/software/jlibbig/).
 
 ## How to apply
 
-1. Look at the [working groups](/research/) and at the [people](/people/) involved.
+1. Look at the [working groups]({{ site.baseurl }}/research/) and at the [people]({{ site.baseurl }}/people/) involved.
 2. Write an email to [{{ site.email }}](mailto:{{ site.email }}) or directly to
    a member of the group. Say what interests you and attach your transcript of records.
 3. We will meet you, in person or online, to find the topic that fits you best.
 
 Open positions (PhD scholarships, research grants) are announced in the
-[news](/news/) section.
+[news]({{ site.baseurl }}/news/) section.

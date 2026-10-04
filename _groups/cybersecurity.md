@@ -24,7 +24,7 @@ information in these settings. On the formal side, we model and verify security
 protocols, such as multi-factor authentication schemes, to discover subtle
 flaws. On the practical side, we analyse real devices and networks together with
 industrial partners. This work has led to vulnerability disclosures such as
-[CVE-2022-3203](/2022/09/lord-of-the-orings/).
+[CVE-2022-3203]({{ site.baseurl }}/2022/09/lord-of-the-orings/).
 
 Students in the group work with real hardware and real attack scenarios, in a
 lab environment and always following responsible disclosure practices.

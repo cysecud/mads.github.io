@@ -9,4 +9,4 @@ Today Davide Castelnovo successfully defended his PhD thesis, *Fuzzy algebraic t
 
 Davide is now a PhD in Computer Science. Congratulations!
 
-![Davide Castelnovo at his PhD defence](/assets/images/news/castelnovoviva.jpg)
+![Davide Castelnovo at his PhD defence]({{ site.baseurl }}/assets/images/news/castelnovoviva.jpg)

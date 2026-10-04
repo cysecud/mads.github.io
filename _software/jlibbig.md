@@ -55,7 +55,7 @@ public class SimpleBig {
 }
 ```
 
-![The bigraph built by the example](/assets/images/software/libbig_printer_example.png)
+![The bigraph built by the example]({{ site.baseurl }}/assets/images/software/libbig_printer_example.png)
 
 Attached properties add extra information at run time:
 

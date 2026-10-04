@@ -5,7 +5,7 @@ excerpt: "On January 22–23 we host at DMIF the final meeting of the PRIN 2022 
 tags: ["Projects", "Events"]
 ---
 
-On January 22–23 we host at DMIF the final meeting of the PRIN 2022 project [STENDHAL](/projects/), together with the workshop **"Intelligenza artificiale in medicina, esperienze a confronto"**. The event shows how our region is becoming a hub for health technology, bridging high-level research and hospital operations.
+On January 22–23 we host at DMIF the final meeting of the PRIN 2022 project [STENDHAL]({{ site.baseurl }}/projects/), together with the workshop **"Intelligenza artificiale in medicina, esperienze a confronto"**. The event shows how our region is becoming a hub for health technology, bridging high-level research and hospital operations.
 
 - Within STENDHAL we are developing *hybrid AI* for accurate and transparent brain image analysis, which is essential for diagnostic trust.
 - The work is aligned with major initiatives such as Horizon IMI **BigPicture**, the largest European pathology database, and the **Bosomshield** project for cancer prediction.

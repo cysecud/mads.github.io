@@ -11,7 +11,7 @@ Michele Codutti (Danieli Automation)**
 
 Operation Technology, i.e. the hardware and software that monitor and control industrial equipment, assets, processes and events, is required to respect high standards of security and reliability. Unfortunately, the analysis and security assessment of OT is less mature than that of Information Technology. In fact, products and components used in industrial plants often have issues that must be dealt with.  Most of the times, these issues are not very dangerous, e.g. because they are hard to exploit, but sometimes… this is not the case.
 
-In this page, we document the discovery of a backdoor in an industrial Access Point.  This work has been carried out within a cooperation between the [MADS Lab](/) of the University of Udine and [Danieli Automation](https://www.dca.it), aiming to analyze vulnerabilities of the devices that Danieli Automation re-sell or produce. **We provide this information for academic and teaching purposes**, as it is a good example about these activities are carried out in practice.
+In this page, we document the discovery of a backdoor in an industrial Access Point.  This work has been carried out within a cooperation between the [MADS Lab]({{ site.baseurl }}/) of the University of Udine and [Danieli Automation](https://www.dca.it), aiming to analyze vulnerabilities of the devices that Danieli Automation re-sell or produce. **We provide this information for academic and teaching purposes**, as it is a good example about these activities are carried out in practice.
 
 ## **Analysis**
 
@@ -29,7 +29,7 @@ But there was something stranger in the port scan report.
 
 To configure the access point, the manual describes only one way: via web interface. But we found that a **telnet server** was listening on the default port (23/TCP). Maybe there is also a CLI interface via telnet? Connecting to that port we receive a login prompt, for which the admin credentials of the web interface do not work:
 
-[![](/assets/images/news/telnetap.jpg)](/assets/images/news/telnetap.jpg)
+[![]({{ site.baseurl }}/assets/images/news/telnetap.jpg)]({{ site.baseurl }}/assets/images/news/telnetap.jpg)
 
 This is a hint that this telnet server is not meant to be used by the user or admin. So, let’s see if we can exploit this access retrieving those credentials.
 
@@ -39,7 +39,7 @@ Using the [firmware mod kit](https://github.com/rampageX/firmware-mod-kit) the
 
 In the “/etc/inittab” we can locate the main init script, which is named “/etc/rcS”. Looking into it we found our treasure: the root password is set with a fixed value, every time the AP is rebooted.
 
-[![](/assets/images/news/image-1.png)](/assets/images/news/image-1.png)
+[![]({{ site.baseurl }}/assets/images/news/image-1.png)]({{ site.baseurl }}/assets/images/news/image-1.png)
 
 Using these credentials, any user connected to the AP (even via WiFi) can immediately login as root, and therefore gain the complete control of the AP – the worst possible scenario. (Password is obfuscated in order to not disclose the specific credentials.)
 
@@ -55,7 +55,7 @@ A firmware update (Ver 2.01e) was provided by Oring in a week. Before upgrading 
 
 Using the same tools of the trade we unpacked the new firmware and re-check the init-script:
 
-[![](/assets/images/news/image.png)](/assets/images/news/image.png)
+[![]({{ site.baseurl }}/assets/images/news/image.png)]({{ site.baseurl }}/assets/images/news/image.png)
 
 The image shows a side-by-side comparison obtained by the diff command. The old version of the file is on the left the new is on the right. The red lines are what is missing from the old file in the new (the password is obfuscated as before).
 
