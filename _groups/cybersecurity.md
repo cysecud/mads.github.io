@@ -24,7 +24,15 @@ information in these settings. On the formal side, we model and verify security
 protocols, such as multi-factor authentication schemes, to discover subtle
 flaws. On the practical side, we analyse real devices and networks together with
 industrial partners. This work has led to vulnerability disclosures such as
-[CVE-2022-3203]({{ site.baseurl }}/2022/09/lord-of-the-orings/).
+[CVE-2022-3203]({{ site.baseurl }}/2022/09/lord-of-the-orings/) and
+[CVE-2023-40718]({{ site.baseurl }}/2023/11/cve-2023-40718/).
+
+The MADS lab hosts the **Udine node of the [Cybersecurity National Lab](https://cybersecnatlab.it)
+of CINI**, the Italian National Inter-University Consortium for Informatics.
+Through the national lab we take part in training programmes for young talents,
+such as [CyberChallenge.IT](https://cyberchallenge.it) and
+[CyberHighSchools](https://cyberhighschools.it). These programmes gave birth to
+[MadrHacks](https://madrhacks.org), the ethical hacking team of the University of Udine.
 
 Students in this area work with real hardware and real attack scenarios, in a
 lab environment and always following responsible disclosure practices.
