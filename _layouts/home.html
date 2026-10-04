@@ -20,7 +20,7 @@ layout: default
       <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore our research {% include icon.html name="arrow-right" %}</a>
       <a class="btn btn-ghost" href="{{ '/join/' | relative_url }}">{% include icon.html name="cap" %} Theses &amp; positions</a>
     </div>
-    <ul class="hero-groups" aria-label="Working groups">
+    <ul class="hero-groups" aria-label="Research areas">
       {%- for g in groups %}
       <li><a class="accent-{{ g.accent }}" href="{{ g.url | relative_url }}">{% include icon.html name=g.icon %}{{ g.title }}</a></li>
       {%- endfor %}
@@ -30,7 +30,7 @@ layout: default
 
 <section class="stats-band">
   <div class="container"><div class="stats">
-    <div class="stat"><span class="stat-num" data-count="{{ groups.size }}">{{ groups.size }}</span><span class="stat-label">working groups</span></div>
+    <div class="stat"><span class="stat-num" data-count="{{ groups.size }}">{{ groups.size }}</span><span class="stat-label">research areas</span></div>
     <div class="stat"><span class="stat-num" data-count="{{ current.size }}">{{ current.size }}</span><span class="stat-label">researchers &amp; students</span></div>
     <div class="stat"><span class="stat-num" data-count="{{ site.data.publications.size }}">{{ site.data.publications.size }}</span><span class="stat-label">publications</span></div>
     <div class="stat"><span class="stat-num" data-count="{{ alumni.size }}">{{ alumni.size }}</span><span class="stat-label">alumni around the world</span></div>
@@ -41,7 +41,7 @@ layout: default
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">What we do</p>
-      <h2>Three working groups, one goal: systems you can <span class="grad-text">depend on</span></h2>
+      <h2>Three research areas, one goal: systems you can <span class="grad-text">depend on</span></h2>
       <p class="section-lead">{{ content | strip_html | strip }}</p>
     </div>
     <div class="group-grid">
@@ -53,7 +53,7 @@ layout: default
         <ul class="group-topics">
           {%- for t in g.topics limit: 3 %}<li>{{ t }}</li>{% endfor -%}
         </ul>
-        <span class="read-more">Discover the group {% include icon.html name="arrow-right" %}</span>
+        <span class="read-more">Explore the area {% include icon.html name="arrow-right" %}</span>
       </a>
       {%- endfor %}
     </div>

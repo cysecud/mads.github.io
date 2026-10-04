@@ -9,7 +9,7 @@ layout: default
 <section class="page-hero group-hero accent-{{ page.accent }}">
   <div class="page-hero-bg" aria-hidden="true"></div>
   <div class="container">
-    <p class="eyebrow"><a href="{{ '/research/' | relative_url }}">Working group</a></p>
+    <p class="eyebrow"><a href="{{ '/research/' | relative_url }}">Research area</a></p>
     <div class="group-hero-title">
       <span class="group-icon group-icon-lg">{% include icon.html name=page.icon %}</span>
       <h1>{{ page.title }}</h1>
@@ -29,7 +29,7 @@ layout: default
       {% include pub-item.html pub=p %}
       {%- endfor %}
     </ol>
-    <p><a class="btn btn-outline" href="{{ '/publications/' | relative_url }}?group={{ gid }}">All publications of the group {% include icon.html name="arrow-right" %}</a></p>
+    <p><a class="btn btn-outline" href="{{ '/publications/' | relative_url }}?group={{ gid }}">All publications in this area {% include icon.html name="arrow-right" %}</a></p>
     {%- endif %}
   </div>
 
@@ -79,7 +79,7 @@ layout: default
 
 <section class="section">
   <div class="container">
-    <h2 class="section-title">Other working groups</h2>
+    <h2 class="section-title">Other research areas</h2>
     <div class="group-grid group-grid-2">
       {%- assign groups = site.groups | sort: "order" %}
       {%- for g in groups %}{% if g.slug != gid %}

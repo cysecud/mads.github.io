@@ -19,12 +19,12 @@ Autonomous and embedded systems are now part of factories, vehicles and critical
 infrastructures, where a single vulnerability can have physical consequences.
 Yet their security assessment is often less mature than that of traditional IT.
 
-The **Cybersecurity** working group studies how to protect resources and
+Research in the **Cybersecurity** area studies how to protect resources and
 information in these settings. On the formal side, we model and verify security
 protocols, such as multi-factor authentication schemes, to discover subtle
 flaws. On the practical side, we analyse real devices and networks together with
 industrial partners. This work has led to vulnerability disclosures such as
 [CVE-2022-3203]({{ site.baseurl }}/2022/09/lord-of-the-orings/).
 
-Students in the group work with real hardware and real attack scenarios, in a
+Students in this area work with real hardware and real attack scenarios, in a
 lab environment and always following responsible disclosure practices.

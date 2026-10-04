@@ -8,7 +8,7 @@ No dependencies beyond the Python 3 standard library.
 Usage:  python3 scripts/bib2json.py [input.bib] [output.json]
 
 Optional custom BibTeX fields understood by the site:
-  groups   = {testing, cybersecurity, choreographies}   working groups
+  groups   = {testing, cybersecurity, choreographies}   research areas
   pdf      = {https://...}                              link to a PDF
   html     = {https://...}                              link to the paper (if no doi/url)
   code     = {https://...}                              link to code / artifact

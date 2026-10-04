@@ -1,6 +1,6 @@
 # Lab members. To add someone, copy a block and fill it in.
 #   role:   faculty | postdoc | phd | student | alumni
-#   groups: ids of working groups (see _groups/): testing, cybersecurity, choreographies
+#   groups: ids of research areas (see _groups/): testing, cybersecurity, choreographies
 #   photo:  optional, file in assets/images/people/ (square, ≥ 400px); initials are shown otherwise
 #   links:  optional; any of homepage, email, orcid, scholar, dblp, github, linkedin
 #   aliases: optional; other spellings of the name used in papers (for bold highlighting)

@@ -21,7 +21,7 @@ Most changes are a matter of editing one file.
 | Projects                 | `_data/projects.yml`                     |
 | Funders / partners       | `_data/partners.yml`                     |
 | News                     | `_posts/YYYY-MM-DD-title.md`             |
-| Working groups           | `_groups/*.md`                           |
+| Research areas           | `_groups/*.md`                           |
 | Software                 | `_software/*.md`                         |
 | Publications             | `_bibliography/mads.bib` (see below)     |
 | Menu                     | `_data/navigation.yml`                   |
@@ -30,7 +30,7 @@ Most changes are a matter of editing one file.
 ### Adding a person
 
 Copy a block in `_data/people.yml`. `role` is one of `faculty`, `postdoc`, `phd`,
-`student`, `alumni`; `groups` lists working-group ids (`testing`,
+`student`, `alumni`; `groups` lists research-area ids (`testing`,
 `cybersecurity`, `choreographies`). Photos (optional, square) go in
 `assets/images/people/`; initials are shown otherwise.
 
@@ -58,7 +58,7 @@ python3 scripts/bib2json.py
 Commit both files. The GitHub Actions workflow also runs the script before
 every build. Optional extra BibTeX fields:
 
-- `groups = {testing, cybersecurity}`: show the paper on the working-group pages
+- `groups = {testing, cybersecurity}`: show the paper on the research-area pages
   and in the group filter;
 - `pdf = {https://…}`: link to an open-access PDF.
 

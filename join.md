@@ -13,7 +13,7 @@ redirect_from:
   <div class="join-card">
     <span class="group-icon">{% include icon.html name="cap" %}</span>
     <h3>BSc &amp; MSc theses</h3>
-    <p>Experimental, practical or theoretical theses in one of our working groups. Many build open-source tools or lead to a publication.</p>
+    <p>Experimental, practical or theoretical theses in one of our research areas. Many build open-source tools or lead to a publication.</p>
   </div>
   <div class="join-card">
     <span class="group-icon">{% include icon.html name="briefcase" %}</span>
@@ -61,9 +61,9 @@ autonomous or dependable systems, [come and talk to us](mailto:{{ site.email }})
 
 ## How to apply
 
-1. Look at the [working groups]({{ site.baseurl }}/research/) and at the [people]({{ site.baseurl }}/people/) involved.
+1. Look at the [research areas]({{ site.baseurl }}/research/) and at the [people]({{ site.baseurl }}/people/) involved.
 2. Write an email to [{{ site.email }}](mailto:{{ site.email }}) or directly to
-   a member of the group. Say what interests you and attach your transcript of records.
+   a researcher working in that area. Say what interests you and attach your transcript of records.
 3. We will meet you, in person or online, to find the topic that fits you best.
 
 Open positions (PhD scholarships, research grants) are announced in the

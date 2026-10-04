@@ -76,7 +76,7 @@
   color-scheme: dark;
 }
 
-/* Per–working-group accent */
+/* Per–research-area accent */
 .accent-amber  { --accent: var(--amber);  --accent-soft: var(--amber-soft);  --accent-grad: linear-gradient(135deg, #f59e0b, #f97316); }
 .accent-rose   { --accent: var(--rose);   --accent-soft: var(--rose-soft);   --accent-grad: linear-gradient(135deg, #f43f5e, #ec4899); }
 .accent-violet { --accent: var(--violet); --accent-soft: var(--violet-soft); --accent-grad: linear-gradient(135deg, #8b5cf6, #6366f1); }

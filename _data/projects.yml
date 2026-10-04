@@ -1,6 +1,6 @@
 # Research projects, newest first.
 #   status: current | past
-#   groups: optional working-group ids (testing, cybersecurity, choreographies)
+#   groups: optional research-area ids (testing, cybersecurity, choreographies)
 #   role:   optional, the lab's role in the project
 #   summary: one or two sentences, shown on the project card
 

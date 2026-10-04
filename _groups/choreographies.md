@@ -20,7 +20,7 @@ autonomous components must cooperate, getting the interaction right is the hard
 part. Deadlocks, races and protocol violations are notoriously difficult to find
 by testing alone.
 
-The **Choreographic Autonomous Systems** working group takes a
+In the **Choreographic Autonomous Systems** area we take a
 *correct-by-construction* approach. In a *choreography* the global interaction is
 written once, from the point of view of the whole system. Executable code for
 each participant is then derived automatically, and is guaranteed to follow the

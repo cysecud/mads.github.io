@@ -15,7 +15,7 @@ layout: default
       <span class="visually-hidden">Search publications</span>
       <input type="search" placeholder="Search by title, author, venue…" data-pub-search>
     </label>
-    <div class="filter-chips" role="group" aria-label="Filter by working group">
+    <div class="filter-chips" role="group" aria-label="Filter by research area">
       <button type="button" class="chip is-active" data-pub-group="">All</button>
       {%- for g in groups %}
       <button type="button" class="chip accent-{{ g.accent }}" data-pub-group="{{ g.slug }}">{{ g.short }}</button>

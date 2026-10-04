@@ -12,8 +12,8 @@ by Maryam Maryam, Matteo Biagiola, Andrea Stocco and Vincenzo Riccio, has receiv
 held in Naples. 🏆
 
 The paper evaluates generative AI models as test input generators for deep-learning
-systems. It lays the foundation for the current research of our
-[Software and System Testing]({{ site.baseurl }}/groups/testing/) working group on GenAI-supported
+systems. It lays the foundation for the current research in our
+[Software and System Testing]({{ site.baseurl }}/groups/testing/) area on GenAI-supported
 software testing.
 [\[pdf\]](https://p1ndsvin.github.io/assets/pdf/ICST2025.pdf)
 [\[slides\]](https://p1ndsvin.github.io/assets/slides/maryam_icst_2025.pdf)

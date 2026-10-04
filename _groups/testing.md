@@ -20,7 +20,7 @@ components, adapts itself at runtime and acts in the physical world. Classic
 testing techniques struggle with these systems, whose input spaces are huge and
 whose correct behaviour is often hard to specify.
 
-The **Software and System Testing** working group develops techniques and tools
+In the **Software and System Testing** area we develop techniques and tools
 to systematically exercise such systems and to expose their failures early. We
 combine search-based and model-based generation, simulation, and empirical
 evaluation on realistic case studies, often together with industrial partners.
