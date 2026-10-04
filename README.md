@@ -68,9 +68,10 @@ Duplicate entries (same title and year) are merged automatically.
 
 The site uses only plugins supported by GitHub Pages, so it builds anywhere.
 
-- **GitHub Pages**: push to `main`. `.github/workflows/pages.yml` builds and
-  deploys the site (Settings → Pages → Source: GitHub Actions). For the custom
-  domain, add a `CNAME` file containing `mads.uniud.it` and point the DNS to GitHub.
+- **GitHub Pages** (current setup): push to `main`. `.github/workflows/pages.yml`
+  builds and deploys the site (Settings → Pages → Source: GitHub Actions).
+  The `CNAME` file sets the custom domain `mads.uniud.it`, whose DNS record is
+  `mads.uniud.it. CNAME cysecud.github.io.`
 - **Any web server**: run `JEKYLL_ENV=production bundle exec jekyll build`
   and copy `_site/` to the document root.
 
