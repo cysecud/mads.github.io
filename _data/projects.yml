@@ -1,7 +1,6 @@
 # Research projects, newest first.
 #   status: current | past
 #   groups: optional research-area ids (testing, cybersecurity, choreographies)
-#   role:   optional, the lab's role in the project
 #   summary: one or two sentences, shown on the project card
 
 - acronym: TRUTHSTER POC
@@ -19,7 +18,6 @@
   name: Spatio-Temporal Enhancement of Neural Nets for Deeply Hierarchical Automatised Logic
   funding: MUR PRIN 2022
   period: 10/2023 – 2/2026
-  role: Site leader, work package leader
   status: past
   summary: >-
     Spatio-temporal model checking of image sequences, integrated with neural networks,
@@ -30,12 +28,11 @@
   name: Inter-departmental Strategic Project on Artificial Intelligence
   funding: University of Udine
   period: 2023 – 2025
-  role: Leader of the work package "AI and cybersecurity"
   status: past
   groups: [cybersecurity]
   summary: >-
     University-wide project connecting research, institutions and industry in Friuli-Venezia Giulia
-    on AI. Our work package builds collaborations with local companies on AI for cybersecurity.
+    on AI. We contribute on AI for cybersecurity, building collaborations with local companies.
 
 - acronym: SERICS
   name: SEcurity and Rights In the CyberSpace
@@ -73,7 +70,6 @@
   name: Methods and Tools for Trustworthy Smart Systems
   funding: MIUR PRIN 2017
   period: 9/2019 – 8/2023
-  role: Site leader, work package leader
   status: past
   groups: [cybersecurity, choreographies]
   summary: >-
@@ -96,7 +92,6 @@
   name: The European research network on types for programming and verification
   funding: EU COST Action CA15123
   period: 4/2016 – 3/2020
-  role: Italy's representative in the Management Committee
   status: past
   groups: [choreographies]
   url: https://eutypes.cs.ru.nl
@@ -105,7 +100,6 @@
   name: Compositionality, Interaction, Negotiation, Autonomicity for the future ICT society
   funding: MIUR PRIN 2010
   period: 2/2013 – 2/2016
-  role: Work package leader
   status: past
   groups: [choreographies]
 
@@ -113,14 +107,12 @@
   name: "Reduction Systems: synthesis, refinement and verification of behavioural models"
   funding: MIUR PRIN 2008
   period: 6/2010 – 5/2012
-  role: Site leader
   status: past
 
 - acronym: ART
   name: Analysing Reduction systems using Transition systems
   funding: MIUR PRIN 2005
   period: 2/2006 – 1/2008
-  role: Work package leader
   status: past
 
 - acronym: TYPES
