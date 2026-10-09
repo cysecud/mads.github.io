@@ -3,7 +3,7 @@ layout: default
 ---
 {%- capture meta -%}
 <time datetime="{{ page.date | date_to_xmlschema }}">{% include icon.html name="calendar" %}{{ page.date | date: "%-d %B %Y" }}</time>
-{%- if page.tags.size > 0 %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif -%}
+{%- if page.tags.size > 0 %}{% include tags.html tags=page.tags link=true %}{% endif -%}
 {%- endcapture -%}
 {%- capture eyebrow -%}<a href="{{ '/news/' | relative_url }}">News</a>{%- endcapture -%}
 {% include page-hero.html eyebrow=eyebrow meta=meta %}

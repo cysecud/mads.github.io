@@ -1,0 +1,28 @@
+{%- comment -%}
+  News tags. A tag naming a research area (its title, short name or id) is shown
+  in the area's colour, first; the others are neutral.
+  Usage: {% include tags.html tags=post.tags limit=3 link=true %}
+{%- endcomment -%}
+{%- assign tag_limit = include.limit | default: 99 -%}
+{%- assign area_tags = "" | split: "" -%}
+{%- assign other_tags = "" | split: "" -%}
+{%- for t in include.tags -%}
+  {%- assign tl = t | downcase -%}
+  {%- assign g = nil -%}
+  {%- for grp in site.groups -%}
+    {%- assign title = grp.title | downcase -%}{%- assign short = grp.short | downcase -%}
+    {%- if tl == title or tl == short or tl == grp.slug -%}{%- assign g = grp -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if g -%}{%- assign area_tags = area_tags | push: g -%}{%- else -%}{%- assign other_tags = other_tags | push: t -%}{%- endif -%}
+{%- endfor -%}
+{%- assign n = 0 -%}
+{%- if include.tags.size > 0 -%}
+<ul class="tags">
+  {%- for g in area_tags -%}{%- if n < tag_limit -%}
+  <li class="tag-area accent-{{ g.accent }}">{% if include.link %}<a href="{{ g.url | relative_url }}">{{ g.short }}</a>{% else %}{{ g.short }}{% endif %}</li>
+  {%- assign n = n | plus: 1 -%}{%- endif -%}{%- endfor -%}
+  {%- for t in other_tags -%}{%- if n < tag_limit -%}
+  <li>{{ t }}</li>
+  {%- assign n = n | plus: 1 -%}{%- endif -%}{%- endfor -%}
+</ul>
+{%- endif -%}
