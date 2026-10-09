@@ -660,3 +660,10 @@ pre {
 .pub-note { font-weight: 600; padding: .22em .65em; border-radius: 6px; background: var(--surface-2); color: var(--text-2); display: inline-flex; align-items: center; gap: .3em; }
 .pub-note.is-award { background: var(--amber-soft); color: var(--amber); }
 .pub-note .icon { width: 1em; height: 1em; }
+/* Feature grid: let an orphan last card span the whole row */
+.feature:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
+@media (max-width: 900px) {
+  .feature:last-child:nth-child(3n+1) { grid-column: auto; }
+  .feature:last-child:nth-child(2n+1) { grid-column: 1 / -1; }
+}
+@media (max-width: 600px) { .feature:last-child:nth-child(2n+1) { grid-column: auto; } }

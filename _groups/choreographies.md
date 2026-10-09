@@ -12,7 +12,7 @@ topics:
   - Coordination of autonomous agents, robots and drones
   - Formal models of concurrency and distribution (bigraphs, process calculi)
   - Type theory and semantics of programming languages
-  - Verification and certified tools with proof assistants
+  - Mechanised proofs and certified tools with the Rocq and Lean proof assistants
 ---
 
 A swarm of drones, a team of robots, a federation of microservices: when many

@@ -58,6 +58,8 @@ autonomous or dependable systems, [come and talk to us](mailto:{{ site.email }})
   that rule out deadlocks and protocol violations.
 - **Bigraphs and graph rewriting**: model and simulate dynamic, spatial systems
   with [jLibBig]({{ site.baseurl }}/software/jlibbig/).
+- **Mechanised proofs**: formalise calculi, type systems or protocols in a proof
+  assistant such as Rocq or Lean, and prove their properties with machine-checked proofs.
 
 ## How to apply
 
