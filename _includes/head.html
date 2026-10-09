@@ -19,4 +19,8 @@
   {% feed_meta %}
   {% seo %}
   <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  {%- if jekyll.environment == "production" %}
+  <!-- Umami: cookie-less, privacy-friendly analytics -->
+  <script defer src="https://glance.paier.xyz/script.js" data-website-id="244c7d7d-e989-4d4a-b2a4-d98522b41458"></script>
+  {%- endif %}
 </head>
