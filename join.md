@@ -46,7 +46,8 @@ autonomous or dependable systems, [come and talk to us](mailto:{{ site.email }})
 - **Vulnerability assessment of industrial devices**: analyse firmware and
   network services of OT/IoT devices in a controlled lab environment.
 - **Formal analysis of authentication protocols**: model real-world protocols
-  (e.g. multi-factor authentication) and verify their security properties.
+  (e.g. multi-factor authentication) and verify their security properties with
+  tools such as ProVerif.
 - **Network discovery and monitoring**: design modular tools to map and
   monitor complex industrial networks.
 
