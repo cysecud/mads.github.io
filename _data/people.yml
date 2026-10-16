@@ -47,6 +47,14 @@
   links:
     homepage: https://users.dimi.uniud.it/~ivan.scagnetto/
 
+- name: Nicola Vitacolonna
+  role: faculty
+  title: Assistant Professor
+  groups: [cybersecurity]
+  interests: Security of protocols, Formal methods, Agent Security
+  links:
+    homepage: https://people.uniud.it/page/nicola.vitacolonna
+
 # ---- Research fellows & postdocs ---------------------------------------
 - name: Matteo Paier
   role: postdoc
