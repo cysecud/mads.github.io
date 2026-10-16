@@ -338,21 +338,21 @@
    "Marino Miculan"
   ],
   "editors": [],
-  "venue": "Proc. ISoLA 2026, Lecture Notes in Computer Science 17141",
-  "pages": "",
+  "venue": "Leveraging Applications of Formal Methods, Verification and Validation. Rigorous Engineering of Collective Adaptive Systems (ISoLA 2026), Lecture Notes in Computer Science 17141",
+  "pages": "71–88",
   "publisher": "Springer",
   "year": 2026,
   "doi": "10.1007/978-3-032-40108-3_5",
   "url": "",
   "pdf": "",
   "code": "",
-  "note": "To appear",
+  "note": "",
   "arxiv": "",
   "groups": [
    "choreographies"
   ],
   "selected": false,
-  "bibtex": "@InProceedings{m:isola26,\n  groups = {choreographies},\n\tauthor    = {Miculan, Marino},\n\teditor    = {Margaria, Tiziana and Steffen, Bernhard},\n\ttitle     = {Reliable Decision Loops in Socio-Technical Collective Adaptive Systems},\n\tbooktitle = {Proc. ISoLA 2026},\n\tseries    = {Lecture Notes in Computer Science},\n\tvolume    = {17141},\n\tpublisher = {Springer},\n\tyear      = {2026},\n\tdoi       = {10.1007/978-3-032-40108-3_5},\n\tnote      = {To appear}\n}"
+  "bibtex": "@InProceedings{m:isola26,\n  groups = {choreographies},\n\tauthor    = {Miculan, Marino},\n\teditor    = {Margaria, Tiziana and Steffen, Bernhard},\n\ttitle     = {Reliable Decision Loops in Socio-Technical Collective Adaptive Systems},\n\tbooktitle = {Leveraging Applications of Formal Methods, Verification and Validation. Rigorous Engineering of Collective Adaptive Systems (ISoLA 2026)},\n\tseries    = {Lecture Notes in Computer Science},\n\tvolume    = {17141},\n\tpublisher = {Springer},\n\tyear      = {2026},\n\tpages     = {71--88},\n\tdoi       = {10.1007/978-3-032-40108-3_5}\n}"
  },
  {
   "key": "efmd:itasec26",
