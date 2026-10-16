@@ -1,21 +1,21 @@
 [
  {
-  "key": "PM:sttt26",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Attribute-based memory updates with priorities for collective adaptive systems",
+  "key": "m:isola26",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Reliable Decision Loops in Socio-Technical Collective Adaptive Systems",
   "authors": [
-   "Michele Pasqua",
    "Marino Miculan"
   ],
   "editors": [],
-  "venue": "International Journal on Software Tools for Technology Transfer",
-  "pages": "",
-  "publisher": "",
+  "venue": "Leveraging Applications of Formal Methods, Verification and Validation. Rigorous Engineering of Collective Adaptive Systems (ISoLA 2026), Lecture Notes in Computer Science 17141",
+  "pages": "71–88",
+  "publisher": "Springer",
   "year": 2026,
-  "doi": "10.1007/s10009-026-00856-y",
+  "month": 10,
+  "doi": "10.1007/978-3-032-40108-3_5",
   "url": "",
-  "pdf": "https://rdcu.be/fdYwk",
+  "pdf": "",
   "code": "",
   "note": "",
   "arxiv": "",
@@ -23,55 +23,53 @@
    "choreographies"
   ],
   "selected": false,
-  "bibtex": "@Article{PM:sttt26,\n  groups = {choreographies},\n  author    = {Pasqua, Michele and Miculan, Marino},\n  title     = {Attribute-based memory updates with priorities for collective adaptive systems},\n  journal   = {International Journal on Software Tools for Technology Transfer},\n  year      = {2026},\n  doi       = {10.1007/s10009-026-00856-y},\n  html      = {https://doi.org/10.1007/s10009-026-00856-y},\n  pdf = \"https://rdcu.be/fdYwk\"\n}"
+  "bibtex": "@InProceedings{m:isola26,\n  month = {October},\n  groups = {choreographies},\n\tauthor    = {Miculan, Marino},\n\teditor    = {Margaria, Tiziana and Steffen, Bernhard},\n\ttitle     = {Reliable Decision Loops in Socio-Technical Collective Adaptive Systems},\n\tbooktitle = {Leveraging Applications of Formal Methods, Verification and Validation. Rigorous Engineering of Collective Adaptive Systems (ISoLA 2026)},\n\tseries    = {Lecture Notes in Computer Science},\n\tvolume    = {17141},\n\tpublisher = {Springer},\n\tyear      = {2026},\n\tpages     = {71--88},\n\tdoi       = {10.1007/978-3-032-40108-3_5}\n}"
  },
  {
-  "key": "vr:zohdinasab2026automate",
+  "key": "m:jlamp26",
   "type": "article",
   "type_label": "Journal article",
-  "title": "Automated Feature Extraction for Testing Deep Learning Systems through Illumination Search",
+  "title": "KLAIM, Certified: Mechanising Flow Logic for Tuple-Space Coordination",
   "authors": [
-   "Tahereh Zohdinasab",
-   "Vincenzo Riccio",
-   "Paolo Tonella"
-  ],
-  "editors": [],
-  "venue": "Software Testing, Verification and Reliability 36(1-2)",
-  "pages": "",
-  "publisher": "Wiley",
-  "year": 2026,
-  "doi": "10.1002/stvr.70019",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/riccio_STVR26.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@article{vr:zohdinasab2026automate,\n  groups = {testing},\n  title = {Automated Feature Extraction for Testing Deep Learning Systems through Illumination Search},\n  volume = {36},\n  doi = {10.1002/stvr.70019},\n  number = {1-2},\n  journal = {Software Testing, Verification and Reliability},\n  publisher = {Wiley},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2026},\n  month = {January},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/riccio_STVR26.pdf}\n}"
- },
- {
-  "key": "clmpm:itasec26",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Automatic Verification of Security Properties in Containerized IoT Applications via Bigraphical Modeling",
-  "authors": [
-   "Cristian Coppo",
-   "Francesco Longo",
-   "Giovanni Merlino",
-   "Antonio Puliafito",
    "Marino Miculan"
   ],
   "editors": [],
-  "venue": "Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026), CEUR Workshop Proceedings 4198",
+  "venue": "Journal of Logical and Algebraic Methods in Programming",
+  "pages": "101179",
+  "publisher": "",
+  "year": 2026,
+  "month": 9,
+  "doi": "10.1016/j.jlamp.2026.101179",
+  "url": "",
+  "pdf": "",
+  "code": "https://zenodo.org/records/22171485",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "choreographies"
+  ],
+  "selected": true,
+  "bibtex": "@Article{m:jlamp26,\n  month = {September},\n  groups = {choreographies},\n\tauthor    = {Miculan, Marino},\n\ttitle     = {{KLAIM}, Certified: Mechanising Flow Logic for Tuple-Space Coordination},\n\tjournal   = {Journal of Logical and Algebraic Methods in Programming},\n\tyear      = {2026},\n\tpages     = {101179},\n\tdoi       = {10.1016/j.jlamp.2026.101179},\n\thtml      = {https://doi.org/10.1016/j.jlamp.2026.101179},\n\tcode      = {https://zenodo.org/records/22171485},\n\tissn      = {2352-2208},\n  selected  = true,\n}"
+ },
+ {
+  "key": "bpm:ictcs26",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Policy Automata for Stateful Authorization",
+  "authors": [
+   "Massimiliano Baldo",
+   "Matteo Paier",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the 27th Italian Conference on Theoretical Computer Science (ICTCS 2026), CEUR Workshop Proceedings 4269",
   "pages": "",
   "publisher": "CEUR-WS.org",
   "year": 2026,
+  "month": 9,
   "doi": "",
-  "url": "https://ceur-ws.org/Vol-4198",
-  "pdf": "https://ceur-ws.org/Vol-4198/paper59.pdf",
+  "url": "https://ceur-ws.org/Vol-4269",
+  "pdf": "https://ceur-ws.org/Vol-4269/paper45.pdf",
   "code": "",
   "note": "",
   "arxiv": "",
@@ -79,27 +77,28 @@
    "cybersecurity"
   ],
   "selected": false,
-  "bibtex": "@inproceedings{clmpm:itasec26,\n  groups = {cybersecurity},\n\tauthor       = {Coppo, Cristian and Longo, Francesco and Merlino, Giovanni and Puliafito, Antonio and Marino Miculan},\n\teditor       = {Davide Maiorca and Pierangela Samarati},\n\ttitle        = {Automatic Verification of Security Properties in Containerized {IoT} Applications via Bigraphical Modeling},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026)},\n\tlocation     = {Cagliari, Italy, February 09-13, 2026},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 4198,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2026,\n\tpdf          = {https://ceur-ws.org/Vol-4198/paper59.pdf},\n\thtml         = {https://ceur-ws.org/Vol-4198}\n}"
+  "bibtex": "@inproceedings{bpm:ictcs26,\n  month = {September},\n  groups = {cybersecurity},\n\tauthor       = {Baldo, Massimiliano and Paier, Matteo and Miculan, Marino},\n\ttitle        = {Policy Automata for Stateful Authorization},\n\tbooktitle    = {Proceedings of the 27th Italian Conference on Theoretical Computer Science (ICTCS 2026)},\n\tlocation     = {Udine, Italy, September 07-09, 2026},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 4269,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2026,\n\tpdf          = {https://ceur-ws.org/Vol-4269/paper45.pdf},\n\thtml         = {https://ceur-ws.org/Vol-4269}\n}"
  },
  {
-  "key": "vr:maryam2026deepnaqq",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "DeepNaqqal: Human-Aligned Automated Validation of Test Inputs for Deep Learning",
+  "key": "vr:maryam2026giftbenc",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "GIFTbench: Generative Image Fuzz Testing Benchmark",
   "authors": [
    "Maryam Maryam",
    "Matteo Biagiola",
-   "Paolo Tonella",
+   "Andrea Stocco",
    "Vincenzo Riccio"
   ],
   "editors": [],
-  "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
-  "pages": "76–87",
-  "publisher": "IEEE",
+  "venue": "Science of Computer Programming 253",
+  "pages": "103502",
+  "publisher": "Elsevier BV",
   "year": 2026,
-  "doi": "10.1109/icst69053.2026.00022",
+  "month": 8,
+  "doi": "10.1016/j.scico.2026.103502",
   "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/DeepNaqqal_ICST2026.pdf",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/scp_giftbench.pdf",
   "code": "",
   "note": "",
   "arxiv": "",
@@ -107,36 +106,7 @@
    "testing"
   ],
   "selected": false,
-  "bibtex": "@inproceedings{vr:maryam2026deepnaqq,\n  groups = {testing},\n  title = {DeepNaqqal: Human-Aligned Automated Validation of Test Inputs for Deep Learning},\n  doi = {10.1109/icst69053.2026.00022},\n  booktitle = {2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)},\n  publisher = {IEEE},\n  author = {Maryam, Maryam and Biagiola, Matteo and Tonella, Paolo and Riccio, Vincenzo},\n  year = {2026},\n  month = {May},\n  pages = {76–87},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/DeepNaqqal_ICST2026.pdf}\n}"
- },
- {
-  "key": "vr:fazzini2026devops",
-  "type": "inbook",
-  "type_label": "Book chapter",
-  "title": "DevOps Testing for Cyber-physical Systems",
-  "authors": [
-   "Mattia Fazzini",
-   "Alessio Gambi",
-   "Vincenzo Riccio",
-   "Annibale Panichella",
-   "Stefan Klikovits"
-  ],
-  "editors": [],
-  "venue": "Roadmap for DevOps in Cyber-Physical Systems",
-  "pages": "45–81",
-  "publisher": "Springer Nature Singapore",
-  "year": 2026,
-  "doi": "10.1007/978-981-95-1786-2_4",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@inbook{vr:fazzini2026devops,\n  groups = {testing},\n  title = {DevOps Testing for Cyber-physical Systems},\n  doi = {10.1007/978-981-95-1786-2_4},\n  booktitle = {Roadmap for DevOps in Cyber-Physical Systems},\n  publisher = {Springer Nature Singapore},\n  author = {Fazzini, Mattia and Gambi, Alessio and Riccio, Vincenzo and Panichella, Annibale and Klikovits, Stefan},\n  year = {2026},\n  pages = {45–81}\n}"
+  "bibtex": "@article{vr:maryam2026giftbenc,\n  groups = {testing},\n  title = {GIFTbench: Generative Image Fuzz Testing Benchmark},\n  volume = {253},\n  doi = {10.1016/j.scico.2026.103502},\n  journal = {Science of Computer Programming},\n  publisher = {Elsevier BV},\n  author = {Maryam, Maryam and Biagiola, Matteo and Stocco, Andrea and Riccio, Vincenzo},\n  year = {2026},\n  month = {August},\n  pages = {103502},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/scp_giftbench.pdf}\n}"
  },
  {
   "key": "vr:klikovits2026does",
@@ -156,6 +126,7 @@
   "pages": "",
   "publisher": "Springer Science and Business Media LLC",
   "year": 2026,
+  "month": 7,
   "doi": "10.1007/s10664-026-10920-5",
   "url": "",
   "pdf": "https://p1ndsvin.github.io/assets/pdf/EMSE2026.pdf",
@@ -167,33 +138,6 @@
   ],
   "selected": false,
   "bibtex": "@article{vr:klikovits2026does,\n  groups = {testing},\n  title = {Does Road Diversity Really Matter in Testing Automated Driving Systems?},\n  volume = {32},\n  doi = {10.1007/s10664-026-10920-5},\n  number = {1},\n  journal = {Empirical Software Engineering},\n  publisher = {Springer Science and Business Media LLC},\n  author = {Klikovits, Stefan and Riccio, Vincenzo and Castellano, Ezequiel and Cetinkaya, Ahmet and Gambi, Alessio and Arcaini, Paolo},\n  year = {2026},\n  month = {July},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/EMSE2026.pdf}\n}"
- },
- {
-  "key": "vr:aquilino2026eaglesemble",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "EagleSemble at the ICST 2026 Tool Competition – Self-Driving Car Testing Track",
-  "authors": [
-   "Cristian Aquilino",
-   "Ettore Ritacco",
-   "Vincenzo Riccio"
-  ],
-  "editors": [],
-  "venue": "IEEE International Conference on Software Testing, Verification and Validation (ICST 2026), Tool Competition",
-  "pages": "",
-  "publisher": "",
-  "year": 2026,
-  "doi": "",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/ICST_SDC_EagleSemble.pdf",
-  "code": "",
-  "note": "2nd place, ICST 2026 Tool Competition",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{vr:aquilino2026eaglesemble,\n  groups = {testing},\n  author = {Cristian Aquilino and Ettore Ritacco and Vincenzo Riccio},\n  title = {EagleSemble at the ICST 2026 Tool Competition -- Self-Driving Car Testing Track},\n  booktitle = {IEEE International Conference on Software Testing, Verification and Validation (ICST 2026), Tool Competition},\n  year = {2026},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/ICST_SDC_EagleSemble.pdf},\n  award = {2nd place, ICST 2026 Tool Competition}\n}"
  },
  {
   "key": "mpp:secrypt26",
@@ -210,6 +154,7 @@
   "pages": "",
   "publisher": "SciTePress",
   "year": 2026,
+  "month": 7,
   "doi": "10.5220/0015189200004103",
   "url": "",
   "pdf": "https://marino.miculan.org/assets/pdf/2026-SECRYPT.pdf",
@@ -220,167 +165,7 @@
    "cybersecurity"
   ],
   "selected": false,
-  "bibtex": "@inproceedings{mpp:secrypt26,\n  groups = {cybersecurity},\n  author       = {Marino Miculan and Matteo Paier and Jacopo Plozner},\n  title        = {Experimental Evaluation of Lightweight Encryption Algorithms on 16-bit Microcontrollers},\n  booktitle    = {Proceedings of the 23rd International Conference on Security and Cryptography - SECRYPT},\n  year         = {2026},\n  publisher    = {SciTePress},\n  organization = {INSTICC},\n  doi          = {10.5220/0015189200004103},\n  html         = {https://doi.org/10.5220/0015189200004103},\n  Pdf          = {https://marino.miculan.org/assets/pdf/2026-SECRYPT.pdf},\n}"
- },
- {
-  "key": "PVM:sosym26",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Formal modelling and verifying eIDAS multi-factor authentication with interface-based threat analysis",
-  "authors": [
-   "Matteo Paier",
-   "Roberto L. G. Van Eeden",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Software and Systems Modeling",
-  "pages": "",
-  "publisher": "",
-  "year": 2026,
-  "doi": "10.1007/s10270-026-01375-9",
-  "url": "",
-  "pdf": "https://link.springer.com/content/pdf/10.1007/s10270-026-01375-9.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity"
-  ],
-  "selected": true,
-  "bibtex": "@Article{PVM:sosym26,\n  groups = {cybersecurity},\n  author    = {Paier, Matteo and Van Eeden, Roberto L. G. and Miculan, Marino},\n  title     = {Formal modelling and verifying {eIDAS} multi-factor authentication with interface-based threat analysis},\n  journal   = {Software and Systems Modeling},\n  year      = {2026},\n  doi       = {10.1007/s10270-026-01375-9},\n  html      = {https://doi.org/10.1007/s10270-026-01375-9},\n  pdf = \"https://link.springer.com/content/pdf/10.1007/s10270-026-01375-9.pdf\",\n  selected = true,\n}"
- },
- {
-  "key": "vr:maryam2026giftbenc",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "GIFTbench: Generative Image Fuzz Testing Benchmark",
-  "authors": [
-   "Maryam Maryam",
-   "Matteo Biagiola",
-   "Andrea Stocco",
-   "Vincenzo Riccio"
-  ],
-  "editors": [],
-  "venue": "Science of Computer Programming 253",
-  "pages": "103502",
-  "publisher": "Elsevier BV",
-  "year": 2026,
-  "doi": "10.1016/j.scico.2026.103502",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/scp_giftbench.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@article{vr:maryam2026giftbenc,\n  groups = {testing},\n  title = {GIFTbench: Generative Image Fuzz Testing Benchmark},\n  volume = {253},\n  doi = {10.1016/j.scico.2026.103502},\n  journal = {Science of Computer Programming},\n  publisher = {Elsevier BV},\n  author = {Maryam, Maryam and Biagiola, Matteo and Stocco, Andrea and Riccio, Vincenzo},\n  year = {2026},\n  month = {August},\n  pages = {103502},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/scp_giftbench.pdf}\n}"
- },
- {
-  "key": "m:jlamp26",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "KLAIM, Certified: Mechanising Flow Logic for Tuple-Space Coordination",
-  "authors": [
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Journal of Logical and Algebraic Methods in Programming",
-  "pages": "101179",
-  "publisher": "",
-  "year": 2026,
-  "doi": "10.1016/j.jlamp.2026.101179",
-  "url": "",
-  "pdf": "",
-  "code": "https://zenodo.org/records/22171485",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "choreographies"
-  ],
-  "selected": true,
-  "bibtex": "@Article{m:jlamp26,\n  groups = {choreographies},\n\tauthor    = {Miculan, Marino},\n\ttitle     = {{KLAIM}, Certified: Mechanising Flow Logic for Tuple-Space Coordination},\n\tjournal   = {Journal of Logical and Algebraic Methods in Programming},\n\tyear      = {2026},\n\tpages     = {101179},\n\tdoi       = {10.1016/j.jlamp.2026.101179},\n\thtml      = {https://doi.org/10.1016/j.jlamp.2026.101179},\n\tcode      = {https://zenodo.org/records/22171485},\n\tissn      = {2352-2208},\n  selected  = true,\n}"
- },
- {
-  "key": "bpm:ictcs26",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Policy Automata for Stateful Authorization",
-  "authors": [
-   "Massimiliano Baldo",
-   "Matteo Paier",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the 27th Italian Conference on Theoretical Computer Science (ICTCS 2026), CEUR Workshop Proceedings 4269",
-  "pages": "",
-  "publisher": "CEUR-WS.org",
-  "year": 2026,
-  "doi": "",
-  "url": "https://ceur-ws.org/Vol-4269",
-  "pdf": "https://ceur-ws.org/Vol-4269/paper45.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{bpm:ictcs26,\n  groups = {cybersecurity},\n\tauthor       = {Baldo, Massimiliano and Paier, Matteo and Miculan, Marino},\n\ttitle        = {Policy Automata for Stateful Authorization},\n\tbooktitle    = {Proceedings of the 27th Italian Conference on Theoretical Computer Science (ICTCS 2026)},\n\tlocation     = {Udine, Italy, September 07-09, 2026},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 4269,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2026,\n\tpdf          = {https://ceur-ws.org/Vol-4269/paper45.pdf},\n\thtml         = {https://ceur-ws.org/Vol-4269}\n}"
- },
- {
-  "key": "m:isola26",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Reliable Decision Loops in Socio-Technical Collective Adaptive Systems",
-  "authors": [
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Leveraging Applications of Formal Methods, Verification and Validation. Rigorous Engineering of Collective Adaptive Systems (ISoLA 2026), Lecture Notes in Computer Science 17141",
-  "pages": "71–88",
-  "publisher": "Springer",
-  "year": 2026,
-  "doi": "10.1007/978-3-032-40108-3_5",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "choreographies"
-  ],
-  "selected": false,
-  "bibtex": "@InProceedings{m:isola26,\n  groups = {choreographies},\n\tauthor    = {Miculan, Marino},\n\teditor    = {Margaria, Tiziana and Steffen, Bernhard},\n\ttitle     = {Reliable Decision Loops in Socio-Technical Collective Adaptive Systems},\n\tbooktitle = {Leveraging Applications of Formal Methods, Verification and Validation. Rigorous Engineering of Collective Adaptive Systems (ISoLA 2026)},\n\tseries    = {Lecture Notes in Computer Science},\n\tvolume    = {17141},\n\tpublisher = {Springer},\n\tyear      = {2026},\n\tpages     = {71--88},\n\tdoi       = {10.1007/978-3-032-40108-3_5}\n}"
- },
- {
-  "key": "efmd:itasec26",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "SA-SOINN: A Self-Adaptive Neural Network for Continuous Intrusion Detection in Dynamic Environments",
-  "authors": [
-   "Dennis Glenn Ejeh",
-   "Gian Luca Foresti",
-   "Marino Miculan",
-   "Axel De Nardin"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026), CEUR Workshop Proceedings 4198",
-  "pages": "",
-  "publisher": "CEUR-WS.org",
-  "year": 2026,
-  "doi": "",
-  "url": "https://ceur-ws.org/Vol-4198",
-  "pdf": "https://ceur-ws.org/Vol-4198/paper2.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{efmd:itasec26,\n  groups = {cybersecurity},\n\tauthor       = {Ejeh, Dennis Glenn and Foresti, Gian Luca and Marino Miculan and De Nardin, Axel},\n\teditor       = {Davide Maiorca and Pierangela Samarati},\n\ttitle        = {{SA-SOINN}: A Self-Adaptive Neural Network for Continuous Intrusion Detection in Dynamic Environments},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026)},\n\tlocation     = {Cagliari, Italy, February 09-13, 2026},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 4198,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2026,\n\tpdf          = {https://ceur-ws.org/Vol-4198/paper2.pdf},\n\thtml         = {https://ceur-ws.org/Vol-4198}\n}"
+  "bibtex": "@inproceedings{mpp:secrypt26,\n  month = {July},\n  groups = {cybersecurity},\n  author       = {Marino Miculan and Matteo Paier and Jacopo Plozner},\n  title        = {Experimental Evaluation of Lightweight Encryption Algorithms on 16-bit Microcontrollers},\n  booktitle    = {Proceedings of the 23rd International Conference on Security and Cryptography - SECRYPT},\n  year         = {2026},\n  publisher    = {SciTePress},\n  organization = {INSTICC},\n  doi          = {10.5220/0015189200004103},\n  html         = {https://doi.org/10.5220/0015189200004103},\n  Pdf          = {https://marino.miculan.org/assets/pdf/2026-SECRYPT.pdf},\n}"
  },
  {
   "key": "lpmr:smr26",
@@ -398,6 +183,7 @@
   "pages": "e70159",
   "publisher": "",
   "year": 2026,
+  "month": 7,
   "doi": "10.1002/smr.70159",
   "url": "",
   "pdf": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/smr.70159",
@@ -408,7 +194,7 @@
    "cybersecurity"
   ],
   "selected": false,
-  "bibtex": "@Article{lpmr:smr26,\n  groups = {cybersecurity},\n  author    = {Lizzit, Michele and Pinzauti, Francesco and Miculan, Marino and Riccio, Vincenzo},\n  title     = {Security Assessment of Private Package Repositories: An Experience on {Acc-Py} at {CERN}},\n  journal   = {Journal of Software: Evolution and Process},\n  year      = {2026},\n  volume    = {38},\n  number    = {8},\n  pages     = {e70159},\n  doi       = {10.1002/smr.70159},\n  html      = {https://doi.org/10.1002/smr.70159},\n  pdf       = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/smr.70159},\n  issn      = {2047-7473},\n}"
+  "bibtex": "@Article{lpmr:smr26,\n  month = {July},\n  groups = {cybersecurity},\n  author    = {Lizzit, Michele and Pinzauti, Francesco and Miculan, Marino and Riccio, Vincenzo},\n  title     = {Security Assessment of Private Package Repositories: An Experience on {Acc-Py} at {CERN}},\n  journal   = {Journal of Software: Evolution and Process},\n  year      = {2026},\n  volume    = {38},\n  number    = {8},\n  pages     = {e70159},\n  doi       = {10.1002/smr.70159},\n  html      = {https://doi.org/10.1002/smr.70159},\n  pdf       = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/smr.70159},\n  issn      = {2047-7473},\n}"
  },
  {
   "key": "bdpm:sacmat26",
@@ -426,6 +212,7 @@
   "pages": "205–216",
   "publisher": "Association for Computing Machinery",
   "year": 2026,
+  "month": 7,
   "doi": "10.1145/3750555.3811892",
   "url": "",
   "pdf": "https://marino.miculan.org/assets/pdf/2026-SACMAT.pdf",
@@ -457,6 +244,7 @@
   "pages": "1–31",
   "publisher": "Association for Computing Machinery (ACM)",
   "year": 2026,
+  "month": 6,
   "doi": "10.1145/3771557",
   "url": "",
   "pdf": "https://p1ndsvin.github.io/assets/pdf/weissl_tosem2026_.pdf",
@@ -468,6 +256,177 @@
   ],
   "selected": false,
   "bibtex": "@article{vr:weil2026targeted,\n  groups = {testing},\n  title = {Targeted Deep Learning System Boundary Testing},\n  volume = {35},\n  doi = {10.1145/3771557},\n  number = {7},\n  journal = {ACM Transactions on Software Engineering and Methodology},\n  publisher = {Association for Computing Machinery (ACM)},\n  author = {Weißl, Oliver and Abdellatif, Amr and Chen, Xingcheng and Merabishvili, Giorgi and Riccio, Vincenzo and Kacianka, Severin and Stocco, Andrea},\n  year = {2026},\n  month = {June},\n  pages = {1–31},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/weissl_tosem2026_.pdf}\n}"
+ },
+ {
+  "key": "vr:maryam2026deepnaqq",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "DeepNaqqal: Human-Aligned Automated Validation of Test Inputs for Deep Learning",
+  "authors": [
+   "Maryam Maryam",
+   "Matteo Biagiola",
+   "Paolo Tonella",
+   "Vincenzo Riccio"
+  ],
+  "editors": [],
+  "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+  "pages": "76–87",
+  "publisher": "IEEE",
+  "year": 2026,
+  "month": 5,
+  "doi": "10.1109/icst69053.2026.00022",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/DeepNaqqal_ICST2026.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{vr:maryam2026deepnaqq,\n  groups = {testing},\n  title = {DeepNaqqal: Human-Aligned Automated Validation of Test Inputs for Deep Learning},\n  doi = {10.1109/icst69053.2026.00022},\n  booktitle = {2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)},\n  publisher = {IEEE},\n  author = {Maryam, Maryam and Biagiola, Matteo and Tonella, Paolo and Riccio, Vincenzo},\n  year = {2026},\n  month = {May},\n  pages = {76–87},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/DeepNaqqal_ICST2026.pdf}\n}"
+ },
+ {
+  "key": "vr:aquilino2026eaglesemble",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "EagleSemble at the ICST 2026 Tool Competition – Self-Driving Car Testing Track",
+  "authors": [
+   "Cristian Aquilino",
+   "Ettore Ritacco",
+   "Vincenzo Riccio"
+  ],
+  "editors": [],
+  "venue": "IEEE International Conference on Software Testing, Verification and Validation (ICST 2026), Tool Competition",
+  "pages": "",
+  "publisher": "",
+  "year": 2026,
+  "month": 5,
+  "doi": "",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/ICST_SDC_EagleSemble.pdf",
+  "code": "",
+  "note": "2nd place, ICST 2026 Tool Competition",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{vr:aquilino2026eaglesemble,\n  month = {May},\n  groups = {testing},\n  author = {Cristian Aquilino and Ettore Ritacco and Vincenzo Riccio},\n  title = {EagleSemble at the ICST 2026 Tool Competition -- Self-Driving Car Testing Track},\n  booktitle = {IEEE International Conference on Software Testing, Verification and Validation (ICST 2026), Tool Competition},\n  year = {2026},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/ICST_SDC_EagleSemble.pdf},\n  award = {2nd place, ICST 2026 Tool Competition}\n}"
+ },
+ {
+  "key": "PVM:sosym26",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Formal modelling and verifying eIDAS multi-factor authentication with interface-based threat analysis",
+  "authors": [
+   "Matteo Paier",
+   "Roberto L. G. Van Eeden",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Software and Systems Modeling",
+  "pages": "",
+  "publisher": "",
+  "year": 2026,
+  "month": 5,
+  "doi": "10.1007/s10270-026-01375-9",
+  "url": "",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/s10270-026-01375-9.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity"
+  ],
+  "selected": true,
+  "bibtex": "@Article{PVM:sosym26,\n  month = {May},\n  groups = {cybersecurity},\n  author    = {Paier, Matteo and Van Eeden, Roberto L. G. and Miculan, Marino},\n  title     = {Formal modelling and verifying {eIDAS} multi-factor authentication with interface-based threat analysis},\n  journal   = {Software and Systems Modeling},\n  year      = {2026},\n  doi       = {10.1007/s10270-026-01375-9},\n  html      = {https://doi.org/10.1007/s10270-026-01375-9},\n  pdf = \"https://link.springer.com/content/pdf/10.1007/s10270-026-01375-9.pdf\",\n  selected = true,\n}"
+ },
+ {
+  "key": "clmpm:itasec26",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Automatic Verification of Security Properties in Containerized IoT Applications via Bigraphical Modeling",
+  "authors": [
+   "Cristian Coppo",
+   "Francesco Longo",
+   "Giovanni Merlino",
+   "Antonio Puliafito",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026), CEUR Workshop Proceedings 4198",
+  "pages": "",
+  "publisher": "CEUR-WS.org",
+  "year": 2026,
+  "month": 4,
+  "doi": "",
+  "url": "https://ceur-ws.org/Vol-4198",
+  "pdf": "https://ceur-ws.org/Vol-4198/paper59.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{clmpm:itasec26,\n  month = {April},\n  groups = {cybersecurity},\n\tauthor       = {Coppo, Cristian and Longo, Francesco and Merlino, Giovanni and Puliafito, Antonio and Marino Miculan},\n\teditor       = {Davide Maiorca and Pierangela Samarati},\n\ttitle        = {Automatic Verification of Security Properties in Containerized {IoT} Applications via Bigraphical Modeling},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026)},\n\tlocation     = {Cagliari, Italy, February 09-13, 2026},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 4198,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2026,\n\tpdf          = {https://ceur-ws.org/Vol-4198/paper59.pdf},\n\thtml         = {https://ceur-ws.org/Vol-4198}\n}"
+ },
+ {
+  "key": "efmd:itasec26",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "SA-SOINN: A Self-Adaptive Neural Network for Continuous Intrusion Detection in Dynamic Environments",
+  "authors": [
+   "Dennis Glenn Ejeh",
+   "Gian Luca Foresti",
+   "Marino Miculan",
+   "Axel De Nardin"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026), CEUR Workshop Proceedings 4198",
+  "pages": "",
+  "publisher": "CEUR-WS.org",
+  "year": 2026,
+  "month": 4,
+  "doi": "",
+  "url": "https://ceur-ws.org/Vol-4198",
+  "pdf": "https://ceur-ws.org/Vol-4198/paper2.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{efmd:itasec26,\n  month = {April},\n  groups = {cybersecurity},\n\tauthor       = {Ejeh, Dennis Glenn and Foresti, Gian Luca and Marino Miculan and De Nardin, Axel},\n\teditor       = {Davide Maiorca and Pierangela Samarati},\n\ttitle        = {{SA-SOINN}: A Self-Adaptive Neural Network for Continuous Intrusion Detection in Dynamic Environments},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2026)},\n\tlocation     = {Cagliari, Italy, February 09-13, 2026},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 4198,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2026,\n\tpdf          = {https://ceur-ws.org/Vol-4198/paper2.pdf},\n\thtml         = {https://ceur-ws.org/Vol-4198}\n}"
+ },
+ {
+  "key": "PM:sttt26",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Attribute-based memory updates with priorities for collective adaptive systems",
+  "authors": [
+   "Michele Pasqua",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "International Journal on Software Tools for Technology Transfer",
+  "pages": "",
+  "publisher": "",
+  "year": 2026,
+  "month": 3,
+  "doi": "10.1007/s10009-026-00856-y",
+  "url": "",
+  "pdf": "https://rdcu.be/fdYwk",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "choreographies"
+  ],
+  "selected": false,
+  "bibtex": "@Article{PM:sttt26,\n  month = {March},\n  groups = {choreographies},\n  author    = {Pasqua, Michele and Miculan, Marino},\n  title     = {Attribute-based memory updates with priorities for collective adaptive systems},\n  journal   = {International Journal on Software Tools for Technology Transfer},\n  year      = {2026},\n  doi       = {10.1007/s10009-026-00856-y},\n  html      = {https://doi.org/10.1007/s10009-026-00856-y},\n  pdf = \"https://rdcu.be/fdYwk\"\n}"
  },
  {
   "key": "vr:chen2026xmutant",
@@ -486,6 +445,7 @@
   "pages": "",
   "publisher": "Springer Science and Business Media LLC",
   "year": 2026,
+  "month": 3,
   "doi": "10.1007/s10664-025-10792-1",
   "url": "",
   "pdf": "https://p1ndsvin.github.io/assets/pdf/xmutant.pdf",
@@ -497,6 +457,92 @@
   ],
   "selected": false,
   "bibtex": "@article{vr:chen2026xmutant,\n  groups = {testing},\n  title = {XMutant: XAI-based Fuzzing for Deep Learning Systems},\n  volume = {31},\n  doi = {10.1007/s10664-025-10792-1},\n  number = {4},\n  journal = {Empirical Software Engineering},\n  publisher = {Springer Science and Business Media LLC},\n  author = {Chen, Xingcheng and Biagiola, Matteo and Riccio, Vincenzo and d’Amorim, Marcelo and Stocco, Andrea},\n  year = {2026},\n  month = {March},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/xmutant.pdf}\n}"
+ },
+ {
+  "key": "vr:fazzini2026devops",
+  "type": "inbook",
+  "type_label": "Book chapter",
+  "title": "DevOps Testing for Cyber-physical Systems",
+  "authors": [
+   "Mattia Fazzini",
+   "Alessio Gambi",
+   "Vincenzo Riccio",
+   "Annibale Panichella",
+   "Stefan Klikovits"
+  ],
+  "editors": [],
+  "venue": "Roadmap for DevOps in Cyber-Physical Systems",
+  "pages": "45–81",
+  "publisher": "Springer Nature Singapore",
+  "year": 2026,
+  "month": 2,
+  "doi": "10.1007/978-981-95-1786-2_4",
+  "url": "",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@inbook{vr:fazzini2026devops,\n  month = {February},\n  groups = {testing},\n  title = {DevOps Testing for Cyber-physical Systems},\n  doi = {10.1007/978-981-95-1786-2_4},\n  booktitle = {Roadmap for DevOps in Cyber-Physical Systems},\n  publisher = {Springer Nature Singapore},\n  author = {Fazzini, Mattia and Gambi, Alessio and Riccio, Vincenzo and Panichella, Annibale and Klikovits, Stefan},\n  year = {2026},\n  pages = {45–81}\n}"
+ },
+ {
+  "key": "vr:zohdinasab2026automate",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Automated Feature Extraction for Testing Deep Learning Systems through Illumination Search",
+  "authors": [
+   "Tahereh Zohdinasab",
+   "Vincenzo Riccio",
+   "Paolo Tonella"
+  ],
+  "editors": [],
+  "venue": "Software Testing, Verification and Reliability 36(1-2)",
+  "pages": "",
+  "publisher": "Wiley",
+  "year": 2026,
+  "month": 1,
+  "doi": "10.1002/stvr.70019",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/riccio_STVR26.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@article{vr:zohdinasab2026automate,\n  groups = {testing},\n  title = {Automated Feature Extraction for Testing Deep Learning Systems through Illumination Search},\n  volume = {36},\n  doi = {10.1002/stvr.70019},\n  number = {1-2},\n  journal = {Software Testing, Verification and Reliability},\n  publisher = {Wiley},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2026},\n  month = {January},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/riccio_STVR26.pdf}\n}"
+ },
+ {
+  "key": "cgm:forte25",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Attribute-Based Communication over Pub/Sub: Transactional Coordination for Smart Systems",
+  "authors": [
+   "Marco Comini",
+   "Luca Gemolotto",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "45th IFIP International Conference on Formal Techniques for Distributed Objects, Components, and Systems, FORTE 2025, Lecture Notes in Computer Science 15732",
+  "pages": "96–113",
+  "publisher": "Springer",
+  "year": 2025,
+  "month": 6,
+  "doi": "10.1007/978-3-031-95497-9_6",
+  "url": "",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "choreographies"
+  ],
+  "selected": false,
+  "bibtex": "@InProceedings{cgm:forte25,\n  month = {June},\n  groups = {choreographies},\nauthor=\"Comini, Marco and Gemolotto, Luca and Miculan, Marino\",\neditor=\"Ferreira, Carla and Mezzina, Claudio Antares\",\ntitle=\"Attribute-Based Communication over Pub/Sub: Transactional Coordination for Smart Systems\",\nbooktitle=\"45th IFIP International Conference on Formal Techniques for Distributed Objects, Components, and Systems, {FORTE 2025}\",\nyear=\"2025\",\nseries=\"Lecture Notes in Computer Science\",\nvolume=\"15732\",\npublisher=\"Springer\",\npages=\"96--113\",\ndoi=\"10.1007/978-3-031-95497-9_6\",\nhtml=\"https://link.springer.com/chapter/10.1007/978-3-031-95497-9_6\",\nisbn=\"978-3-031-95497-9\"\n}"
  },
  {
   "key": "vr:valle2025an",
@@ -515,6 +561,7 @@
   "pages": "",
   "publisher": "Springer Science and Business Media LLC",
   "year": 2025,
+  "month": 5,
   "doi": "10.1007/s10664-025-10670-w",
   "url": "",
   "pdf": "https://p1ndsvin.github.io/assets/pdf/EMSE_LIFTJANUS.pdf",
@@ -526,33 +573,6 @@
   ],
   "selected": false,
   "bibtex": "@article{vr:valle2025an,\n  groups = {testing},\n  title = {An Industrial Experience Report on Applying Search-based Boundary Input Generation to Cyber-Physical Systems},\n  volume = {30},\n  doi = {10.1007/s10664-025-10670-w},\n  number = {4},\n  journal = {Empirical Software Engineering},\n  publisher = {Springer Science and Business Media LLC},\n  author = {Valle, Pablo and Riccio, Vincenzo and Arrieta, Aitor and Tonella, Paolo and Arratibel, Maite},\n  year = {2025},\n  month = {May},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/EMSE_LIFTJANUS.pdf}\n}"
- },
- {
-  "key": "cgm:forte25",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Attribute-Based Communication over Pub/Sub: Transactional Coordination for Smart Systems",
-  "authors": [
-   "Marco Comini",
-   "Luca Gemolotto",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "45th IFIP International Conference on Formal Techniques for Distributed Objects, Components, and Systems, FORTE 2025, Lecture Notes in Computer Science 15732",
-  "pages": "96–113",
-  "publisher": "Springer",
-  "year": 2025,
-  "doi": "10.1007/978-3-031-95497-9_6",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "choreographies"
-  ],
-  "selected": false,
-  "bibtex": "@InProceedings{cgm:forte25,\n  groups = {choreographies},\nauthor=\"Comini, Marco and Gemolotto, Luca and Miculan, Marino\",\neditor=\"Ferreira, Carla and Mezzina, Claudio Antares\",\ntitle=\"Attribute-Based Communication over Pub/Sub: Transactional Coordination for Smart Systems\",\nbooktitle=\"45th IFIP International Conference on Formal Techniques for Distributed Objects, Components, and Systems, {FORTE 2025}\",\nyear=\"2025\",\nseries=\"Lecture Notes in Computer Science\",\nvolume=\"15732\",\npublisher=\"Springer\",\npages=\"96--113\",\ndoi=\"10.1007/978-3-031-95497-9_6\",\nhtml=\"https://link.springer.com/chapter/10.1007/978-3-031-95497-9_6\",\nisbn=\"978-3-031-95497-9\"\n}"
  },
  {
   "key": "vr:maryam2025benchmar",
@@ -570,6 +590,7 @@
   "pages": "174–185",
   "publisher": "IEEE",
   "year": 2025,
+  "month": 3,
   "doi": "10.1109/icst62969.2025.10989043",
   "url": "",
   "pdf": "https://p1ndsvin.github.io/assets/pdf/ICST2025.pdf",
@@ -596,6 +617,7 @@
   "pages": "",
   "publisher": "",
   "year": 2025,
+  "month": 3,
   "doi": "10.46298/lmcs-21(1:22)2025",
   "url": "https://lmcs.episciences.org/12930",
   "pdf": "https://lmcs.episciences.org/15333/pdf",
@@ -604,7 +626,7 @@
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@article{lmcs:12930,\n    title      = {On the Axioms of 𝓜,𝓝-Adhesive Categories},\n    author     = {Davide Castelnovo and Marino Miculan},\n    html       = {https://lmcs.episciences.org/12930},\n    pdf        = {https://lmcs.episciences.org/15333/pdf},\n    doi        = {10.46298/lmcs-21(1:22)2025},\n    journal    = {Logical Methods in Computer Science},\n    issn       = {1860-5974},\n    volume     = 21,\n    Issue      = 1,\n    eid        = 22,\n    year       = 2025,\n    keywords   = {Computer Science - Logic in Computer Science, Mathematics - Category Theory},\n}"
+  "bibtex": "@article{lmcs:12930,\n  month = {March},\n    title      = {On the Axioms of 𝓜,𝓝-Adhesive Categories},\n    author     = {Davide Castelnovo and Marino Miculan},\n    html       = {https://lmcs.episciences.org/12930},\n    pdf        = {https://lmcs.episciences.org/15333/pdf},\n    doi        = {10.46298/lmcs-21(1:22)2025},\n    journal    = {Logical Methods in Computer Science},\n    issn       = {1860-5974},\n    volume     = 21,\n    Issue      = 1,\n    eid        = 22,\n    year       = 2025,\n    keywords   = {Computer Science - Logic in Computer Science, Mathematics - Category Theory},\n}"
  },
  {
   "key": "bimpr:itasec25",
@@ -623,6 +645,7 @@
   "pages": "",
   "publisher": "CEUR-WS.org",
   "year": 2025,
+  "month": 2,
   "doi": "",
   "url": "https://ceur-ws.org/Vol-3962",
   "pdf": "https://ceur-ws.org/Vol-3962/paper49.pdf",
@@ -633,7 +656,7 @@
    "cybersecurity"
   ],
   "selected": false,
-  "bibtex": "@inproceedings{bimpr:itasec25,\n  groups = {cybersecurity},\n\tauthor       = {Massimiliano Baldo and Ion, Fabio Ionut and Marino Miculan and Matteo Paier and Vincenzo Riccio},\n\teditor       = {Gabriele Costa and Rebecca Montanari and Michele Carminati and Giada Sciarretta},\n\ttitle        = {OWSM: Empowering Rego for Stateful Access Control},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2025)},\n\tlocation     = {Bologna, Italy, February 3-8, 2025},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 3962,\n  publisher    = {CEUR-WS.org},\n\tyear         = 2025,\n\tpdf          = {https://ceur-ws.org/Vol-3962/paper49.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3962}\n}"
+  "bibtex": "@inproceedings{bimpr:itasec25,\n  month = {February},\n  groups = {cybersecurity},\n\tauthor       = {Massimiliano Baldo and Ion, Fabio Ionut and Marino Miculan and Matteo Paier and Vincenzo Riccio},\n\teditor       = {Gabriele Costa and Rebecca Montanari and Michele Carminati and Giada Sciarretta},\n\ttitle        = {OWSM: Empowering Rego for Stateful Access Control},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2025)},\n\tlocation     = {Bologna, Italy, February 3-8, 2025},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 3962,\n  publisher    = {CEUR-WS.org},\n\tyear         = 2025,\n\tpdf          = {https://ceur-ws.org/Vol-3962/paper49.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3962}\n}"
  },
  {
   "key": "gfmd:itasec25",
@@ -651,6 +674,7 @@
   "pages": "",
   "publisher": "CEUR-WS.org",
   "year": 2025,
+  "month": 2,
   "doi": "",
   "url": "https://ceur-ws.org/Vol-3962",
   "pdf": "https://ceur-ws.org/Vol-3962/paper45.pdf",
@@ -661,164 +685,7 @@
    "cybersecurity"
   ],
   "selected": false,
-  "bibtex": "@inproceedings{gfmd:itasec25,\n  groups = {cybersecurity},\n\tauthor       = {Ejeh, Dennis Glenn and Foresti, Gian Luca and Marino Miculan and De Nardin, Axel},\n\teditor       = {Gabriele Costa and Rebecca Montanari and Michele Carminati and Giada Sciarretta},\n\ttitle        = {Real-Time Anomaly Detection in Docker Containers: A Continuous Learning Approach Using {SF-SOINN}},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2025)},\n\tlocation     = {Bologna, Italy, February 3-8, 2025},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 3962,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2025,\n\tpdf          = {https://ceur-ws.org/Vol-3962/paper45.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3962}\n}"
- },
- {
-  "key": "DBLP:conf/lics/GianantonioE24",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "A Cartesian Closed Category for Random Variables",
-  "authors": [
-   "Pietro Di Gianantonio",
-   "Abbas Edalat"
-  ],
-  "editors": [],
-  "venue": "LICS",
-  "pages": "32:1–32:14",
-  "publisher": "ACM",
-  "year": 2024,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@inproceedings{DBLP:conf/lics/GianantonioE24,\nauthor = {Pietro Di Gianantonio and\nAbbas Edalat},\ntitle = {A Cartesian Closed Category for Random Variables},\nbooktitle = {{LICS}},\npages = {32:1--32:14},\npublisher = {{ACM}},\nyear = {2024}\n}"
- },
- {
-  "key": "vepm:secrypt24",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "A Formal Analysis of CIE Level 2 Multi-Factor Authentication via SMS OTP",
-  "authors": [
-   "Roberto Van Eeden",
-   "Matteo Paier",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the 21st International Conference on Security and Cryptography - SECRYPT",
-  "pages": "483-491",
-  "publisher": "SciTePress",
-  "year": 2024,
-  "doi": "10.5220/0012768300003767",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{vepm:secrypt24,\n  groups = {cybersecurity},\nauthor={Van Eeden, Roberto and Matteo Paier and Marino Miculan},\ntitle={A Formal Analysis of {CIE} Level 2 Multi-Factor Authentication via {SMS OTP}},\nbooktitle={Proceedings of the 21st International Conference on Security and Cryptography - SECRYPT},\nyear={2024},\npages={483-491},\npublisher={SciTePress},\norganization={INSTICC},\ndoi={10.5220/0012768300003767},\nhtml = {https://doi.org/10.5220/0012768300003767},\nisbn={978-989-758-709-2},\nissn={2184-7711},\n}"
- },
- {
-  "key": "CASTELNOVO2024114280",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "A simple criterion for 𝓜,𝓝-adhesivity",
-  "authors": [
-   "Davide Castelnovo",
-   "Fabio Gadducci",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Theoretical Computer Science 982",
-  "pages": "114280",
-  "publisher": "",
-  "year": 2024,
-  "doi": "10.1016/j.tcs.2023.114280",
-  "url": "https://www.sciencedirect.com/science/article/pii/S0304397523005935",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@article{CASTELNOVO2024114280,\ntitle = {A simple criterion for 𝓜,𝓝-adhesivity},\njournal = {Theoretical Computer Science},\nvolume = {982},\npages = {114280},\nyear = {2024},\nissn = {0304-3975},\ndoi = {10.1016/j.tcs.2023.114280},\nhtml = {https://www.sciencedirect.com/science/article/pii/S0304397523005935},\nauthor = {Davide Castelnovo and Fabio Gadducci and Marino Miculan},\nselected=false\n}"
- },
- {
-  "key": "PASQUA2024114537",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Behavioral equivalences for AbU: Verifying security and safety in distributed IoT systems",
-  "authors": [
-   "Michele Pasqua",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Theoretical Computer Science 998",
-  "pages": "114537",
-  "publisher": "",
-  "year": 2024,
-  "doi": "10.1016/j.tcs.2024.114537",
-  "url": "https://www.sciencedirect.com/science/article/pii/S030439752400152X",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity",
-   "choreographies"
-  ],
-  "selected": false,
-  "bibtex": "@article{PASQUA2024114537,\n  groups = {cybersecurity, choreographies},\ntitle = {Behavioral equivalences for {AbU}: Verifying security and safety in distributed IoT systems},\njournal = {Theoretical Computer Science},\nvolume = {998},\npages = {114537},\nyear = {2024},\nissn = {0304-3975},\ndoi = {10.1016/j.tcs.2024.114537},\nhtml = {https://www.sciencedirect.com/science/article/pii/S030439752400152X},\nauthor = {Michele Pasqua and Marino Miculan},\nkeywords = {ECA rules, IoT programming, Distributed systems, Bisimulations, Formal methods, Autonomic computing, Verification},\nselected=false\n}"
- },
- {
-  "key": "tpm:itasec24",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "ECC’s Achilles’ Heel: Unveiling Weak Keys in Standardized Curves",
-  "authors": [
-   "Enrico Talotti",
-   "Matteo Paier",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the 8th Italian Conference on Cyber Security (ITASEC 2024), CEUR Workshop Proceedings 3731",
-  "pages": "",
-  "publisher": "CEUR-WS.org",
-  "year": 2024,
-  "doi": "",
-  "url": "https://ceur-ws.org/Vol-3731",
-  "pdf": "https://ceur-ws.org/Vol-3488/paper09.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{tpm:itasec24,\n  groups = {cybersecurity},\n\tauthor       = {Enrico Talotti and Matteo Paier and Marino Miculan},\n  editor       = {Gianni D'Angelo and\n                  Flaminia Luccio and\n                  Francesco Palmieri},\n\ttitle        = {{ECC}’s {Achilles}’ Heel: Unveiling Weak Keys in Standardized Curves},\n  booktitle    = {Proceedings of the 8th Italian Conference on Cyber Security ({ITASEC} 2024)},\n  location     = {Salerno, Italy, April 8-12, 2024},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = 3731,\n  publisher    = {CEUR-WS.org},\n  year         = 2024,\n\tpdf          = {https://ceur-ws.org/Vol-3488/paper09.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3731}\n}"
- },
- {
-  "key": "vr:zohdinasab2024focused",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Focused Test Generation for Autonomous Driving Systems",
-  "authors": [
-   "Tahereh Zohdinasab",
-   "Vincenzo Riccio",
-   "Paolo Tonella"
-  ],
-  "editors": [],
-  "venue": "ACM Transactions on Software Engineering and Methodology 33(6)",
-  "pages": "1–32",
-  "publisher": "Association for Computing Machinery (ACM)",
-  "year": 2024,
-  "doi": "10.1145/3664605",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/TOSEM2024.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@article{vr:zohdinasab2024focused,\n  groups = {testing},\n  title = {Focused Test Generation for Autonomous Driving Systems},\n  volume = {33},\n  doi = {10.1145/3664605},\n  number = {6},\n  journal = {ACM Transactions on Software Engineering and Methodology},\n  publisher = {Association for Computing Machinery (ACM)},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2024},\n  month = {June},\n  pages = {1–32},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/TOSEM2024.pdf}\n}"
+  "bibtex": "@inproceedings{gfmd:itasec25,\n  month = {February},\n  groups = {cybersecurity},\n\tauthor       = {Ejeh, Dennis Glenn and Foresti, Gian Luca and Marino Miculan and De Nardin, Axel},\n\teditor       = {Gabriele Costa and Rebecca Montanari and Michele Carminati and Giada Sciarretta},\n\ttitle        = {Real-Time Anomaly Detection in Docker Containers: A Continuous Learning Approach Using {SF-SOINN}},\n\tbooktitle    = {Proceedings of the Joint National Conference on Cybersecurity (ITASEC & SERICS 2025)},\n\tlocation     = {Bologna, Italy, February 3-8, 2025},\n\tseries       = {{CEUR} Workshop Proceedings},\n\tvolume       = 3962,\n\tpublisher    = {CEUR-WS.org},\n\tyear         = 2025,\n\tpdf          = {https://ceur-ws.org/Vol-3962/paper45.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3962}\n}"
  },
  {
   "key": "pvem:sefm24",
@@ -835,6 +702,7 @@
   "pages": "423–440",
   "publisher": "Springer",
   "year": 2024,
+  "month": 11,
   "doi": "10.1007/978-3-031-77382-2_24",
   "url": "",
   "pdf": "",
@@ -845,7 +713,255 @@
    "cybersecurity"
   ],
   "selected": false,
-  "bibtex": "@InProceedings{pvem:sefm24,\n  groups = {cybersecurity},\nauthor=\"Paier, Matteo\nand Van Eeden, Roberto\nand Miculan, Marino\",\neditor=\"Madeira, Alexandre\nand Knapp, Alexander\",\ntitle=\"Formal Analysis of Multi-Factor Authentication Schemes in Digital Identity Cards\",\nbooktitle=\"International Conference on Software Engineering and Formal Methods, SEFM 2024\",\nyear=\"2024\",\npublisher=\"Springer\",\npages=\"423--440\",\nisbn=\"978-3-031-77382-2\",\ndoi=\"10.1007/978-3-031-77382-2_24\",\nhtml=\"https://link.springer.com/chapter/10.1007/978-3-031-77382-2_24\",\nnote=\"Best Paper Award\",\n}"
+  "bibtex": "@InProceedings{pvem:sefm24,\n  month = {November},\n  groups = {cybersecurity},\nauthor=\"Paier, Matteo\nand Van Eeden, Roberto\nand Miculan, Marino\",\neditor=\"Madeira, Alexandre\nand Knapp, Alexander\",\ntitle=\"Formal Analysis of Multi-Factor Authentication Schemes in Digital Identity Cards\",\nbooktitle=\"International Conference on Software Engineering and Formal Methods, SEFM 2024\",\nyear=\"2024\",\npublisher=\"Springer\",\npages=\"423--440\",\nisbn=\"978-3-031-77382-2\",\ndoi=\"10.1007/978-3-031-77382-2_24\",\nhtml=\"https://link.springer.com/chapter/10.1007/978-3-031-77382-2_24\",\nnote=\"Best Paper Award\",\n}"
+ },
+ {
+  "key": "pm:isola24",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Local Reasoning and Attribute-Based Memory Updates for Enforcing Global Invariants in Collective Adaptive Systems",
+  "authors": [
+   "Michele Pasqua",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "12th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2024",
+  "pages": "351–367",
+  "publisher": "Springer",
+  "year": 2024,
+  "month": 10,
+  "doi": "10.1007/978-3-031-75107-3_21",
+  "url": "",
+  "pdf": "https://marino.miculan.org/assets/pdf/2024-ISOLA.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "choreographies"
+  ],
+  "selected": false,
+  "bibtex": "@InProceedings{pm:isola24,\n  month = {October},\n  groups = {choreographies},\nauthor=\"Pasqua, Michele and Miculan, Marino\",\neditor=\"Margaria, Tiziana and Steffen, Bernhard\",\ntitle=\"Local Reasoning and Attribute-Based Memory Updates for Enforcing Global Invariants in Collective Adaptive Systems\",\nbooktitle=\"12th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2024\",\nyear=\"2024\",\npublisher=\"Springer\",\npages=\"351--367\",\nisbn=\"978-3-031-75107-3\",\ndoi=\"10.1007/978-3-031-75107-3_21\",\nhtml=\"https://doi.org/10.1007/978-3-031-75107-3_21\",\npdf=\"https://marino.miculan.org/assets/pdf/2024-ISOLA.pdf\"\n}"
+ },
+ {
+  "key": "vepm:secrypt24",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "A Formal Analysis of CIE Level 2 Multi-Factor Authentication via SMS OTP",
+  "authors": [
+   "Roberto Van Eeden",
+   "Matteo Paier",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the 21st International Conference on Security and Cryptography - SECRYPT",
+  "pages": "483-491",
+  "publisher": "SciTePress",
+  "year": 2024,
+  "month": 7,
+  "doi": "10.5220/0012768300003767",
+  "url": "",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{vepm:secrypt24,\n  month = {July},\n  groups = {cybersecurity},\nauthor={Van Eeden, Roberto and Matteo Paier and Marino Miculan},\ntitle={A Formal Analysis of {CIE} Level 2 Multi-Factor Authentication via {SMS OTP}},\nbooktitle={Proceedings of the 21st International Conference on Security and Cryptography - SECRYPT},\nyear={2024},\npages={483-491},\npublisher={SciTePress},\norganization={INSTICC},\ndoi={10.5220/0012768300003767},\nhtml = {https://doi.org/10.5220/0012768300003767},\nisbn={978-989-758-709-2},\nissn={2184-7711},\n}"
+ },
+ {
+  "key": "PASQUA2024114537",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Behavioral equivalences for AbU: Verifying security and safety in distributed IoT systems",
+  "authors": [
+   "Michele Pasqua",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Theoretical Computer Science 998",
+  "pages": "114537",
+  "publisher": "",
+  "year": 2024,
+  "month": 6,
+  "doi": "10.1016/j.tcs.2024.114537",
+  "url": "https://www.sciencedirect.com/science/article/pii/S030439752400152X",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity",
+   "choreographies"
+  ],
+  "selected": false,
+  "bibtex": "@article{PASQUA2024114537,\n  month = {June},\n  groups = {cybersecurity, choreographies},\ntitle = {Behavioral equivalences for {AbU}: Verifying security and safety in distributed IoT systems},\njournal = {Theoretical Computer Science},\nvolume = {998},\npages = {114537},\nyear = {2024},\nissn = {0304-3975},\ndoi = {10.1016/j.tcs.2024.114537},\nhtml = {https://www.sciencedirect.com/science/article/pii/S030439752400152X},\nauthor = {Michele Pasqua and Marino Miculan},\nkeywords = {ECA rules, IoT programming, Distributed systems, Bisimulations, Formal methods, Autonomic computing, Verification},\nselected=false\n}"
+ },
+ {
+  "key": "vr:zohdinasab2024focused",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Focused Test Generation for Autonomous Driving Systems",
+  "authors": [
+   "Tahereh Zohdinasab",
+   "Vincenzo Riccio",
+   "Paolo Tonella"
+  ],
+  "editors": [],
+  "venue": "ACM Transactions on Software Engineering and Methodology 33(6)",
+  "pages": "1–32",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "year": 2024,
+  "month": 6,
+  "doi": "10.1145/3664605",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/TOSEM2024.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@article{vr:zohdinasab2024focused,\n  groups = {testing},\n  title = {Focused Test Generation for Autonomous Driving Systems},\n  volume = {33},\n  doi = {10.1145/3664605},\n  number = {6},\n  journal = {ACM Transactions on Software Engineering and Methodology},\n  publisher = {Association for Computing Machinery (ACM)},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2024},\n  month = {June},\n  pages = {1–32},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/TOSEM2024.pdf}\n}"
+ },
+ {
+  "key": "vr:biagiola2024two",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Two is Better Than One: Digital Siblings to Improve Autonomous Driving Testing",
+  "authors": [
+   "Matteo Biagiola",
+   "Andrea Stocco",
+   "Vincenzo Riccio",
+   "Paolo Tonella"
+  ],
+  "editors": [],
+  "venue": "Empirical Software Engineering 29(4)",
+  "pages": "",
+  "publisher": "Springer Science and Business Media LLC",
+  "year": 2024,
+  "month": 5,
+  "doi": "10.1007/s10664-024-10458-4",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/EMSE2024.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@article{vr:biagiola2024two,\n  groups = {testing},\n  title = {Two is Better Than One: Digital Siblings to Improve Autonomous Driving Testing},\n  volume = {29},\n  doi = {10.1007/s10664-024-10458-4},\n  number = {4},\n  journal = {Empirical Software Engineering},\n  publisher = {Springer Science and Business Media LLC},\n  author = {Biagiola, Matteo and Stocco, Andrea and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2024},\n  month = {May},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/EMSE2024.pdf}\n}"
+ },
+ {
+  "key": "tpm:itasec24",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "ECC’s Achilles’ Heel: Unveiling Weak Keys in Standardized Curves",
+  "authors": [
+   "Enrico Talotti",
+   "Matteo Paier",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the 8th Italian Conference on Cyber Security (ITASEC 2024), CEUR Workshop Proceedings 3731",
+  "pages": "",
+  "publisher": "CEUR-WS.org",
+  "year": 2024,
+  "month": 4,
+  "doi": "",
+  "url": "https://ceur-ws.org/Vol-3731",
+  "pdf": "https://ceur-ws.org/Vol-3488/paper09.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{tpm:itasec24,\n  month = {April},\n  groups = {cybersecurity},\n\tauthor       = {Enrico Talotti and Matteo Paier and Marino Miculan},\n  editor       = {Gianni D'Angelo and\n                  Flaminia Luccio and\n                  Francesco Palmieri},\n\ttitle        = {{ECC}’s {Achilles}’ Heel: Unveiling Weak Keys in Standardized Curves},\n  booktitle    = {Proceedings of the 8th Italian Conference on Cyber Security ({ITASEC} 2024)},\n  location     = {Salerno, Italy, April 8-12, 2024},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = 3731,\n  publisher    = {CEUR-WS.org},\n  year         = 2024,\n\tpdf          = {https://ceur-ws.org/Vol-3488/paper09.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3731}\n}"
+ },
+ {
+  "key": "ppfm:itasec24",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Netstaldi: A Modular Distributed Architecture for Incremental Network Discovery",
+  "authors": [
+   "Matteo Paier",
+   "Mattia Pizzolitto",
+   "Gian Luca Foresti",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the 8th Italian Conference on Cyber Security (ITASEC 2024), CEUR Workshop Proceedings 3731",
+  "pages": "",
+  "publisher": "CEUR-WS.org",
+  "year": 2024,
+  "month": 4,
+  "doi": "",
+  "url": "https://ceur-ws.org/Vol-3731",
+  "pdf": "https://ceur-ws.org/Vol-3731/paper37.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{ppfm:itasec24,\n  month = {April},\n  groups = {cybersecurity},\n  author       = {Matteo Paier and\n                  Mattia Pizzolitto and\n                  Foresti, Gian Luca and\n                  Marino Miculan},\n  editor       = {Gianni D'Angelo and\n                  Flaminia Luccio and\n                  Francesco Palmieri},\n  title        = {Netstaldi: {A} Modular Distributed Architecture for Incremental Network Discovery},\n  booktitle    = {Proceedings of the 8th Italian Conference on Cyber Security ({ITASEC} 2024)},\n  location     = {Salerno, Italy, April 8-12, 2024},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = 3731,\n  publisher    = {CEUR-WS.org},\n  year         = 2024,\n  pdf          = {https://ceur-ws.org/Vol-3731/paper37.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3731}\n}"
+ },
+ {
+  "key": "CASTELNOVO2024114280",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "A simple criterion for 𝓜,𝓝-adhesivity",
+  "authors": [
+   "Davide Castelnovo",
+   "Fabio Gadducci",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Theoretical Computer Science 982",
+  "pages": "114280",
+  "publisher": "",
+  "year": 2024,
+  "month": 1,
+  "doi": "10.1016/j.tcs.2023.114280",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0304397523005935",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@article{CASTELNOVO2024114280,\n  month = {January},\ntitle = {A simple criterion for 𝓜,𝓝-adhesivity},\njournal = {Theoretical Computer Science},\nvolume = {982},\npages = {114280},\nyear = {2024},\nissn = {0304-3975},\ndoi = {10.1016/j.tcs.2023.114280},\nhtml = {https://www.sciencedirect.com/science/article/pii/S0304397523005935},\nauthor = {Davide Castelnovo and Fabio Gadducci and Marino Miculan},\nselected=false\n}"
+ },
+ {
+  "key": "DBLP:conf/lics/GianantonioE24",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "A Cartesian Closed Category for Random Variables",
+  "authors": [
+   "Pietro Di Gianantonio",
+   "Abbas Edalat"
+  ],
+  "editors": [],
+  "venue": "LICS",
+  "pages": "32:1–32:14",
+  "publisher": "ACM",
+  "year": 2024,
+  "month": 0,
+  "doi": "",
+  "url": "",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@inproceedings{DBLP:conf/lics/GianantonioE24,\nauthor = {Pietro Di Gianantonio and\nAbbas Edalat},\ntitle = {A Cartesian Closed Category for Random Variables},\nbooktitle = {{LICS}},\npages = {32:1--32:14},\npublisher = {{ACM}},\nyear = {2024}\n}"
  },
  {
   "key": "carnepri25",
@@ -864,6 +980,7 @@
   "pages": "",
   "publisher": "Forum",
   "year": 2024,
+  "month": 0,
   "doi": "",
   "url": "https://forumeditrice.it/percorsi/scienza-e-tecnica/tracce.-itinerari-di-ricerca-area-scientifica/la-digitalizzazione-mediante-blockchain-della-filiera-2018carnepri2019",
   "pdf": "",
@@ -894,6 +1011,7 @@
   "pages": "1998",
   "publisher": "",
   "year": 2024,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
@@ -903,114 +1021,6 @@
   "groups": [],
   "selected": false,
   "bibtex": "@article{DBLP:journals/remotesensing/OdettiBFACVZS24,\nauthor = {Angelo Odetti and\nGabriele Bruzzone and\nRoberta Ferretti and\nSimona Aracri and\nFederico Carotenuto and\nCarolina Vagnoli and\nAlessandro Zaldei and\nIvan Scagnetto},\ntitle = {Lake Environmental Data Harvester {(LED)} for Alpine Lake Monitoring\nwith Autonomous Surface Vehicles (ASVs)},\njournal = {Remote. Sens.},\nvolume = {16},\nnumber = {11},\npages = {1998},\nyear = {2024}\n}"
- },
- {
-  "key": "pm:isola24",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Local Reasoning and Attribute-Based Memory Updates for Enforcing Global Invariants in Collective Adaptive Systems",
-  "authors": [
-   "Michele Pasqua",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "12th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2024",
-  "pages": "351–367",
-  "publisher": "Springer",
-  "year": 2024,
-  "doi": "10.1007/978-3-031-75107-3_21",
-  "url": "",
-  "pdf": "https://marino.miculan.org/assets/pdf/2024-ISOLA.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "choreographies"
-  ],
-  "selected": false,
-  "bibtex": "@InProceedings{pm:isola24,\n  groups = {choreographies},\nauthor=\"Pasqua, Michele and Miculan, Marino\",\neditor=\"Margaria, Tiziana and Steffen, Bernhard\",\ntitle=\"Local Reasoning and Attribute-Based Memory Updates for Enforcing Global Invariants in Collective Adaptive Systems\",\nbooktitle=\"12th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2024\",\nyear=\"2024\",\npublisher=\"Springer\",\npages=\"351--367\",\nisbn=\"978-3-031-75107-3\",\ndoi=\"10.1007/978-3-031-75107-3_21\",\nhtml=\"https://doi.org/10.1007/978-3-031-75107-3_21\",\npdf=\"https://marino.miculan.org/assets/pdf/2024-ISOLA.pdf\"\n}"
- },
- {
-  "key": "ppfm:itasec24",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Netstaldi: A Modular Distributed Architecture for Incremental Network Discovery",
-  "authors": [
-   "Matteo Paier",
-   "Mattia Pizzolitto",
-   "Gian Luca Foresti",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the 8th Italian Conference on Cyber Security (ITASEC 2024), CEUR Workshop Proceedings 3731",
-  "pages": "",
-  "publisher": "CEUR-WS.org",
-  "year": 2024,
-  "doi": "",
-  "url": "https://ceur-ws.org/Vol-3731",
-  "pdf": "https://ceur-ws.org/Vol-3731/paper37.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{ppfm:itasec24,\n  groups = {cybersecurity},\n  author       = {Matteo Paier and\n                  Mattia Pizzolitto and\n                  Foresti, Gian Luca and\n                  Marino Miculan},\n  editor       = {Gianni D'Angelo and\n                  Flaminia Luccio and\n                  Francesco Palmieri},\n  title        = {Netstaldi: {A} Modular Distributed Architecture for Incremental Network Discovery},\n  booktitle    = {Proceedings of the 8th Italian Conference on Cyber Security ({ITASEC} 2024)},\n  location     = {Salerno, Italy, April 8-12, 2024},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = 3731,\n  publisher    = {CEUR-WS.org},\n  year         = 2024,\n  pdf          = {https://ceur-ws.org/Vol-3731/paper37.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3731}\n}"
- },
- {
-  "key": "vr:biagiola2024two",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Two is Better Than One: Digital Siblings to Improve Autonomous Driving Testing",
-  "authors": [
-   "Matteo Biagiola",
-   "Andrea Stocco",
-   "Vincenzo Riccio",
-   "Paolo Tonella"
-  ],
-  "editors": [],
-  "venue": "Empirical Software Engineering 29(4)",
-  "pages": "",
-  "publisher": "Springer Science and Business Media LLC",
-  "year": 2024,
-  "doi": "10.1007/s10664-024-10458-4",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/EMSE2024.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@article{vr:biagiola2024two,\n  groups = {testing},\n  title = {Two is Better Than One: Digital Siblings to Improve Autonomous Driving Testing},\n  volume = {29},\n  doi = {10.1007/s10664-024-10458-4},\n  number = {4},\n  journal = {Empirical Software Engineering},\n  publisher = {Springer Science and Business Media LLC},\n  author = {Biagiola, Matteo and Stocco, Andrea and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2024},\n  month = {May},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/EMSE2024.pdf}\n}"
- },
- {
-  "key": "PASQUA2023113841",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "AbU: A calculus for distributed event-driven programming with attribute-based interaction",
-  "authors": [
-   "Michele Pasqua",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Theoretical Computer Science 958",
-  "pages": "113841",
-  "publisher": "",
-  "year": 2023,
-  "doi": "10.1016/j.tcs.2023.113841",
-  "url": "https://www.sciencedirect.com/science/article/pii/S0304397523001548",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "choreographies"
-  ],
-  "selected": true,
-  "bibtex": "@article{PASQUA2023113841,\n  groups = {choreographies},\ntitle = {{AbU}: A calculus for distributed event-driven programming with attribute-based interaction},\njournal = {Theoretical Computer Science},\nvolume = 958,\npages = {113841},\nyear = 2023,\nissn = {0304-3975},\ndoi = {10.1016/j.tcs.2023.113841},\nhtml = {https://www.sciencedirect.com/science/article/pii/S0304397523001548},\nauthor = {Michele Pasqua and Marino Miculan},\nselected = true,\nkeywords = {ECA rules, Attribute-based communication, Distributed systems, Formal methods, Edge computing, IoT programming},\n}"
  },
  {
   "key": "vr:zohdinasab2023an",
@@ -1027,6 +1037,7 @@
   "pages": "1–11",
   "publisher": "IEEE",
   "year": 2023,
+  "month": 10,
   "doi": "10.1109/esem56168.2023.10304866",
   "url": "",
   "pdf": "https://p1ndsvin.github.io/assets/pdf/ESEM2023.pdf",
@@ -1040,30 +1051,115 @@
   "bibtex": "@inproceedings{vr:zohdinasab2023an,\n  groups = {testing},\n  title = {An Empirical Study on Low- and High-Level Explanations of Deep Learning Misbehaviours},\n  doi = {10.1109/esem56168.2023.10304866},\n  booktitle = {2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)},\n  publisher = {IEEE},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2023},\n  month = {October},\n  pages = {1–11},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/ESEM2023.pdf}\n}"
  },
  {
-  "key": "DBLP:conf/ictcs/MiculanP23",
+  "key": "vr:zohdinasab2023deepatas",
   "type": "inproceedings",
   "type_label": "Conference paper",
-  "title": "Assembling Coherent Network Topologies Using Round-Trip Graphs",
+  "title": "DeepAtash: Focused Test Generation for Deep Learning Systems",
   "authors": [
-   "Marino Miculan",
-   "Matteo Paier"
+   "Tahereh Zohdinasab",
+   "Vincenzo Riccio",
+   "Paolo Tonella"
   ],
   "editors": [],
-  "venue": "Proceedings of the 24th Italian Conference on Theoretical Computer Science, ICTCS 2023, CEUR Workshop Proceedings 3587",
-  "pages": "110–115",
-  "publisher": "CEUR-WS.org",
+  "venue": "Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis",
+  "pages": "954–966",
+  "publisher": "ACM",
   "year": 2023,
-  "doi": "",
-  "url": "https://ceur-ws.org/Vol-3587/",
-  "pdf": "https://ceur-ws.org/Vol-3587/6692.pdf",
+  "month": 7,
+  "doi": "10.1145/3597926.3598109",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/deepatash_issta23.pdf",
   "code": "",
   "note": "",
   "arxiv": "",
   "groups": [
-   "cybersecurity"
+   "testing"
   ],
   "selected": false,
-  "bibtex": "@inproceedings{DBLP:conf/ictcs/MiculanP23,\n  groups = {cybersecurity},\n  author       = {Marino Miculan and\n                  Matteo Paier},\n  title        = {Assembling Coherent Network Topologies Using Round-Trip Graphs},\n  booktitle    = {Proceedings of the 24th Italian Conference on Theoretical Computer\n                  Science, ICTCS 2023},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = 3587,\n  pages        = {110--115},\n  publisher    = {CEUR-WS.org},\n  year         = 2023,\n  pdf          = {https://ceur-ws.org/Vol-3587/6692.pdf},\n  html = {https://ceur-ws.org/Vol-3587/}\n}"
+  "bibtex": "@inproceedings{vr:zohdinasab2023deepatas,\n  groups = {testing},\n  series = {ISSTA ’23},\n  title = {DeepAtash: Focused Test Generation for Deep Learning Systems},\n  doi = {10.1145/3597926.3598109},\n  booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},\n  publisher = {ACM},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2023},\n  month = {July},\n  pages = {954–966},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/deepatash_issta23.pdf}\n}"
+ },
+ {
+  "key": "PASQUA2023113841",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "AbU: A calculus for distributed event-driven programming with attribute-based interaction",
+  "authors": [
+   "Michele Pasqua",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Theoretical Computer Science 958",
+  "pages": "113841",
+  "publisher": "",
+  "year": 2023,
+  "month": 5,
+  "doi": "10.1016/j.tcs.2023.113841",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0304397523001548",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "choreographies"
+  ],
+  "selected": true,
+  "bibtex": "@article{PASQUA2023113841,\n  month = {May},\n  groups = {choreographies},\ntitle = {{AbU}: A calculus for distributed event-driven programming with attribute-based interaction},\njournal = {Theoretical Computer Science},\nvolume = 958,\npages = {113841},\nyear = 2023,\nissn = {0304-3975},\ndoi = {10.1016/j.tcs.2023.113841},\nhtml = {https://www.sciencedirect.com/science/article/pii/S0304397523001548},\nauthor = {Michele Pasqua and Marino Miculan},\nselected = true,\nkeywords = {ECA rules, Attribute-based communication, Distributed systems, Formal methods, Edge computing, IoT programming},\n}"
+ },
+ {
+  "key": "vr:biagiola2023sbft",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "SBFT Tool Competition 2023 - Cyber-Physical Systems Track",
+  "authors": [
+   "Matteo Biagiola",
+   "Stefan Klikovits",
+   "Jarkko Peltomäki",
+   "Vincenzo Riccio"
+  ],
+  "editors": [],
+  "venue": "2023 IEEE/ACM International Workshop on Search-Based and Fuzz Testing (SBFT)",
+  "pages": "45–48",
+  "publisher": "IEEE",
+  "year": 2023,
+  "month": 5,
+  "doi": "10.1109/sbft59156.2023.00010",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/SBFT_2023.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{vr:biagiola2023sbft,\n  groups = {testing},\n  title = {SBFT Tool Competition 2023 - Cyber-Physical Systems Track},\n  doi = {10.1109/sbft59156.2023.00010},\n  booktitle = {2023 IEEE/ACM International Workshop on Search-Based and Fuzz Testing (SBFT)},\n  publisher = {IEEE},\n  author = {Biagiola, Matteo and Klikovits, Stefan and Peltomäki, Jarkko and Riccio, Vincenzo},\n  year = {2023},\n  month = {May},\n  pages = {45–48},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/SBFT_2023.pdf}\n}"
+ },
+ {
+  "key": "vr:riccio2023when",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "When and Why Test Generators for Deep Learning Produce Invalid Inputs: an Empirical Study",
+  "authors": [
+   "Vincenzo Riccio",
+   "Paolo Tonella"
+  ],
+  "editors": [],
+  "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+  "pages": "1161–1173",
+  "publisher": "IEEE",
+  "year": 2023,
+  "month": 5,
+  "doi": "10.1109/icse48619.2023.00104",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/ICSE2023.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{vr:riccio2023when,\n  groups = {testing},\n  title = {When and Why Test Generators for Deep Learning Produce Invalid Inputs: an Empirical Study},\n  doi = {10.1109/icse48619.2023.00104},\n  booktitle = {2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},\n  publisher = {IEEE},\n  author = {Riccio, Vincenzo and Tonella, Paolo},\n  year = {2023},\n  month = {May},\n  pages = {1161–1173},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/ICSE2023.pdf}\n}"
  },
  {
   "key": "MICULAN2022103072",
@@ -1079,6 +1175,7 @@
   "pages": "103072",
   "publisher": "",
   "year": 2023,
+  "month": 3,
   "doi": "10.1016/j.cose.2022.103072",
   "url": "",
   "pdf": "",
@@ -1089,7 +1186,63 @@
    "cybersecurity"
   ],
   "selected": true,
-  "bibtex": "@article{MICULAN2022103072,\n  groups = {cybersecurity},\ntitle = {Automated Verification of Telegram’s MTProto 2.0 in the Symbolic Model},\njournal = {Computers & Security},\npages = {103072},\nyear = {2023},\nissn = {0167-4048},\ndoi = {10.1016/j.cose.2022.103072},\nhtml = {https://doi.org/10.1016/j.cose.2022.103072},\nauthor = {Marino Miculan and Nicola Vitacolonna},\nkeywords = {Specification, Verification and Synthesis, Security protocols, Practical verification, Privacy, Formal methods},\n  selected=true\n}"
+  "bibtex": "@article{MICULAN2022103072,\n  month = {March},\n  groups = {cybersecurity},\ntitle = {Automated Verification of Telegram’s MTProto 2.0 in the Symbolic Model},\njournal = {Computers & Security},\npages = {103072},\nyear = {2023},\nissn = {0167-4048},\ndoi = {10.1016/j.cose.2022.103072},\nhtml = {https://doi.org/10.1016/j.cose.2022.103072},\nauthor = {Marino Miculan and Nicola Vitacolonna},\nkeywords = {Specification, Verification and Synthesis, Security protocols, Practical verification, Privacy, Formal methods},\n  selected=true\n}"
+ },
+ {
+  "key": "vr:zohdinasab2023efficien",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Efficient and Effective Feature Space Exploration for Testing Deep Learning Systems",
+  "authors": [
+   "Tahereh Zohdinasab",
+   "Vincenzo Riccio",
+   "Alessio Gambi",
+   "Paolo Tonella"
+  ],
+  "editors": [],
+  "venue": "ACM Transactions on Software Engineering and Methodology 32(2)",
+  "pages": "1–38",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "year": 2023,
+  "month": 3,
+  "doi": "10.1145/3544792",
+  "url": "",
+  "pdf": "https://p1ndsvin.github.io/assets/pdf/TOSEM2022.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "testing"
+  ],
+  "selected": false,
+  "bibtex": "@article{vr:zohdinasab2023efficien,\n  groups = {testing},\n  title = {Efficient and Effective Feature Space Exploration for Testing Deep Learning Systems},\n  volume = {32},\n  doi = {10.1145/3544792},\n  number = {2},\n  journal = {ACM Transactions on Software Engineering and Methodology},\n  publisher = {Association for Computing Machinery (ACM)},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Gambi, Alessio and Tonella, Paolo},\n  year = {2023},\n  month = {March},\n  pages = {1–38},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/TOSEM2022.pdf}\n}"
+ },
+ {
+  "key": "DBLP:conf/ictcs/MiculanP23",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Assembling Coherent Network Topologies Using Round-Trip Graphs",
+  "authors": [
+   "Marino Miculan",
+   "Matteo Paier"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the 24th Italian Conference on Theoretical Computer Science, ICTCS 2023, CEUR Workshop Proceedings 3587",
+  "pages": "110–115",
+  "publisher": "CEUR-WS.org",
+  "year": 2023,
+  "month": 0,
+  "doi": "",
+  "url": "https://ceur-ws.org/Vol-3587/",
+  "pdf": "https://ceur-ws.org/Vol-3587/6692.pdf",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity"
+  ],
+  "selected": false,
+  "bibtex": "@inproceedings{DBLP:conf/ictcs/MiculanP23,\n  groups = {cybersecurity},\n  author       = {Marino Miculan and\n                  Matteo Paier},\n  title        = {Assembling Coherent Network Topologies Using Round-Trip Graphs},\n  booktitle    = {Proceedings of the 24th Italian Conference on Theoretical Computer\n                  Science, ICTCS 2023},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = 3587,\n  pages        = {110--115},\n  publisher    = {CEUR-WS.org},\n  year         = 2023,\n  pdf          = {https://ceur-ws.org/Vol-3587/6692.pdf},\n  html = {https://ceur-ws.org/Vol-3587/}\n}"
  },
  {
   "key": "stolze2022composable",
@@ -1106,6 +1259,7 @@
   "pages": "473-494",
   "publisher": "Springer",
   "year": 2023,
+  "month": 0,
   "doi": "10.1007/s10270-022-01040-x",
   "url": "",
   "pdf": "",
@@ -1131,6 +1285,7 @@
   "pages": "",
   "publisher": "Fortinet",
   "year": 2023,
+  "month": 0,
   "doi": "",
   "url": "https://www.fortiguard.com/psirt/FG-IR-23-090",
   "pdf": "",
@@ -1158,6 +1313,7 @@
   "pages": "",
   "publisher": "CEUR-WS.org",
   "year": 2023,
+  "month": 0,
   "doi": "",
   "url": "https://ceur-ws.org/Vol-3488",
   "pdf": "https://ceur-ws.org/Vol-3488/paper01.pdf",
@@ -1170,61 +1326,6 @@
   ],
   "selected": false,
   "bibtex": "@inproceedings{DBLP:conf/itasec/AltaruiMP23,\n  groups = {cybersecurity, choreographies},\n  author       = {Andrea Altarui and\n                  Marino Miculan and\n                  Matteo Paier},\n  editor       = {Francesco Buccafurri and\n                  Elena Ferrari and\n                  Gianluca Lax},\n  title        = {{DBCChecker}: a Bigraph-based Tool for Checking Security Properties\n                  of Container Compositions},\n  booktitle    = {Proceedings of the Italian Conference on Cyber Security ({ITASEC}\n                  2023), Bari, Italy, May 2-5, 2023},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = {3488},\n  publisher    = {CEUR-WS.org},\n  year         = {2023},\n  pdf          = {https://ceur-ws.org/Vol-3488/paper01.pdf},\n  html    = {https://ceur-ws.org/Vol-3488}\n}"
- },
- {
-  "key": "vr:zohdinasab2023deepatas",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "DeepAtash: Focused Test Generation for Deep Learning Systems",
-  "authors": [
-   "Tahereh Zohdinasab",
-   "Vincenzo Riccio",
-   "Paolo Tonella"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis",
-  "pages": "954–966",
-  "publisher": "ACM",
-  "year": 2023,
-  "doi": "10.1145/3597926.3598109",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/deepatash_issta23.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{vr:zohdinasab2023deepatas,\n  groups = {testing},\n  series = {ISSTA ’23},\n  title = {DeepAtash: Focused Test Generation for Deep Learning Systems},\n  doi = {10.1145/3597926.3598109},\n  booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},\n  publisher = {ACM},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Tonella, Paolo},\n  year = {2023},\n  month = {July},\n  pages = {954–966},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/deepatash_issta23.pdf}\n}"
- },
- {
-  "key": "vr:zohdinasab2023efficien",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Efficient and Effective Feature Space Exploration for Testing Deep Learning Systems",
-  "authors": [
-   "Tahereh Zohdinasab",
-   "Vincenzo Riccio",
-   "Alessio Gambi",
-   "Paolo Tonella"
-  ],
-  "editors": [],
-  "venue": "ACM Transactions on Software Engineering and Methodology 32(2)",
-  "pages": "1–38",
-  "publisher": "Association for Computing Machinery (ACM)",
-  "year": 2023,
-  "doi": "10.1145/3544792",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/TOSEM2022.pdf",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@article{vr:zohdinasab2023efficien,\n  groups = {testing},\n  title = {Efficient and Effective Feature Space Exploration for Testing Deep Learning Systems},\n  volume = {32},\n  doi = {10.1145/3544792},\n  number = {2},\n  journal = {ACM Transactions on Software Engineering and Methodology},\n  publisher = {Association for Computing Machinery (ACM)},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Gambi, Alessio and Tonella, Paolo},\n  year = {2023},\n  month = {March},\n  pages = {1–38},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/TOSEM2022.pdf}\n}"
  },
  {
   "key": "slj23",
@@ -1243,6 +1344,7 @@
   "pages": "101-113",
   "publisher": "",
   "year": 2023,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "https://www.difesa.it/SMD_/CASD/IM/CeMiSS/DocumentiVis/Rivista_Scientifica/Rivista_scientifica_n_1.pdf",
@@ -1272,6 +1374,7 @@
   "pages": "",
   "publisher": "CEUR-WS.org",
   "year": 2023,
+  "month": 0,
   "doi": "",
   "url": "https://ceur-ws.org/Vol-3460/",
   "pdf": "https://ceur-ws.org/Vol-3460/papers/DLT\\_2023\\_paper\\_10.pdf",
@@ -1297,6 +1400,7 @@
   "pages": "409–414",
   "publisher": "CEUR-WS.org",
   "year": 2023,
+  "month": 0,
   "doi": "",
   "url": "https://ceur-ws.org/Vol-3486",
   "pdf": "https://ceur-ws.org/Vol-3486/23.pdf",
@@ -1310,58 +1414,58 @@
   "bibtex": "@inproceedings{DBLP:conf/ital-ia/VoltanFM23,\n  groups = {cybersecurity},\n  author       = {Gabriele Voltan and\n                  Foresti, Gian Luca and\n                  Marino Miculan},\n  title        = {Pairing an Autoencoder and a {SF-SOINN} for Implementing an Intrusion Detection System},\n  booktitle    = {Proceedings of the Thematic Workshops co-located with the 3rd {CINI} National Lab {AIIS} Conference on Artificial               Intelligence (Ital-{IA} 2023)},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = {3486},\n  pages        = {409--414},\n  publisher    = {CEUR-WS.org},\n  year         = {2023},\n  pdf          = {https://ceur-ws.org/Vol-3486/23.pdf},\n  html    = {https://ceur-ws.org/Vol-3486}\n}"
  },
  {
-  "key": "vr:biagiola2023sbft",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "SBFT Tool Competition 2023 - Cyber-Physical Systems Track",
+  "key": "DBLP:journals/scp/ChiapperiniMP22",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Computing (optimal) embeddings of directed bigraphs",
   "authors": [
-   "Matteo Biagiola",
-   "Stefan Klikovits",
-   "Jarkko Peltomäki",
-   "Vincenzo Riccio"
+   "Alessio Chiapperini",
+   "Marino Miculan",
+   "Marco Peressotti"
   ],
   "editors": [],
-  "venue": "2023 IEEE/ACM International Workshop on Search-Based and Fuzz Testing (SBFT)",
-  "pages": "45–48",
-  "publisher": "IEEE",
-  "year": 2023,
-  "doi": "10.1109/sbft59156.2023.00010",
+  "venue": "Sci. Comput. Program. 221",
+  "pages": "102842",
+  "publisher": "",
+  "year": 2022,
+  "month": 9,
+  "doi": "10.1016/j.scico.2022.102842",
   "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/SBFT_2023.pdf",
+  "pdf": "",
   "code": "",
   "note": "",
   "arxiv": "",
   "groups": [
-   "testing"
+   "choreographies"
   ],
   "selected": false,
-  "bibtex": "@inproceedings{vr:biagiola2023sbft,\n  groups = {testing},\n  title = {SBFT Tool Competition 2023 - Cyber-Physical Systems Track},\n  doi = {10.1109/sbft59156.2023.00010},\n  booktitle = {2023 IEEE/ACM International Workshop on Search-Based and Fuzz Testing (SBFT)},\n  publisher = {IEEE},\n  author = {Biagiola, Matteo and Klikovits, Stefan and Peltomäki, Jarkko and Riccio, Vincenzo},\n  year = {2023},\n  month = {May},\n  pages = {45–48},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/SBFT_2023.pdf}\n}"
+  "bibtex": "@article{DBLP:journals/scp/ChiapperiniMP22,\n  month = {September},\ngroups = {choreographies},\nauthor = {Alessio Chiapperini and\nMarino Miculan and\nMarco Peressotti},\ntitle = {Computing (optimal) embeddings of directed bigraphs},\njournal = {Sci. Comput. Program.},\nvolume = {221},\npages = {102842},\nyear = {2022},\nurl = {https://doi.org/10.1016/j.scico.2022.102842},\ndoi = {10.1016/j.scico.2022.102842},\nselected=false\n}"
  },
  {
-  "key": "vr:riccio2023when",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "When and Why Test Generators for Deep Learning Produce Invalid Inputs: an Empirical Study",
+  "key": "Castelnovo2022205",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "A new criterion for M,N-adhesivity, with an application to hierarchical graphs",
   "authors": [
-   "Vincenzo Riccio",
-   "Paolo Tonella"
+   "D. Castelnovo",
+   "F. Gadducci",
+   "M. Miculan"
   ],
   "editors": [],
-  "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
-  "pages": "1161–1173",
-  "publisher": "IEEE",
-  "year": 2023,
-  "doi": "10.1109/icse48619.2023.00104",
-  "url": "",
-  "pdf": "https://p1ndsvin.github.io/assets/pdf/ICSE2023.pdf",
+  "venue": "Lecture Notes in Computer Science 13242 LNCS",
+  "pages": "205-224",
+  "publisher": "",
+  "year": 2022,
+  "month": 3,
+  "doi": "10.1007/978-3-030-99253-8_11",
+  "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85128472308&doi=10.1007%2f978-3-030-99253-8_11&partnerID=40&md5=091a5ac308a80ee87336375d8ef0a113",
+  "pdf": "",
   "code": "",
   "note": "",
   "arxiv": "",
-  "groups": [
-   "testing"
-  ],
+  "groups": [],
   "selected": false,
-  "bibtex": "@inproceedings{vr:riccio2023when,\n  groups = {testing},\n  title = {When and Why Test Generators for Deep Learning Produce Invalid Inputs: an Empirical Study},\n  doi = {10.1109/icse48619.2023.00104},\n  booktitle = {2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},\n  publisher = {IEEE},\n  author = {Riccio, Vincenzo and Tonella, Paolo},\n  year = {2023},\n  month = {May},\n  pages = {1161–1173},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/ICSE2023.pdf}\n}"
+  "bibtex": "@ARTICLE{Castelnovo2022205,\n  month = {March},\nauthor={Castelnovo, D. and Gadducci, F. and Miculan, M.},\ntitle={A new criterion for M,N-adhesivity, with an application to hierarchical graphs},\nbooktitle={Proc. FOSSACS 2022},\njournal={Lecture Notes in Computer Science},\nyear={2022},\nvolume={13242 LNCS},\npages={205-224},\ndoi={10.1007/978-3-030-99253-8_11},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85128472308&doi=10.1007%2f978-3-030-99253-8_11&partnerID=40&md5=091a5ac308a80ee87336375d8ef0a113},\n}"
  },
  {
   "key": "DBLP:conf/ictcs/MiculanP22",
@@ -1377,6 +1481,7 @@
   "pages": "148–160",
   "publisher": "CEUR-WS.org",
   "year": 2022,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://ceur-ws.org/Vol-3284/1841.pdf",
@@ -1404,6 +1509,7 @@
   "pages": "",
   "publisher": "EpiSciences",
   "year": 2022,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
@@ -1413,58 +1519,6 @@
   "groups": [],
   "selected": false,
   "bibtex": "@inproceedings{DBLP:journals/corr/abs-2210-06095,\nauthor = {Pietro Di Gianantonio and\nAbbas Edalat and\nRan Gutin},\ntitle = {A language for evaluating derivatives of functionals using automatic\ndifferentiation},\nbooktitle = {{MFPS}},\nseries = {{EPTICS}},\nvolume = {3},\npublisher = {EpiSciences},\nyear = {2022}\n}"
- },
- {
-  "key": "Castelnovo2022205",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "A new criterion for M,N-adhesivity, with an application to hierarchical graphs",
-  "authors": [
-   "D. Castelnovo",
-   "F. Gadducci",
-   "M. Miculan"
-  ],
-  "editors": [],
-  "venue": "Lecture Notes in Computer Science 13242 LNCS",
-  "pages": "205-224",
-  "publisher": "",
-  "year": 2022,
-  "doi": "10.1007/978-3-030-99253-8_11",
-  "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85128472308&doi=10.1007%2f978-3-030-99253-8_11&partnerID=40&md5=091a5ac308a80ee87336375d8ef0a113",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@ARTICLE{Castelnovo2022205,\nauthor={Castelnovo, D. and Gadducci, F. and Miculan, M.},\ntitle={A new criterion for M,N-adhesivity, with an application to hierarchical graphs},\nbooktitle={Proc. FOSSACS 2022},\njournal={Lecture Notes in Computer Science},\nyear={2022},\nvolume={13242 LNCS},\npages={205-224},\ndoi={10.1007/978-3-030-99253-8_11},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85128472308&doi=10.1007%2f978-3-030-99253-8_11&partnerID=40&md5=091a5ac308a80ee87336375d8ef0a113},\n}"
- },
- {
-  "key": "DBLP:journals/scp/ChiapperiniMP22",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Computing (optimal) embeddings of directed bigraphs",
-  "authors": [
-   "Alessio Chiapperini",
-   "Marino Miculan",
-   "Marco Peressotti"
-  ],
-  "editors": [],
-  "venue": "Sci. Comput. Program. 221",
-  "pages": "102842",
-  "publisher": "",
-  "year": 2022,
-  "doi": "10.1016/j.scico.2022.102842",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "choreographies"
-  ],
-  "selected": false,
-  "bibtex": "@article{DBLP:journals/scp/ChiapperiniMP22,\ngroups = {choreographies},\nauthor = {Alessio Chiapperini and\nMarino Miculan and\nMarco Peressotti},\ntitle = {Computing (optimal) embeddings of directed bigraphs},\njournal = {Sci. Comput. Program.},\nvolume = {221},\npages = {102842},\nyear = {2022},\nurl = {https://doi.org/10.1016/j.scico.2022.102842},\ndoi = {10.1016/j.scico.2022.102842},\nselected=false\n}"
  },
  {
   "key": "bmc:cve2022",
@@ -1481,6 +1535,7 @@
   "pages": "",
   "publisher": "MITRE",
   "year": 2022,
+  "month": 0,
   "doi": "",
   "url": "https://www.cve.org/CVERecord?id=CVE-2022-3203",
   "pdf": "",
@@ -1507,6 +1562,7 @@
   "pages": "201–206",
   "publisher": "CEUR-WS.org",
   "year": 2022,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://ceur-ws.org/Vol-3284/7982.pdf",
@@ -1533,6 +1589,7 @@
   "pages": "",
   "publisher": "",
   "year": 2022,
+  "month": 0,
   "doi": "10.4230/LIPIcs.CSL.2022.13",
   "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85124183018&doi=10.4230%2fLIPIcs.CSL.2022.13&partnerID=40&md5=709f772eda711fb0fc73da9600ce19fc",
   "pdf": "",
@@ -1558,6 +1615,7 @@
   "pages": "132763-132776",
   "publisher": "",
   "year": 2022,
+  "month": 0,
   "doi": "10.1109/ACCESS.2022.3230287",
   "url": "",
   "pdf": "",
@@ -1569,6 +1627,62 @@
   ],
   "selected": false,
   "bibtex": "@article{pcm:access22,\ngroups = {choreographies},\nauthor={Pasqua, Michele and Comuzzo, Massimo and Miculan, Marino},\njournal={IEEE Access},\ntitle={The AbU Language: IoT Distributed Programming Made Easy},\nyear=2022,\nvolume=10,\npages={132763-132776},\ndoi={10.1109/ACCESS.2022.3230287},\nurl ={https://doi.org/10.1109/ACCESS.2022.3230287},\nselected=false\n}"
+ },
+ {
+  "key": "Pasqua2021178",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "On the Security and Safety of AbU Systems",
+  "authors": [
+   "M. Pasqua",
+   "M. Miculan"
+  ],
+  "editors": [],
+  "venue": "Lecture Notes in Computer Science 13085",
+  "pages": "178-198",
+  "publisher": "",
+  "year": 2021,
+  "month": 12,
+  "doi": "10.1007/978-3-030-92124-8_11",
+  "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85121933293&doi=10.1007%2f978-3-030-92124-8_11&partnerID=40&md5=2f8730a07845071c20256f5ad54c556c",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "cybersecurity",
+   "choreographies"
+  ],
+  "selected": false,
+  "bibtex": "@ARTICLE{Pasqua2021178,\n  month = {December},\ngroups = {cybersecurity, choreographies},\nauthor={Pasqua, M. and Miculan, M.},\ntitle={On the Security and Safety of {AbU} Systems},\njournal={Lecture Notes in Computer Science},\nyear={2021},\nvolume=13085,\npages={178-198},\ndoi={10.1007/978-3-030-92124-8_11},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85121933293&doi=10.1007%2f978-3-030-92124-8_11&partnerID=40&md5=2f8730a07845071c20256f5ad54c556c},\n}"
+ },
+ {
+  "key": "Stolze202144",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Composable Partial Multiparty Session Types",
+  "authors": [
+   "C. Stolze",
+   "M. Miculan",
+   "P. Di Gianantonio"
+  ],
+  "editors": [],
+  "venue": "Lecture Notes in Computer Science 13077",
+  "pages": "44-62",
+  "publisher": "",
+  "year": 2021,
+  "month": 10,
+  "doi": "10.1007/978-3-030-90636-8_3",
+  "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119850638&doi=10.1007%2f978-3-030-90636-8_3&partnerID=40&md5=0437eadf94addb4ef79cc72315fca90c",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [
+   "choreographies"
+  ],
+  "selected": false,
+  "bibtex": "@ARTICLE{Stolze202144,\n  month = {October},\ngroups = {choreographies},\nauthor={Stolze, C. and Miculan, M. and Di Gianantonio, P.},\ntitle={Composable Partial Multiparty Session Types},\njournal={Lecture Notes in Computer Science},\nyear={2021},\nvolume={13077},\npages={44-62},\ndoi={10.1007/978-3-030-90636-8_3},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119850638&doi=10.1007%2f978-3-030-90636-8_3&partnerID=40&md5=0437eadf94addb4ef79cc72315fca90c},\n}"
  },
  {
   "key": "Miculan2021366",
@@ -1584,6 +1698,7 @@
   "pages": "366-385",
   "publisher": "",
   "year": 2021,
+  "month": 8,
   "doi": "10.1007/978-3-030-85315-0_21",
   "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85115166863&doi=10.1007%2f978-3-030-85315-0_21&partnerID=40&md5=f3b6e4a891b628d1891ab70fdf63a4c7",
   "pdf": "",
@@ -1594,7 +1709,7 @@
    "choreographies"
   ],
   "selected": false,
-  "bibtex": "@ARTICLE{Miculan2021366,\ngroups = {choreographies},\nauthor={Miculan, M. and Pasqua, M.},\ntitle={A Calculus for Attribute-Based Memory Updates},\njournal={Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},\nyear={2021},\nvolume={12819 LNCS},\npages={366-385},\ndoi={10.1007/978-3-030-85315-0_21},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85115166863&doi=10.1007%2f978-3-030-85315-0_21&partnerID=40&md5=f3b6e4a891b628d1891ab70fdf63a4c7},\n}"
+  "bibtex": "@ARTICLE{Miculan2021366,\n  month = {August},\ngroups = {choreographies},\nauthor={Miculan, M. and Pasqua, M.},\ntitle={A Calculus for Attribute-Based Memory Updates},\njournal={Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},\nyear={2021},\nvolume={12819 LNCS},\npages={366-385},\ndoi={10.1007/978-3-030-85315-0_21},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85115166863&doi=10.1007%2f978-3-030-85315-0_21&partnerID=40&md5=f3b6e4a891b628d1891ab70fdf63a4c7},\n}"
  },
  {
   "key": "deNardin2021156",
@@ -1612,6 +1727,7 @@
   "pages": "156-165",
   "publisher": "",
   "year": 2021,
+  "month": 0,
   "doi": "",
   "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85114911106&partnerID=40&md5=8d7ede8cf290c91e4307a05ed703e39c",
   "pdf": "",
@@ -1638,6 +1754,7 @@
   "pages": "185-197",
   "publisher": "",
   "year": 2021,
+  "month": 0,
   "doi": "10.5220/0010549601850197",
   "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85111859162&doi=10.5220%2f0010549601850197&partnerID=40&md5=f772a7b44162ef008324c0672276b782",
   "pdf": "",
@@ -1664,6 +1781,7 @@
   "pages": "",
   "publisher": "",
   "year": 2021,
+  "month": 0,
   "doi": "10.4230/LIPIcs.CALCO.2021.12",
   "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85120635973&doi=10.4230%2fLIPIcs.CALCO.2021.12&partnerID=40&md5=ce7faf91f3fe625ba20c3403398899a3",
   "pdf": "",
@@ -1675,22 +1793,23 @@
   "bibtex": "@CONFERENCE{Castelnovo2021,\nauthor={Castelnovo, D. and Miculan, M.},\ntitle={Closure hyperdoctrines},\nbooktitle={Proc. {CSL} 2021},\njournal={Leibniz International Proceedings in Informatics, LIPIcs},\nyear=2021,\nvolume=211,\ndoi={10.4230/LIPIcs.CALCO.2021.12},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85120635973&doi=10.4230%2fLIPIcs.CALCO.2021.12&partnerID=40&md5=ce7faf91f3fe625ba20c3403398899a3},\n}"
  },
  {
-  "key": "Stolze202144",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Composable Partial Multiparty Session Types",
+  "key": "DBLP:conf/sac/BurcoMP20",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Towards a formal model for composable container systems",
   "authors": [
-   "C. Stolze",
-   "M. Miculan",
-   "P. Di Gianantonio"
+   "Fabio Burco",
+   "Marino Miculan",
+   "Marco Peressotti"
   ],
   "editors": [],
-  "venue": "Lecture Notes in Computer Science 13077",
-  "pages": "44-62",
-  "publisher": "",
-  "year": 2021,
-  "doi": "10.1007/978-3-030-90636-8_3",
-  "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119850638&doi=10.1007%2f978-3-030-90636-8_3&partnerID=40&md5=0437eadf94addb4ef79cc72315fca90c",
+  "venue": "SAC'20: The 35th ACM/SIGAPP Symposium on Applied Computing",
+  "pages": "",
+  "publisher": "ACM",
+  "year": 2020,
+  "month": 3,
+  "doi": "10.1145/3341105.3374121",
+  "url": "",
   "pdf": "",
   "code": "",
   "note": "",
@@ -1699,34 +1818,7 @@
    "choreographies"
   ],
   "selected": false,
-  "bibtex": "@ARTICLE{Stolze202144,\ngroups = {choreographies},\nauthor={Stolze, C. and Miculan, M. and Di Gianantonio, P.},\ntitle={Composable Partial Multiparty Session Types},\njournal={Lecture Notes in Computer Science},\nyear={2021},\nvolume={13077},\npages={44-62},\ndoi={10.1007/978-3-030-90636-8_3},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119850638&doi=10.1007%2f978-3-030-90636-8_3&partnerID=40&md5=0437eadf94addb4ef79cc72315fca90c},\n}"
- },
- {
-  "key": "Pasqua2021178",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "On the Security and Safety of AbU Systems",
-  "authors": [
-   "M. Pasqua",
-   "M. Miculan"
-  ],
-  "editors": [],
-  "venue": "Lecture Notes in Computer Science 13085",
-  "pages": "178-198",
-  "publisher": "",
-  "year": 2021,
-  "doi": "10.1007/978-3-030-92124-8_11",
-  "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85121933293&doi=10.1007%2f978-3-030-92124-8_11&partnerID=40&md5=2f8730a07845071c20256f5ad54c556c",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "cybersecurity",
-   "choreographies"
-  ],
-  "selected": false,
-  "bibtex": "@ARTICLE{Pasqua2021178,\ngroups = {cybersecurity, choreographies},\nauthor={Pasqua, M. and Miculan, M.},\ntitle={On the Security and Safety of {AbU} Systems},\njournal={Lecture Notes in Computer Science},\nyear={2021},\nvolume=13085,\npages={178-198},\ndoi={10.1007/978-3-030-92124-8_11},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85121933293&doi=10.1007%2f978-3-030-92124-8_11&partnerID=40&md5=2f8730a07845071c20256f5ad54c556c},\n}"
+  "bibtex": "@inproceedings{DBLP:conf/sac/BurcoMP20,\n  month = {March},\ngroups = {choreographies},\nauthor = {Fabio Burco and\nMarino Miculan and\nMarco Peressotti},\neditor = {Chih{-}Cheng Hung and\nTom{\\'{a}}s Cern{\\'{y}} and\nDongwan Shin and\nAlessio Bechini},\ntitle = {Towards a formal model for composable container systems},\nbooktitle = {{SAC}'20: The 35th {ACM/SIGAPP} Symposium on Applied Computing},\npublisher = {{ACM}},\nyear = {2020},\nurl = {https://doi.org/10.1145/3341105.3374121},\ndoi = {10.1145/3341105.3374121},\n}"
  },
  {
   "key": "cmp:icgt20",
@@ -1743,6 +1835,7 @@
   "pages": "38–56",
   "publisher": "Springer",
   "year": 2020,
+  "month": 0,
   "doi": "10.1007/978-3-030-51372-6\\_3",
   "url": "",
   "pdf": "",
@@ -1769,6 +1862,7 @@
   "pages": "",
   "publisher": "",
   "year": 2020,
+  "month": 0,
   "doi": "",
   "url": "http://ceur-ws.org/Vol-2580/DLT\\_2020\\_paper\\_4.pdf",
   "pdf": "",
@@ -1795,6 +1889,7 @@
   "pages": "",
   "publisher": "",
   "year": 2020,
+  "month": 0,
   "doi": "",
   "url": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85098682549&partnerID=40&md5=e1672bc6cca0fbd53487706af205407d",
   "pdf": "",
@@ -1808,31 +1903,29 @@
   "bibtex": "@CONFERENCE{Miculan2020,\ngroups = {choreographies},\nauthor={Miculan, M. and Peressotti, M.},\ntitle={Software transactional memory with interactions},\njournal={CEUR Workshop Proceedings},\nyear={2020},\nvolume={2756},\nurl={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85098682549&partnerID=40&md5=e1672bc6cca0fbd53487706af205407d},\n}"
  },
  {
-  "key": "DBLP:conf/sac/BurcoMP20",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Towards a formal model for composable container systems",
+  "key": "DBLP:journals/tcs/BernardoM19",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Constructive logical characterizations of bisimilarity for reactive probabilistic systems",
   "authors": [
-   "Fabio Burco",
-   "Marino Miculan",
-   "Marco Peressotti"
+   "Marco Bernardo",
+   "Marino Miculan"
   ],
   "editors": [],
-  "venue": "SAC'20: The 35th ACM/SIGAPP Symposium on Applied Computing",
-  "pages": "",
-  "publisher": "ACM",
-  "year": 2020,
-  "doi": "10.1145/3341105.3374121",
+  "venue": "Theoretical Computer Science 764",
+  "pages": "80–99",
+  "publisher": "",
+  "year": 2019,
+  "month": 4,
+  "doi": "10.1016/j.tcs.2018.12.003",
   "url": "",
   "pdf": "",
   "code": "",
   "note": "",
   "arxiv": "",
-  "groups": [
-   "choreographies"
-  ],
+  "groups": [],
   "selected": false,
-  "bibtex": "@inproceedings{DBLP:conf/sac/BurcoMP20,\ngroups = {choreographies},\nauthor = {Fabio Burco and\nMarino Miculan and\nMarco Peressotti},\neditor = {Chih{-}Cheng Hung and\nTom{\\'{a}}s Cern{\\'{y}} and\nDongwan Shin and\nAlessio Bechini},\ntitle = {Towards a formal model for composable container systems},\nbooktitle = {{SAC}'20: The 35th {ACM/SIGAPP} Symposium on Applied Computing},\npublisher = {{ACM}},\nyear = {2020},\nurl = {https://doi.org/10.1145/3341105.3374121},\ndoi = {10.1145/3341105.3374121},\n}"
+  "bibtex": "@article{DBLP:journals/tcs/BernardoM19,\n  month = {April},\nauthor = {Marco Bernardo and\nMarino Miculan},\ntitle = {Constructive logical characterizations of bisimilarity for reactive\nprobabilistic systems},\njournal = {Theoretical Computer Science},\nvolume = 764,\npages = {80--99},\nyear = 2019,\nurl = {https://doi.org/10.1016/j.tcs.2018.12.003},\ndoi = {10.1016/j.tcs.2018.12.003},\n}"
  },
  {
   "key": "DBLP:conf/ictcs/GeattiIM19",
@@ -1849,6 +1942,7 @@
   "pages": "171–183",
   "publisher": "CEUR-WS.org",
   "year": 2019,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://ceur-ws.org/Vol-2504/paper20.pdf",
@@ -1860,30 +1954,6 @@
   ],
   "selected": false,
   "bibtex": "@inproceedings{DBLP:conf/ictcs/GeattiIM19,\ngroups = {choreographies},\nauthor = {Luca Geatti and\nFederico Igne and\nMarino Miculan},\neditor = {Alessandra Cherubini and\nNicoletta Sabadini and\nSimone Tini},\ntitle = {An Abstract Distributed Middleware for Transactions over Heterogeneous Stores},\nbooktitle = {Proc. 20th Italian Conference on Theoretical Computer Science, ICTCS 2019},\nseries = {{CEUR} Workshop Proceedings},\nvolume = {2504},\npages = {171--183},\npublisher = {CEUR-WS.org},\nyear = {2019},\npdf = {http://ceur-ws.org/Vol-2504/paper20.pdf},\n}"
- },
- {
-  "key": "DBLP:journals/tcs/BernardoM19",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Constructive logical characterizations of bisimilarity for reactive probabilistic systems",
-  "authors": [
-   "Marco Bernardo",
-   "Marino Miculan"
-  ],
-  "editors": [],
-  "venue": "Theoretical Computer Science 764",
-  "pages": "80–99",
-  "publisher": "",
-  "year": 2019,
-  "doi": "10.1016/j.tcs.2018.12.003",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@article{DBLP:journals/tcs/BernardoM19,\nauthor = {Marco Bernardo and\nMarino Miculan},\ntitle = {Constructive logical characterizations of bisimilarity for reactive\nprobabilistic systems},\njournal = {Theoretical Computer Science},\nvolume = 764,\npages = {80--99},\nyear = 2019,\nurl = {https://doi.org/10.1016/j.tcs.2018.12.003},\ndoi = {10.1016/j.tcs.2018.12.003},\n}"
  },
  {
   "key": "DBLP:conf/itasec/MiculanFP19",
@@ -1900,6 +1970,7 @@
   "pages": "",
   "publisher": "CEUR",
   "year": 2019,
+  "month": 0,
   "doi": "",
   "url": "http://ceur-ws.org/Vol-2315/paper08.pdf",
   "pdf": "",
@@ -1926,6 +1997,7 @@
   "pages": "218–229",
   "publisher": "CEUR",
   "year": 2018,
+  "month": 0,
   "doi": "",
   "url": "http://arxiv.org/abs/1611.03424",
   "pdf": "http://ceur-ws.org/Vol-2243/paper22.pdf",
@@ -1951,6 +2023,7 @@
   "pages": "109–126",
   "publisher": "Springer",
   "year": 2018,
+  "month": 0,
   "doi": "10.1007/978-3-319-74730-9\\_9",
   "url": "",
   "pdf": "",
@@ -1978,6 +2051,7 @@
   "pages": "27",
   "publisher": "",
   "year": 2018,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
@@ -2004,6 +2078,7 @@
   "pages": "254–270",
   "publisher": "EasyChair",
   "year": 2018,
+  "month": 0,
   "doi": "10.29007/ntwg",
   "url": "https://easychair.org/publications/paper/GRzV",
   "pdf": "",
@@ -2013,6 +2088,33 @@
   "groups": [],
   "selected": false,
   "bibtex": "@inproceedings{LPAR-22:involutions_as_principal_types_application_as_unification_Analogy,\nauthor = {Alberto Ciaffaglione and Furio Honsell and Marina Lenisa and Ivan Scagnetto},\ntitle = {The involutions-as-principal types/application-as-unification Analogy},\nbooktitle = {LPAR-22. 22nd International Conference on Logic for Programming, Artificial Intelligence and Reasoning},\neditor = {Gilles Barthe and Geoff Sutcliffe and Margus Veanes},\nseries = {EPiC Series in Computing},\nvolume = {57},\npages = {254--270},\nyear = {2018},\npublisher = {EasyChair},\nissn = {2398-7340},\nurl = {https://easychair.org/publications/paper/GRzV},\ndoi = {10.29007/ntwg}}"
+ },
+ {
+  "key": "lmcs:3771",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "LLF_P: a logical framework for modeling external evidence, side conditions, and proof irrelevance using monads",
+  "authors": [
+   "Furio Honsell",
+   "Luigi Liquori",
+   "Petar Maksimovic",
+   "Ivan Scagnetto"
+  ],
+  "editors": [],
+  "venue": "Logical Methods in Computer Science Volume 13, Issue 3",
+  "pages": "",
+  "publisher": "",
+  "year": 2017,
+  "month": 7,
+  "doi": "10.23638/LMCS-13(3:2)2017",
+  "url": "http://lmcs.episciences.org/3771",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@article{lmcs:3771,\nAuthor = {Honsell, Furio and Liquori, Luigi and Maksimovic, Petar and Scagnetto, Ivan},\nDoi = {10.23638/LMCS-13(3:2)2017},\nJournal = {{Logical Methods in Computer Science}},\nKeywords = {Computer Science - Logic in Computer Science ; F.4.1},\nMonth = Jul,\nTitle = {{LLF_P: a logical framework for modeling external evidence, side conditions, and proof irrelevance using monads}},\nUrl = {http://lmcs.episciences.org/3771},\nVolume = {{Volume 13, Issue 3}},\nYear = {2017},"
  },
  {
   "key": "mp:ictcs17",
@@ -2028,6 +2130,7 @@
   "pages": "126-137",
   "publisher": "",
   "year": 2017,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://ceur-ws.org/Vol-1949/ICTCSpaper11.pdf",
@@ -2052,6 +2155,7 @@
   "pages": "",
   "publisher": "ACM",
   "year": 2017,
+  "month": 0,
   "doi": "",
   "url": "http://dl.acm.org/citation.cfm?id=3130261",
   "pdf": "",
@@ -2061,32 +2165,6 @@
   "groups": [],
   "selected": false,
   "bibtex": "@proceedings{Miculan:2017:3130261,\nEditor = {Miculan, Marino and Rabe, Florian},\nIsbn = {978-1-4503-5374-8},\nLocation = {Oxford, United Kingdom},\nPublisher = {ACM},\nTitle = {{LFMTP} '17: Proceedings of the Workshop on Logical Frameworks and Meta-Languages: Theory and Practice},\nUrl = {http://dl.acm.org/citation.cfm?id=3130261},\nYear = {2017},"
- },
- {
-  "key": "lmcs:3771",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "LLF_P: a logical framework for modeling external evidence, side conditions, and proof irrelevance using monads",
-  "authors": [
-   "Furio Honsell",
-   "Luigi Liquori",
-   "Petar Maksimovic",
-   "Ivan Scagnetto"
-  ],
-  "editors": [],
-  "venue": "Logical Methods in Computer Science Volume 13, Issue 3",
-  "pages": "",
-  "publisher": "",
-  "year": 2017,
-  "doi": "10.23638/LMCS-13(3:2)2017",
-  "url": "http://lmcs.episciences.org/3771",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@article{lmcs:3771,\nAuthor = {Honsell, Furio and Liquori, Luigi and Maksimovic, Petar and Scagnetto, Ivan},\nDoi = {10.23638/LMCS-13(3:2)2017},\nJournal = {{Logical Methods in Computer Science}},\nKeywords = {Computer Science - Logic in Computer Science ; F.4.1},\nMonth = Jul,\nTitle = {{LLF_P: a logical framework for modeling external evidence, side conditions, and proof irrelevance using monads}},\nUrl = {http://lmcs.episciences.org/3771},\nVolume = {{Volume 13, Issue 3}},\nYear = {2017},"
  },
  {
   "key": "Pavan2017",
@@ -2103,6 +2181,7 @@
   "pages": "35–61",
   "publisher": "Springer International Publishing",
   "year": 2017,
+  "month": 0,
   "doi": "10.1007/978-3-319-46135-9_3",
   "url": "",
   "pdf": "",
@@ -2128,6 +2207,7 @@
   "pages": "",
   "publisher": "Springer International Publishing",
   "year": 2017,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
@@ -2152,6 +2232,7 @@
   "pages": "",
   "publisher": "",
   "year": 2017,
+  "month": 0,
   "doi": "",
   "url": "http://arxiv.org/abs/1704.07181",
   "pdf": "",
@@ -2178,6 +2259,7 @@
   "pages": "1–9",
   "publisher": "",
   "year": 2017,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
@@ -2187,6 +2269,58 @@
   "groups": [],
   "selected": false,
   "bibtex": "@inproceedings{stolze2017towards,\nAuthor = {Stolze, Claude and Liquori, Luigi and Honsell, Furio and Scagnetto, Ivan},\nBooktitle = {International Workshop on Logical Frameworks and Meta-languages LFMTP},\nPages = {1--9},\nTitle = {Towards a Logical Framework with Intersection and Union Types},\nYear = {2017}}"
+ },
+ {
+  "key": "mp:tcs16",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Structural operational semantics for non-deterministic processes with quantitative aspects",
+  "authors": [
+   "Marino Miculan",
+   "Marco Peressotti"
+  ],
+  "editors": [],
+  "venue": "Theoretical Computer Science 655",
+  "pages": "135-154",
+  "publisher": "",
+  "year": 2016,
+  "month": 12,
+  "doi": "10.1016/j.tcs.2016.01.012",
+  "url": "http://www.sciencedirect.com/science/article/pii/S0304397516000232",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@article{mp:tcs16,\n  month = {December},\nAuthor = {Marino Miculan and Marco Peressotti},\nDoi = {10.1016/j.tcs.2016.01.012},\nIssn = {0304-3975},\nJournal = {Theoretical Computer Science},\nKeywords = {Quantitative models},\nPages = {135-154},\nTitle = {Structural operational semantics for non-deterministic processes with quantitative aspects},\nUrl = {http://www.sciencedirect.com/science/article/pii/S0304397516000232},\nVolume = {655},\nYear = {2016},"
+ },
+ {
+  "key": "Honsell2016",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Implementing Cantor's Paradise",
+  "authors": [
+   "Furio Honsell",
+   "Marina Lenisa",
+   "Luigi Liquori",
+   "Ivan Scagnetto"
+  ],
+  "editors": [],
+  "venue": "Programming Languages and Systems: 14th Asian Symposium, APLAS 2016, Hanoi, Vietnam, November 21 - 23, 2016, Proceedings",
+  "pages": "229–250",
+  "publisher": "Springer International Publishing",
+  "year": 2016,
+  "month": 10,
+  "doi": "10.1007/978-3-319-47958-3_13",
+  "url": "",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@inproceedings{Honsell2016,\n  month = {October},\nAddress = {Cham},\nAuthor = {Honsell, Furio and Lenisa, Marina and Liquori, Luigi and Scagnetto, Ivan},\nBooktitle = {Programming Languages and Systems: 14th Asian Symposium, APLAS 2016, Hanoi, Vietnam, November 21 - 23, 2016, Proceedings},\nDoi = {10.1007/978-3-319-47958-3_13},\nEditor = {Igarashi, Atsushi},\nIsbn = {978-3-319-47958-3},\nPages = {229--250},\nPublisher = {Springer International Publishing},\nTitle = {Implementing Cantor's Paradise},\nUrl = {https://doi.org/10.1007/978-3-319-47958-3_13},\nYear = {2016},"
  },
  {
   "key": "DBLP:journals/corr/MiculanP16",
@@ -2202,6 +2336,7 @@
   "pages": "",
   "publisher": "",
   "year": 2016,
+  "month": 0,
   "doi": "",
   "url": "http://arxiv.org/abs/1602.05365",
   "pdf": "",
@@ -2226,6 +2361,7 @@
   "pages": "",
   "publisher": "",
   "year": 2016,
+  "month": 0,
   "doi": "",
   "url": "http://arxiv.org/abs/1611.03424",
   "pdf": "",
@@ -2250,6 +2386,7 @@
   "pages": "203-220",
   "publisher": "",
   "year": 2016,
+  "month": 0,
   "doi": "",
   "url": "https://arxiv.org/abs/1601.06198",
   "pdf": "http://ceur-ws.org/Vol-1720/full15.pdf",
@@ -2259,32 +2396,6 @@
   "groups": [],
   "selected": false,
   "bibtex": "@inproceedings{bm:ictcs16,\nAuthor = {Marco Bernardo and Marino Miculan},\nBooktitle = {Proceedings of {ICTCS} 2016},\nPages = {203-220},\nPdf = {http://ceur-ws.org/Vol-1720/full15.pdf},\nSeries = {CEUR-WS},\nTitle = {Disjunctive Probabilistic Modal Logic is Enough for Bisimilarity on Reactive Probabilistic Systems},\nUrl = {https://arxiv.org/abs/1601.06198},\nVolume = 1720,\nYear = 2016,"
- },
- {
-  "key": "Honsell2016",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Implementing Cantor's Paradise",
-  "authors": [
-   "Furio Honsell",
-   "Marina Lenisa",
-   "Luigi Liquori",
-   "Ivan Scagnetto"
-  ],
-  "editors": [],
-  "venue": "Programming Languages and Systems: 14th Asian Symposium, APLAS 2016, Hanoi, Vietnam, November 21 - 23, 2016, Proceedings",
-  "pages": "229–250",
-  "publisher": "Springer International Publishing",
-  "year": 2016,
-  "doi": "10.1007/978-3-319-47958-3_13",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@inproceedings{Honsell2016,\nAddress = {Cham},\nAuthor = {Honsell, Furio and Lenisa, Marina and Liquori, Luigi and Scagnetto, Ivan},\nBooktitle = {Programming Languages and Systems: 14th Asian Symposium, APLAS 2016, Hanoi, Vietnam, November 21 - 23, 2016, Proceedings},\nDoi = {10.1007/978-3-319-47958-3_13},\nEditor = {Igarashi, Atsushi},\nIsbn = {978-3-319-47958-3},\nPages = {229--250},\nPublisher = {Springer International Publishing},\nTitle = {Implementing Cantor's Paradise},\nUrl = {https://doi.org/10.1007/978-3-319-47958-3_13},\nYear = {2016},"
  },
  {
   "key": "mp:ictcs16",
@@ -2300,6 +2411,7 @@
   "pages": "88-102",
   "publisher": "",
   "year": 2016,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://ceur-ws.org/Vol-1720/full7.pdf",
@@ -2324,6 +2436,7 @@
   "pages": "",
   "publisher": "",
   "year": 2016,
+  "month": 0,
   "doi": "",
   "url": "http://www.inderscience.com/info/inarticletoc.php?jcode=ijeg&year=2016&vol=8&issue=1",
   "pdf": "",
@@ -2333,30 +2446,6 @@
   "groups": [],
   "selected": false,
   "bibtex": "@proceedings{rm:ijeg16,\nEditor = {Barbara Re and Marino Miculan},\nNumber = 1,\nSeries = {International Journal of Electronic Governance},\nTitle = {Special Issue on Methodologies, Technologies and Tools Enabling e-Government},\nUrl = {http://www.inderscience.com/info/inarticletoc.php?jcode=ijeg&year=2016&vol=8&issue=1},\nVolume = 8,\nYear = 2016,"
- },
- {
-  "key": "mp:tcs16",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Structural operational semantics for non-deterministic processes with quantitative aspects",
-  "authors": [
-   "Marino Miculan",
-   "Marco Peressotti"
-  ],
-  "editors": [],
-  "venue": "Theoretical Computer Science 655",
-  "pages": "135-154",
-  "publisher": "",
-  "year": 2016,
-  "doi": "10.1016/j.tcs.2016.01.012",
-  "url": "http://www.sciencedirect.com/science/article/pii/S0304397516000232",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@article{mp:tcs16,\nAuthor = {Marino Miculan and Marco Peressotti},\nDoi = {10.1016/j.tcs.2016.01.012},\nIssn = {0304-3975},\nJournal = {Theoretical Computer Science},\nKeywords = {Quantitative models},\nPages = {135-154},\nTitle = {Structural operational semantics for non-deterministic processes with quantitative aspects},\nUrl = {http://www.sciencedirect.com/science/article/pii/S0304397516000232},\nVolume = {655},\nYear = {2016},"
  },
  {
   "key": "bmp:jlamp15",
@@ -2373,6 +2462,7 @@
   "pages": "-",
   "publisher": "",
   "year": 2015,
+  "month": 11,
   "doi": "10.1016/j.jlamp.2015.09.002",
   "url": "http://arxiv.org/abs/1411.0090",
   "pdf": "http://arxiv.org/pdf/1411.0090v3",
@@ -2381,32 +2471,57 @@
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@article{bmp:jlamp15,\nAuthor = {Tomasz Brengos and Marino Miculan and Marco Peressotti},\nDoi = {10.1016/j.jlamp.2015.09.002},\nIssn = {2352-2208},\nJournal = {Journal of Logical and Algebraic Methods in Programming},\nKeywords = {Saturation semantics},\nPages = {-},\nPdf = {http://arxiv.org/pdf/1411.0090v3},\nTitle = {Behavioural equivalences for coalgebras with unobservable moves},\nUrl = {http://arxiv.org/abs/1411.0090},\nYear = {2015},"
+  "bibtex": "@article{bmp:jlamp15,\n  month = {November},\nAuthor = {Tomasz Brengos and Marino Miculan and Marco Peressotti},\nDoi = {10.1016/j.jlamp.2015.09.002},\nIssn = {2352-2208},\nJournal = {Journal of Logical and Algebraic Methods in Programming},\nKeywords = {Saturation semantics},\nPages = {-},\nPdf = {http://arxiv.org/pdf/1411.0090v3},\nTitle = {Behavioural equivalences for coalgebras with unobservable moves},\nUrl = {http://arxiv.org/abs/1411.0090},\nYear = {2015},"
  },
  {
-  "key": "mps:air15",
-  "type": "incollection",
-  "type_label": "Book chapter",
-  "title": "Content-Based Similarity of Twitter Users",
+  "key": "Ciaffaglione2015",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Mechanizing type environments in weak HOAS",
   "authors": [
-   "Stefano Mizzaro",
-   "Marco Pavan",
+   "Alberto Ciaffaglione",
    "Ivan Scagnetto"
   ],
   "editors": [],
-  "venue": "Advances in Information Retrieval, Lecture Notes in Computer Science 9022",
-  "pages": "507-512",
-  "publisher": "Springer International Publishing",
+  "venue": "Theoretical Computer Science",
+  "pages": "-",
+  "publisher": "",
   "year": 2015,
-  "doi": "10.1007/978-3-319-16354-3_56",
-  "url": "",
+  "month": 11,
+  "doi": "10.1016/j.tcs.2015.07.019",
+  "url": "http://www.sciencedirect.com/science/article/pii/S0304397515006404",
   "pdf": "",
   "code": "",
   "note": "",
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@incollection{mps:air15,\nAuthor = {Mizzaro, Stefano and Pavan, Marco and Scagnetto, Ivan},\nBooktitle = {Advances in Information Retrieval},\nDoi = {10.1007/978-3-319-16354-3_56},\nEditor = {Hanbury, Allan and Kazai, Gabriella and Rauber, Andreas and Fuhr, Norbert},\nIsbn = {978-3-319-16353-6},\nLanguage = {English},\nPages = {507-512},\nPublisher = {Springer International Publishing},\nSeries = {Lecture Notes in Computer Science},\nTitle = {Content-Based Similarity of Twitter Users},\nUrl = {http://dx.doi.org/10.1007/978-3-319-16354-3_56},\nVolume = {9022},\nYear = {2015},"
+  "bibtex": "@article{Ciaffaglione2015,\n  month = {November},\nAuthor = {Alberto Ciaffaglione and Ivan Scagnetto},\nDoi = {http://dx.doi.org/10.1016/j.tcs.2015.07.019},\nIssn = {0304-3975},\nJournal = {Theoretical Computer Science},\nKeywords = {POPLmark challenge},\nPages = {-},\nTitle = {Mechanizing type environments in weak HOAS},\nUrl = {http://www.sciencedirect.com/science/article/pii/S0304397515006404},\nYear = {2015},"
+ },
+ {
+  "key": "Bacci2014",
+  "type": "article",
+  "type_label": "Journal article",
+  "title": "Structural operational semantics for continuous state stochastic transition systems",
+  "authors": [
+   "Giorgio Bacci",
+   "Marino Miculan"
+  ],
+  "editors": [],
+  "venue": "Journal of Computer and System Sciences 81",
+  "pages": "834-858",
+  "publisher": "",
+  "year": 2015,
+  "month": 8,
+  "doi": "10.1016/j.jcss.2014.12.003",
+  "url": "http://www.sciencedirect.com/science/article/pii/S0022000014001652",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@article{Bacci2014,\n  month = {August},\nAuthor = {Giorgio Bacci and Marino Miculan},\nDoi = {http://dx.doi.org/10.1016/j.jcss.2014.12.003},\nIssn = {0022-0000},\nJournal = {Journal of Computer and System Sciences},\nKeywords = {Quantitative aspects},\nPages = {834-858},\nTitle = {Structural operational semantics for continuous state stochastic transition systems},\nUrl = {http://www.sciencedirect.com/science/article/pii/S0022000014001652},\nVolume = 81,\nYear = {2015},"
  },
  {
   "key": "EPTCS185.1",
@@ -2424,6 +2539,7 @@
   "pages": "3-17",
   "publisher": "Open Publishing Association",
   "year": 2015,
+  "month": 7,
   "doi": "10.4204/EPTCS.185.1",
   "url": "",
   "pdf": "",
@@ -2432,31 +2548,33 @@
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@inproceedings{EPTCS185.1,\nAuthor = {Honsell, Furio and Liquori, Luigi and Maksimovic, Petar and Scagnetto, Ivan},\nBooktitle = {Proceedings Tenth International Workshop on Logical Frameworks and Meta Languages: Theory and Practice, Berlin, Germany, 1 August 2015},\nDoi = {10.4204/EPTCS.185.1},\nEditor = {Cervesato, Iliano and Chaudhuri, Kaustuv},\nPages = {3-17},\nPublisher = {Open Publishing Association},\nSeries = {Electronic Proceedings in Theoretical Computer Science},\nTitle = {Gluing together Proof Environments: Canonical extensions of LF Type Theories featuring Locks},\nVolume = {185},\nYear = {2015},"
+  "bibtex": "@inproceedings{EPTCS185.1,\n  month = {July},\nAuthor = {Honsell, Furio and Liquori, Luigi and Maksimovic, Petar and Scagnetto, Ivan},\nBooktitle = {Proceedings Tenth International Workshop on Logical Frameworks and Meta Languages: Theory and Practice, Berlin, Germany, 1 August 2015},\nDoi = {10.4204/EPTCS.185.1},\nEditor = {Cervesato, Iliano and Chaudhuri, Kaustuv},\nPages = {3-17},\nPublisher = {Open Publishing Association},\nSeries = {Electronic Proceedings in Theoretical Computer Science},\nTitle = {Gluing together Proof Environments: Canonical extensions of LF Type Theories featuring Locks},\nVolume = {185},\nYear = {2015},"
  },
  {
-  "key": "Ciaffaglione2015",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Mechanizing type environments in weak HOAS",
+  "key": "mps:air15",
+  "type": "incollection",
+  "type_label": "Book chapter",
+  "title": "Content-Based Similarity of Twitter Users",
   "authors": [
-   "Alberto Ciaffaglione",
+   "Stefano Mizzaro",
+   "Marco Pavan",
    "Ivan Scagnetto"
   ],
   "editors": [],
-  "venue": "Theoretical Computer Science",
-  "pages": "-",
-  "publisher": "",
+  "venue": "Advances in Information Retrieval, Lecture Notes in Computer Science 9022",
+  "pages": "507-512",
+  "publisher": "Springer International Publishing",
   "year": 2015,
-  "doi": "10.1016/j.tcs.2015.07.019",
-  "url": "http://www.sciencedirect.com/science/article/pii/S0304397515006404",
+  "month": 0,
+  "doi": "10.1007/978-3-319-16354-3_56",
+  "url": "",
   "pdf": "",
   "code": "",
   "note": "",
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@article{Ciaffaglione2015,\nAuthor = {Alberto Ciaffaglione and Ivan Scagnetto},\nDoi = {http://dx.doi.org/10.1016/j.tcs.2015.07.019},\nIssn = {0304-3975},\nJournal = {Theoretical Computer Science},\nKeywords = {POPLmark challenge},\nPages = {-},\nTitle = {Mechanizing type environments in weak HOAS},\nUrl = {http://www.sciencedirect.com/science/article/pii/S0304397515006404},\nYear = {2015},"
+  "bibtex": "@incollection{mps:air15,\nAuthor = {Mizzaro, Stefano and Pavan, Marco and Scagnetto, Ivan},\nBooktitle = {Advances in Information Retrieval},\nDoi = {10.1007/978-3-319-16354-3_56},\nEditor = {Hanbury, Allan and Kazai, Gabriella and Rauber, Andreas and Fuhr, Norbert},\nIsbn = {978-3-319-16353-6},\nLanguage = {English},\nPages = {507-512},\nPublisher = {Springer International Publishing},\nSeries = {Lecture Notes in Computer Science},\nTitle = {Content-Based Similarity of Twitter Users},\nUrl = {http://dx.doi.org/10.1007/978-3-319-16354-3_56},\nVolume = {9022},\nYear = {2015},"
  },
  {
   "key": "mpt:coord15",
@@ -2473,6 +2591,7 @@
   "pages": "213–229",
   "publisher": "",
   "year": 2015,
+  "month": 0,
   "doi": "10.1007/978-3-319-19282-6_14",
   "url": "",
   "pdf": "http://users.dimi.uniud.it/~marino.miculan/Papers/COORDINATION15.pdf",
@@ -2484,28 +2603,81 @@
   "bibtex": "@inproceedings{mpt:coord15,\nAuthor = {Marino Miculan and Marco Peressotti and Andrea Toneguzzo},\nBooktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International Conference, {COORDINATION} 2015, Held as Part of the 10th International Federated Conference on Distributed Computing Techniques, DisCoTec 2015, Grenoble, France, June 2-4, 2015, Proceedings},\nCrossref = {DBLP:conf/coordination/2015},\nDoi = {10.1007/978-3-319-19282-6_14},\nPages = {213--229},\nPdf = {http://users.dimi.uniud.it/~marino.miculan/Papers/COORDINATION15.pdf},\nTitle = {Open Transactions on Shared Memory},\nUrl = {http://dx.doi.org/10.1007/978-3-319-19282-6_14},\nYear = {2015},"
  },
  {
-  "key": "Bacci2014",
-  "type": "article",
-  "type_label": "Journal article",
-  "title": "Structural operational semantics for continuous state stochastic transition systems",
+  "key": "Ciaffaglione:2014:IAB:2631172.2631180",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Internal Adequacy of Bookkeeping in Coq",
   "authors": [
-   "Giorgio Bacci",
-   "Marino Miculan"
+   "Alberto Ciaffaglione",
+   "Ivan Scagnetto"
   ],
   "editors": [],
-  "venue": "Journal of Computer and System Sciences 81",
-  "pages": "834-858",
-  "publisher": "",
-  "year": 2015,
-  "doi": "10.1016/j.jcss.2014.12.003",
-  "url": "http://www.sciencedirect.com/science/article/pii/S0022000014001652",
+  "venue": "Proceedings of the 2014 International Workshop on Logical Frameworks and Meta-languages: Theory and Practice",
+  "pages": "8:1–8:8",
+  "publisher": "ACM",
+  "year": 2014,
+  "month": 7,
+  "doi": "10.1145/2631172.2631180",
+  "url": "",
   "pdf": "",
   "code": "",
   "note": "",
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@article{Bacci2014,\nAuthor = {Giorgio Bacci and Marino Miculan},\nDoi = {http://dx.doi.org/10.1016/j.jcss.2014.12.003},\nIssn = {0022-0000},\nJournal = {Journal of Computer and System Sciences},\nKeywords = {Quantitative aspects},\nPages = {834-858},\nTitle = {Structural operational semantics for continuous state stochastic transition systems},\nUrl = {http://www.sciencedirect.com/science/article/pii/S0022000014001652},\nVolume = 81,\nYear = {2015},"
+  "bibtex": "@inproceedings{Ciaffaglione:2014:IAB:2631172.2631180,\n  month = {July},\nAcmid = {2631180},\nAddress = {New York, NY, USA},\nArticleno = {8},\nAuthor = {Ciaffaglione, Alberto and Scagnetto, Ivan},\nBooktitle = {Proceedings of the 2014 International Workshop on Logical Frameworks and Meta-languages: Theory and Practice},\nDoi = {10.1145/2631172.2631180},\nIsbn = {978-1-4503-2817-3},\nKeywords = {Higher-Order Abstract Syntax, Logical Frameworks, Type Theory},\nLocation = {Vienna, Austria},\nNumpages = {8},\nPages = {8:1--8:8},\nPublisher = {ACM},\nSeries = {LFMTP '14},\nTitle = {Internal Adequacy of Bookkeeping in Coq},\nUrl = {http://doi.acm.org/10.1145/2631172.2631180},\nYear = {2014},"
+ },
+ {
+  "key": "Mizzaro:2014:STC:2632188.2632205",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "Short Text Categorization Exploiting Contextual Enrichment and External Knowledge",
+  "authors": [
+   "Stefano Mizzaro",
+   "Marco Pavan",
+   "Ivan Scagnetto",
+   "Martino Valenti"
+  ],
+  "editors": [],
+  "venue": "Proceedings of the First International Workshop on Social Media Retrieval and Analysis",
+  "pages": "57–62",
+  "publisher": "ACM",
+  "year": 2014,
+  "month": 7,
+  "doi": "10.1145/2632188.2632205",
+  "url": "",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@inproceedings{Mizzaro:2014:STC:2632188.2632205,\n  month = {July},\nAcmid = {2632205},\nAddress = {New York, NY, USA},\nAuthor = {Mizzaro, Stefano and Pavan, Marco and Scagnetto, Ivan and Valenti, Martino},\nBooktitle = {Proceedings of the First International Workshop on Social Media Retrieval and Analysis},\nDoi = {10.1145/2632188.2632205},\nIsbn = {978-1-4503-3022-0},\nKeywords = {context-aware retrieval, enrichment, evaluation, wikipedia},\nLocation = {Gold Coast, Queensland, Australia},\nNumpages = {6},\nPages = {57--62},\nPublisher = {ACM},\nSeries = {SoMeRA '14},\nTitle = {Short Text Categorization Exploiting Contextual Enrichment and External Knowledge},\nUrl = {http://doi.acm.org/10.1145/2632188.2632205},\nYear = {2014},"
+ },
+ {
+  "key": "DBLP:journals/corr/MiculanP14",
+  "type": "inproceedings",
+  "type_label": "Conference paper",
+  "title": "GSOS for non-deterministic processes with quantitative aspects",
+  "authors": [
+   "Marino Miculan",
+   "Marco Peressotti"
+  ],
+  "editors": [],
+  "venue": "Proceedings Twelfth International Workshop on Quantitative Aspects of Programming Languages and Systems, QAPL 2014, Grenoble, France, 12-13 April 2014., EPTCS 154",
+  "pages": "17–33",
+  "publisher": "",
+  "year": 2014,
+  "month": 6,
+  "doi": "10.4204/EPTCS.154.2",
+  "url": "",
+  "pdf": "",
+  "code": "",
+  "note": "",
+  "arxiv": "",
+  "groups": [],
+  "selected": false,
+  "bibtex": "@inproceedings{DBLP:journals/corr/MiculanP14,\n  month = {June},\nAuthor = {Marino Miculan and Marco Peressotti},\nBooktitle = {Proceedings Twelfth International Workshop on Quantitative Aspects of Programming Languages and Systems, {QAPL} 2014, Grenoble, France, 12-13 April 2014.},\nDoi = {10.4204/EPTCS.154.2},\nEditor = {Nathalie Bertrand and Luca Bortolussi},\nPages = {17--33},\nSeries = {EPTCS},\nTitle = {{GSOS} for non-deterministic processes with quantitative aspects},\nUrl = {http://dx.doi.org/10.4204/EPTCS.154.2},\nVolume = {154},\nYear = {2014},"
  },
  {
   "key": "Mizzaro:2014:CRS:2601301.2601305",
@@ -2523,6 +2695,7 @@
   "pages": "18–25",
   "publisher": "ACM",
   "year": 2014,
+  "month": 4,
   "doi": "10.1145/2601301.2601305",
   "url": "",
   "pdf": "",
@@ -2531,7 +2704,7 @@
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@inproceedings{Mizzaro:2014:CRS:2601301.2601305,\nAcmid = {2601305},\nAddress = {New York, NY, USA},\nAuthor = {Mizzaro, Stefano and Pavan, Marco and Scagnetto, Ivan and Zanello, Ivano},\nBooktitle = {Proceedings of the 4th Workshop on Context-Awareness in Retrieval and Recommendation},\nDoi = {10.1145/2601301.2601305},\nIsbn = {978-1-4503-2723-7},\nKeywords = {apps, context-aware retrieval, evaluation, mobile, ranking, recommender systems},\nLocation = {Amsterdam, The Netherlands},\nNumpages = {8},\nPages = {18--25},\nPublisher = {ACM},\nSeries = {CARR '14},\nTitle = {A Context-aware Retrieval System for Mobile Applications},\nUrl = {http://doi.acm.org/10.1145/2601301.2601305},\nYear = {2014},"
+  "bibtex": "@inproceedings{Mizzaro:2014:CRS:2601301.2601305,\n  month = {April},\nAcmid = {2601305},\nAddress = {New York, NY, USA},\nAuthor = {Mizzaro, Stefano and Pavan, Marco and Scagnetto, Ivan and Zanello, Ivano},\nBooktitle = {Proceedings of the 4th Workshop on Context-Awareness in Retrieval and Recommendation},\nDoi = {10.1145/2601301.2601305},\nIsbn = {978-1-4503-2723-7},\nKeywords = {apps, context-aware retrieval, evaluation, mobile, ranking, recommender systems},\nLocation = {Amsterdam, The Netherlands},\nNumpages = {8},\nPages = {18--25},\nPublisher = {ACM},\nSeries = {CARR '14},\nTitle = {A Context-aware Retrieval System for Mobile Applications},\nUrl = {http://doi.acm.org/10.1145/2601301.2601305},\nYear = {2014},"
  },
  {
   "key": "DBLP:journals/corr/MiculanP14b",
@@ -2547,6 +2720,7 @@
   "pages": "",
   "publisher": "",
   "year": 2014,
+  "month": 0,
   "doi": "",
   "url": "http://arxiv.org/abs/1412.1042",
   "pdf": "",
@@ -2572,6 +2746,7 @@
   "pages": "108-123",
   "publisher": "Springer",
   "year": 2014,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://users.dimi.uniud.it/~marino.miculan/Papers/TLCA14.pdf",
@@ -2597,6 +2772,7 @@
   "pages": "17–33",
   "publisher": "Springer",
   "year": 2014,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://users.dimi.uniud.it/~marino.miculan/Papers/TGC14.pdf",
@@ -2606,54 +2782,6 @@
   "groups": [],
   "selected": false,
   "bibtex": "@inproceedings{bmr:tgc14,\nAuthor = {Giorgio Bacci and Marino Miculan and Romeo Rizzi},\nBooktitle = {Trustworthy Global Computing - 9th International Symposium, TGC 2014, Rome, Italy, September 5-6, 2014. Revised Selected Papers},\nEditor = {M. Maffei and E. Tuosto},\nPages = {17--33},\nPdf = {http://users.dimi.uniud.it/~marino.miculan/Papers/TGC14.pdf},\nPublisher = {Springer},\nSeries = lncs,\nTitle = {Finding a Forest in a Tree --- The matching problem for wide reactive systems},\nVolume = {8902},\nYear = 2014}"
- },
- {
-  "key": "DBLP:journals/corr/MiculanP14",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "GSOS for non-deterministic processes with quantitative aspects",
-  "authors": [
-   "Marino Miculan",
-   "Marco Peressotti"
-  ],
-  "editors": [],
-  "venue": "Proceedings Twelfth International Workshop on Quantitative Aspects of Programming Languages and Systems, QAPL 2014, Grenoble, France, 12-13 April 2014., EPTCS 154",
-  "pages": "17–33",
-  "publisher": "",
-  "year": 2014,
-  "doi": "10.4204/EPTCS.154.2",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@inproceedings{DBLP:journals/corr/MiculanP14,\nAuthor = {Marino Miculan and Marco Peressotti},\nBooktitle = {Proceedings Twelfth International Workshop on Quantitative Aspects of Programming Languages and Systems, {QAPL} 2014, Grenoble, France, 12-13 April 2014.},\nDoi = {10.4204/EPTCS.154.2},\nEditor = {Nathalie Bertrand and Luca Bortolussi},\nPages = {17--33},\nSeries = {EPTCS},\nTitle = {{GSOS} for non-deterministic processes with quantitative aspects},\nUrl = {http://dx.doi.org/10.4204/EPTCS.154.2},\nVolume = {154},\nYear = {2014},"
- },
- {
-  "key": "Ciaffaglione:2014:IAB:2631172.2631180",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Internal Adequacy of Bookkeeping in Coq",
-  "authors": [
-   "Alberto Ciaffaglione",
-   "Ivan Scagnetto"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the 2014 International Workshop on Logical Frameworks and Meta-languages: Theory and Practice",
-  "pages": "8:1–8:8",
-  "publisher": "ACM",
-  "year": 2014,
-  "doi": "10.1145/2631172.2631180",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@inproceedings{Ciaffaglione:2014:IAB:2631172.2631180,\nAcmid = {2631180},\nAddress = {New York, NY, USA},\nArticleno = {8},\nAuthor = {Ciaffaglione, Alberto and Scagnetto, Ivan},\nBooktitle = {Proceedings of the 2014 International Workshop on Logical Frameworks and Meta-languages: Theory and Practice},\nDoi = {10.1145/2631172.2631180},\nIsbn = {978-1-4503-2817-3},\nKeywords = {Higher-Order Abstract Syntax, Logical Frameworks, Type Theory},\nLocation = {Vienna, Austria},\nNumpages = {8},\nPages = {8:1--8:8},\nPublisher = {ACM},\nSeries = {LFMTP '14},\nTitle = {Internal Adequacy of Bookkeeping in Coq},\nUrl = {http://doi.acm.org/10.1145/2631172.2631180},\nYear = {2014},"
  },
  {
   "key": "hls:mfcs14",
@@ -2670,6 +2798,7 @@
   "pages": "327-339",
   "publisher": "Springer Berlin Heidelberg",
   "year": 2014,
+  "month": 0,
   "doi": "10.1007/978-3-662-44522-8_28",
   "url": "",
   "pdf": "",
@@ -2695,6 +2824,7 @@
   "pages": "201–208",
   "publisher": "",
   "year": 2014,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://users.dimi.uniud.it/~marino.miculan/Papers/DAIS14.pdf",
@@ -2704,32 +2834,6 @@
   "groups": [],
   "selected": false,
   "bibtex": "@inproceedings{mmp:dais14,\nAuthor = {Alessio Mansutti and Marino Miculan and Marco Peressotti},\nBooktitle = {Proc. DAIS 2014},\nEditor = {K. Magoutis and P. Pietzuch},\nNumber = 8460,\nPages = {201--208},\nPdf = {http://users.dimi.uniud.it/~marino.miculan/Papers/DAIS14.pdf},\nSeries = lncs,\nTitle = {Multi-agent Systems Design and Prototyping with Bigraphical Reactive Systems},\nYear = 2014}"
- },
- {
-  "key": "Mizzaro:2014:STC:2632188.2632205",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Short Text Categorization Exploiting Contextual Enrichment and External Knowledge",
-  "authors": [
-   "Stefano Mizzaro",
-   "Marco Pavan",
-   "Ivan Scagnetto",
-   "Martino Valenti"
-  ],
-  "editors": [],
-  "venue": "Proceedings of the First International Workshop on Social Media Retrieval and Analysis",
-  "pages": "57–62",
-  "publisher": "ACM",
-  "year": 2014,
-  "doi": "10.1145/2632188.2632205",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [],
-  "selected": false,
-  "bibtex": "@inproceedings{Mizzaro:2014:STC:2632188.2632205,\nAcmid = {2632205},\nAddress = {New York, NY, USA},\nAuthor = {Mizzaro, Stefano and Pavan, Marco and Scagnetto, Ivan and Valenti, Martino},\nBooktitle = {Proceedings of the First International Workshop on Social Media Retrieval and Analysis},\nDoi = {10.1145/2632188.2632205},\nIsbn = {978-1-4503-3022-0},\nKeywords = {context-aware retrieval, enrichment, evaluation, wikipedia},\nLocation = {Gold Coast, Queensland, Australia},\nNumpages = {6},\nPages = {57--62},\nPublisher = {ACM},\nSeries = {SoMeRA '14},\nTitle = {Short Text Categorization Exploiting Contextual Enrichment and External Knowledge},\nUrl = {http://doi.acm.org/10.1145/2632188.2632205},\nYear = {2014},"
  },
  {
   "key": "mmp:gcm14",
@@ -2746,6 +2850,7 @@
   "pages": "",
   "publisher": "EPTCS",
   "year": 2014,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
@@ -2769,6 +2874,7 @@
   "pages": "",
   "publisher": "",
   "year": 2014,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://users.dimi.uniud.it/~marino.miculan/Papers/MeMo14-tutorial.pdf",
@@ -2796,6 +2902,7 @@
   "pages": "",
   "publisher": "",
   "year": 2013,
+  "month": 7,
   "doi": "10.1093/logcom/ext028",
   "url": "http://logcom.oxfordjournals.org/content/early/2013/07/31/logcom.ext028.abstract",
   "pdf": "",
@@ -2804,7 +2911,7 @@
   "arxiv": "",
   "groups": [],
   "selected": false,
-  "bibtex": "@article{Honsell31072013,\nAuthor = {Honsell, Furio and Lenisa, Marina and Scagnetto, Ivan and Liquori, Luigi and Maksimovic, Petar},\nDoi = {10.1093/logcom/ext028},\nEprint = {http://logcom.oxfordjournals.org/content/early/2013/07/31/logcom.ext028.full.pdf+html},\nJournal = {Journal of Logic and Computation},\nTitle = {An open logical framework},\nUrl = {http://logcom.oxfordjournals.org/content/early/2013/07/31/logcom.ext028.abstract},\nYear = {2013},"
+  "bibtex": "@article{Honsell31072013,\n  month = {July},\nAuthor = {Honsell, Furio and Lenisa, Marina and Scagnetto, Ivan and Liquori, Luigi and Maksimovic, Petar},\nDoi = {10.1093/logcom/ext028},\nEprint = {http://logcom.oxfordjournals.org/content/early/2013/07/31/logcom.ext028.full.pdf+html},\nJournal = {Journal of Logic and Computation},\nTitle = {An open logical framework},\nUrl = {http://logcom.oxfordjournals.org/content/early/2013/07/31/logcom.ext028.abstract},\nYear = {2013},"
  },
  {
   "key": "mp:br-tr",
@@ -2820,6 +2927,7 @@
   "pages": "",
   "publisher": "",
   "year": 2013,
+  "month": 0,
   "doi": "",
   "url": "",
   "pdf": "http://users.dimi.uniud.it/~marino.miculan/Papers/UDMI012013.pdf",
@@ -2844,6 +2952,7 @@
   "pages": "",
   "publisher": "",
   "year": 2013,
+  "month": 0,
   "doi": "",
   "url": "http://arxiv.org/abs/1310.4106",
   "pdf": "",

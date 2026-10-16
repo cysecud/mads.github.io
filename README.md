@@ -61,6 +61,8 @@ every build. Optional extra BibTeX fields:
 - `groups = {testing, cybersecurity}`: show the paper on the research-area pages
   and in the group filter;
 - `pdf = {https://…}`: link to an open-access PDF.
+- `month = {October}`: publications are listed newest first by year and month,
+  so add it to new entries (those without a month go last in their year).
 
 Duplicate entries (same title and year) are merged automatically.
 

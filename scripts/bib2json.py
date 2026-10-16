@@ -9,6 +9,7 @@ Usage:  python3 scripts/bib2json.py [input.bib] [output.json]
 
 Optional custom BibTeX fields understood by the site:
   groups   = {testing, cybersecurity, choreographies}   research areas
+  month    = {October}                                  used to sort papers within a year
   pdf      = {https://...}                              link to a PDF
   html     = {https://...}                              link to the paper (if no doi/url)
   code     = {https://...}                              link to code / artifact
@@ -143,6 +144,18 @@ def delatex(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+MONTHS = {m: i + 1 for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
+
+
+def month_number(s):
+    """'October', 'oct', '10' -> 10; anything else -> 0 (unknown)."""
+    s = s.strip().lower()
+    if s.isdigit():
+        return int(s) if 1 <= int(s) <= 12 else 0
+    return MONTHS.get(s[:3], 0)
+
+
 def split_names(s):
     names = []
     for n in re.split(r"\s+and\s+", s.strip()):
@@ -196,6 +209,7 @@ def main():
             "pages": delatex(f.get("pages", "")),
             "publisher": delatex(f.get("publisher", "")),
             "year": int(re.sub(r"\D", "", f.get("year", "0"))[:4] or 0),
+            "month": month_number(f.get("month", "")),
             "doi": doi,
             "url": url,
             "pdf": f.get("pdf", "").strip(),
@@ -233,7 +247,8 @@ def main():
         else:
             merged[k] = p
     out = list(merged.values())
-    out.sort(key=lambda p: (-p["year"], p["title"].lower()))
+    # Newest first: by year, then month (entries without a month go last in their year).
+    out.sort(key=lambda p: (-p["year"], -p["month"], p["title"].lower()))
     DST.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"{len(out)} publications written to {DST.relative_to(ROOT)}")
 
