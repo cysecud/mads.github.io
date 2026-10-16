@@ -959,36 +959,6 @@
   "bibtex": "@inproceedings{ppfm:itasec24,\n  groups = {cybersecurity},\n  author       = {Matteo Paier and\n                  Mattia Pizzolitto and\n                  Foresti, Gian Luca and\n                  Marino Miculan},\n  editor       = {Gianni D'Angelo and\n                  Flaminia Luccio and\n                  Francesco Palmieri},\n  title        = {Netstaldi: {A} Modular Distributed Architecture for Incremental Network Discovery},\n  booktitle    = {Proceedings of the 8th Italian Conference on Cyber Security ({ITASEC} 2024)},\n  location     = {Salerno, Italy, April 8-12, 2024},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = 3731,\n  publisher    = {CEUR-WS.org},\n  year         = 2024,\n  pdf          = {https://ceur-ws.org/Vol-3731/paper37.pdf},\n\thtml    = {https://ceur-ws.org/Vol-3731}\n}"
  },
  {
-  "key": "DBLP:conf/seams/RiccioSZCMS24",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "RAMSES: An Artifact Exemplar for Engineering Self-Adaptive Microservice Applications",
-  "authors": [
-   "Vincenzo Riccio",
-   "Giancarlo Sorrentino",
-   "Ettore Zamponi",
-   "Matteo Camilli",
-   "Raffaela Mirandola",
-   "Patrizia Scandurra"
-  ],
-  "editors": [],
-  "venue": "SEAMS@ICSE",
-  "pages": "161–167",
-  "publisher": "ACM",
-  "year": 2024,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{DBLP:conf/seams/RiccioSZCMS24,\ngroups = {testing},\nauthor = {Vincenzo Riccio and\nGiancarlo Sorrentino and\nEttore Zamponi and\nMatteo Camilli and\nRaffaela Mirandola and\nPatrizia Scandurra},\ntitle = {{RAMSES:} An Artifact Exemplar for Engineering Self-Adaptive Microservice\nApplications},\nbooktitle = {SEAMS@ICSE},\npages = {161--167},\npublisher = {{ACM}},\nyear = {2024}\n}"
- },
- {
   "key": "vr:biagiola2024two",
   "type": "article",
   "type_label": "Journal article",
@@ -1255,35 +1225,6 @@
   ],
   "selected": false,
   "bibtex": "@article{vr:zohdinasab2023efficien,\n  groups = {testing},\n  title = {Efficient and Effective Feature Space Exploration for Testing Deep Learning Systems},\n  volume = {32},\n  doi = {10.1145/3544792},\n  number = {2},\n  journal = {ACM Transactions on Software Engineering and Methodology},\n  publisher = {Association for Computing Machinery (ACM)},\n  author = {Zohdinasab, Tahereh and Riccio, Vincenzo and Gambi, Alessio and Tonella, Paolo},\n  year = {2023},\n  month = {March},\n  pages = {1–38},\n  pdf = {https://p1ndsvin.github.io/assets/pdf/TOSEM2022.pdf}\n}"
- },
- {
-  "key": "DBLP:conf/icsoc/RiccioSCMS23",
-  "type": "inproceedings",
-  "type_label": "Conference paper",
-  "title": "Engineering Self-adaptive Microservice Applications: An Experience Report",
-  "authors": [
-   "Vincenzo Riccio",
-   "Giancarlo Sorrentino",
-   "Matteo Camilli",
-   "Raffaela Mirandola",
-   "Patrizia Scandurra"
-  ],
-  "editors": [],
-  "venue": "ICSOC (1), Lecture Notes in Computer Science 14419",
-  "pages": "227–242",
-  "publisher": "Springer",
-  "year": 2023,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "code": "",
-  "note": "",
-  "arxiv": "",
-  "groups": [
-   "testing"
-  ],
-  "selected": false,
-  "bibtex": "@inproceedings{DBLP:conf/icsoc/RiccioSCMS23,\ngroups = {testing},\nauthor = {Vincenzo Riccio and\nGiancarlo Sorrentino and\nMatteo Camilli and\nRaffaela Mirandola and\nPatrizia Scandurra},\ntitle = {Engineering Self-adaptive Microservice Applications: An Experience\nReport},\nbooktitle = {{ICSOC} {(1)}},\nseries = {Lecture Notes in Computer Science},\nvolume = {14419},\npages = {227--242},\npublisher = {Springer},\nyear = {2023}\n}"
  },
  {
   "key": "slj23",

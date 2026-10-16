@@ -6,12 +6,12 @@ accent: amber
 icon: testing
 summary: >-
   Finding failures before users do: automated test generation and
-  quality assurance for complex software, AI-based and self-adaptive systems.
+  quality assurance for complex software, AI-based and autonomous systems.
 topics:
   - Automated test generation and search-based testing
   - Testing of deep-learning and AI-enabled systems
   - Simulation-based testing of autonomous and cyber-physical systems
-  - Self-adaptive systems and microservices
+  - Generative AI for test input generation and validation
   - Test adequacy, mutation analysis and oracles
 ---
 

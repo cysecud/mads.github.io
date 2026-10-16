@@ -38,8 +38,8 @@ autonomous or dependable systems, [come and talk to us](mailto:{{ site.email }})
   driving scenarios that expose failures of lane-keeping or obstacle-avoidance systems.
 - **Testing deep-learning components**: generate test inputs and measure
   adequacy for neural networks used in perception or decision making.
-- **Self-adaptive microservices**: inject faults and evaluate the adaptation
-  strategies of microservice applications.
+- **Generative AI for testing**: use generative models to create realistic test
+  inputs for deep-learning systems, and assess whether they are valid.
 
 ### Cybersecurity
 

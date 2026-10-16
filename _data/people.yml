@@ -34,7 +34,7 @@
   role: faculty
   title: Associate Professor
   groups: [testing]
-  interests: Software testing, testing of deep-learning systems, self-adaptive systems
+  interests: Software testing, testing of deep-learning and autonomous driving systems, generative AI for testing
   links:
     homepage: https://p1ndsvin.github.io/
 
