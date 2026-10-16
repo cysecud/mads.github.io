@@ -19,6 +19,7 @@
   role: faculty
   title: Associate Professor
   groups: [choreographies]
+  interests: Formal methods, Abstract Interpretation, Semantics of programming languages
   links:
     homepage: https://users.dimi.uniud.it/~marco.comini/
 
